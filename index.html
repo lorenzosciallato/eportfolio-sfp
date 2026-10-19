@@ -917,13 +917,13 @@ async function scaricaProfilo(m){
 }
 const haContenuti = () => !!(S.img.foto?.data || Object.values(S.campi).some(v => String(v || "").trim()) || IMMAGINI.some(k => k !== "foto" && lista(k).length));
 /* entra con la matricola: se c'è un profilo online lo apre, altrimenti salva online quello che c'è */
-async function entra(m, attesa){
+async function entra(m, senzaChiedere){
   if (!API){ toast("Il salvataggio online non è ancora attivo."); return "errore"; }
   let remoto;
   try { remoto = await scaricaProfilo(m); }
   catch(e){ toast("Non riesco a collegarmi. Controlla la connessione e riprova."); return "errore"; }
   if (remoto){
-    if (haContenuti() && !(S.utente && S.utente.m === m) && !await chiedi(`Con la matricola ${m} c'è già un profilo salvato. Lo apriamo? Quello che hai scritto su questo dispositivo verrà sostituito.`, "Apri il profilo", "Annulla")) return "annullato";
+    if (!senzaChiedere && haContenuti() && !(S.utente && S.utente.m === m) && !await chiedi(`Con la matricola ${m} c'è già un profilo salvato. Lo apriamo? Quello che hai scritto su questo dispositivo verrà sostituito.`, "Apri il profilo", "Annulla")) return "annullato";
     const vecchiVisto = S.visto;
     S = Object.assign({ campi:{}, img:{}, visto:{}, pos:{ s:0, p:0 } }, remoto);
     S.visto = Object.assign({}, remoto.visto, { tutorial: true, giro: vecchiVisto.giro || remoto.visto.giro });
@@ -1047,9 +1047,9 @@ function vTutorial(i, verso){
         <h1>${esc(t.titolo)}</h1>
         ${t.sotto ? `<p class="sotto">${esc(t.sotto)}</p>` : ""}
         <p>${esc(t.testo)}</p>
-        ${t.ill === "foto" ? `<div class="tut-campi"><div class="comandi"><button class="btn piccolo" data-carica="foto">${ico("photo")} <span>${S.img.foto?.data ? "Cambia foto" : "Carica foto"}</span></button>${S.img.foto?.data ? `<button class="btn chiaro piccolo" id="t-sistema"><span>Sistema</span></button>` : ""}</div>
+        ${t.ill === "foto" ? `<div class="tut-campi"><div class="comandi"><button class="btn piccolo" data-carica="foto">${ico("photo")} <span>${S.img.foto?.data ? "Cambia foto" : "Carica foto"}</span></button>${S.img.foto?.data ? `<button class="btn chiaro piccolo" id="t-sistema"><span>Regola</span></button>` : ""}</div>
           <label class="sr" for="t-nome">Nome e cognome</label><input id="t-nome" class="tut-nome" type="text" placeholder="Nome e cognome" autocomplete="name" value="${esc(S.campi.nome || "")}">
-          <label class="sr" for="t-matricola">Numero di matricola</label><input id="t-matricola" class="tut-nome" type="text" inputmode="numeric" autocomplete="off" maxlength="10" placeholder="Numero di matricola" value="${esc(S.utente ? S.utente.m : "")}" ${S.utente ? "readonly" : ""}>
+          <label class="sr" for="t-matricola">Numero di matricola</label><input id="t-matricola" class="tut-nome" type="text" inputmode="numeric" autocomplete="off" maxlength="10" placeholder="Numero di matricola" value="${esc(S.utente ? S.utente.m : "")}">
           <p class="tut-privacy">${S.utente ? `${ico("check")} Profilo salvato online` : `Serve a salvare il profilo online. <a href="privacy.html" target="_blank" rel="noopener">Informativa privacy</a>`}</p></div>` : ""}
       </div>
       <div class="tut-piede">
@@ -1061,6 +1061,31 @@ function vTutorial(i, verso){
   const fine = () => { S.visto.tutorial = true; salva(true); vHome("su"); };
   /* prima di andare oltre la schermata della foto: matricola oppure ospite */
   const decidi = async poi => {
+    if (S.utente && i === IDX){
+      const campo = $("#t-matricola", sc), m = (campo.value || "").replace(/\s+/g, "");
+      if (m && m !== S.utente.m){
+        if (!MATR.test(m)){ toast("Controlla il numero di matricola: solo cifre."); campo.focus(); return; }
+        const vecchia = S.utente.m;
+        if (!await chiedi(`Vuoi cambiare la matricola da ${vecchia} a ${m}?`, "Cambia", "Annulla")){ campo.value = vecchia; return; }
+        const b = $("#tut-avanti", sc); b.disabled = true; b.classList.add("carica");
+        let esiste = null;
+        try { await sincronizza(); esiste = await chiama("GET", `profilo/${m}`); }
+        catch(e){ b.disabled = false; b.classList.remove("carica"); toast("Non riesco a collegarmi. Controlla la connessione e riprova."); return; }
+        if (esiste){
+          /* con la nuova matricola c'è già un profilo: lo apriamo (quello vecchio resta salvato online) */
+          const esito = await entra(m, true); b.disabled = false; b.classList.remove("carica");
+          if (esito === "aperto"){ S.visto.tutorial = true; salva(true, true); toast("Bentornato!"); return vHome("su"); }
+          return;
+        }
+        /* nuova matricola libera: il profilo passa sotto la nuova matricola */
+        S.utente = { m, su: [] }; salva(true);
+        const ok = await sincronizza();
+        if (ok){ try { await chiama("DELETE", `profilo/${vecchia}`); } catch(e){} toast("Matricola aggiornata."); }
+        b.disabled = false; b.classList.remove("carica");
+        return poi();
+      }
+      if (!m) campo.value = S.utente.m;
+    }
     if (deciso() || i < IDX) return poi();
     if (i > IDX) return poi();
     const campo = $("#t-matricola", sc), m = (campo.value || "").replace(/\s+/g, "");
@@ -1082,7 +1107,7 @@ function vTutorial(i, verso){
   $("#tut-avanti", sc).onclick = () => decidi(() => ultimo ? fine() : vTutorial(i + 1, "dx"));
   $(".puntini", sc).querySelectorAll("i").forEach((d,k) => { d.style.cursor = "pointer"; d.onclick = () => vaiA(k); });
   scorrimento(sc, () => { if (!ultimo) decidi(() => vTutorial(i + 1, "dx")); }, () => { if (i) vTutorial(i - 1, "sx"); });
-  const mt = $("#t-matricola", sc); if (mt && !S.utente){ mt.addEventListener("input", () => { mt.value = mt.value.replace(/[^0-9]/g, ""); }); mt.addEventListener("keydown", e => { if (e.key === "Enter"){ e.preventDefault(); $("#tut-avanti", sc).click(); } }); }
+  const mt = $("#t-matricola", sc); if (mt){ mt.addEventListener("input", () => { mt.value = mt.value.replace(/[^0-9]/g, ""); }); mt.addEventListener("keydown", e => { if (e.key === "Enter"){ e.preventDefault(); $("#tut-avanti", sc).click(); } }); }
   sc.querySelectorAll("[data-carica]").forEach(b => b.onclick = () => { scelta = "foto"; dopoCarica = () => vTutorial(i, "nessuno"); const f = $("#file-pick"); f.value = ""; f.click(); });
   const ts = $("#t-sistema", sc); if (ts) ts.onclick = async () => { if (await sistema("foto", 0)){ salva(true); vTutorial(i, "nessuno"); } };
   const nm = $("#t-nome", sc); if (nm){ nm.addEventListener("input", () => { S.campi.nome = nm.value; salva(); }); nm.addEventListener("keydown", e => { if (e.key === "Enter"){ e.preventDefault(); nm.blur(); } }); }
@@ -1325,8 +1350,8 @@ function anteprima(){
   const pp = PAROLE.map(k => (S.campi[k] || "").trim()).filter(Boolean);
   const immagini = (q) => {
     const voci = lista(q.key); if (!voci.length) return "";
-    if (voci.length === 1){ const it = voci[0]; return `<button class="c-img uno ${q.posto.lato} f-${it.forma}" data-img="${q.key}:0" aria-label="Sistema l'immagine" style="aspect-ratio:${rapportoDi(it.forma, q.posto)}"><img src="${it.vista || it.data}" alt=""></button>`; }
-    return `<span class="c-griglia n${voci.length}">${voci.map((it, n) => `<button data-img="${q.key}:${n}" aria-label="Sistema l'immagine ${n + 1}"><img src="${it.vista || it.data}" alt=""></button>`).join("")}</span>`;
+    if (voci.length === 1){ const it = voci[0]; return `<button class="c-img uno ${q.posto.lato} f-${it.forma}" data-img="${q.key}:0" aria-label="Regola l'immagine" style="aspect-ratio:${rapportoDi(it.forma, q.posto)}"><img src="${it.vista || it.data}" alt=""></button>`; }
+    return `<span class="c-griglia n${voci.length}">${voci.map((it, n) => `<button data-img="${q.key}:${n}" aria-label="Regola l'immagine ${n + 1}"><img src="${it.vista || it.data}" alt=""></button>`).join("")}</span>`;
   };
   const sezione = z => {
     const piene = chiaviSez(z).filter(k => !NON_IN_CORPO.includes(k)).some(ha) || (z.n === 1 && frase);
@@ -1349,7 +1374,7 @@ function anteprima(){
       ${piene ? `<div class="c-testo">${corpo}</div>` : `<button class="c-vuota" data-vai="${z.n - 1}">Ancora vuota</button>`}</div>`;
   };
   return `<p class="ant-nota">${ico("matita")} ${conMouse() ? "Clicca" : "Tocca"} un testo o un'immagine per modificarli.</p><div class="carta" aria-label="Anteprima del PDF">
-    <div class="c-fascia"><button class="c-foto" data-img="foto" aria-label="Sistema la foto">${foto ? `<img src="${foto}" alt="">` : ""}</button>
+    <div class="c-fascia"><button class="c-foto" data-img="foto" aria-label="Regola la foto">${foto ? `<img src="${foto}" alt="">` : ""}</button>
       <div><div class="c-eti">${esc(TESTI.titolo)}</div><div class="c-nome ${nome ? "" : "segnaposto"}" data-k="nome" role="button" tabindex="0">${esc(nome || "Nome e cognome")}</div>
       <div class="c-anno" data-k="annoCorso" role="button" tabindex="0">${esc(anno ? anno + " · " + TESTI.sottotitolo : TESTI.sottotitolo)}</div>
       ${pp.length ? `<div class="c-pp">${pp.map((w, i) => { const z = SEZ[i % SEZ.length]; return `<span style="--c:${z.c};color:${z.deep}">${esc(w)}</span>`; }).join("")}</div>` : ""}</div></div>
@@ -1418,13 +1443,13 @@ function vDomanda(si, pi, verso = "dx"){
 function corpoDomanda(p){
   if (p.tipo === "foto"){
     const f = vistaFoto();
-    return `<div class="foto-area"><div class="foto-wrap">${f ? `<button class="foto-tonda" data-modifica="foto" aria-label="Sistema la foto"><img src="${f}" alt="La mia foto"></button>` : `<div class="foto-tonda">${ico("camera")}</div>`}</div>
-      <div class="comandi"><button class="btn piccolo" data-carica="foto">${ico("photo")} <span>${f ? "Cambia foto" : "Carica foto"}</span></button>${f ? `<button class="btn chiaro piccolo" data-modifica="foto"><span>Sistema</span></button><button class="btn chiaro piccolo" data-togli="foto"><span>Rimuovi</span></button>` : ""}</div></div>`;
+    return `<div class="foto-area"><div class="foto-wrap">${f ? `<button class="foto-tonda" data-modifica="foto" aria-label="Regola la foto"><img src="${f}" alt="La mia foto"></button>` : `<div class="foto-tonda">${ico("camera")}</div>`}</div>
+      <div class="comandi"><button class="btn piccolo" data-carica="foto">${ico("photo")} <span>${f ? "Cambia foto" : "Carica foto"}</span></button>${f ? `<button class="btn chiaro piccolo" data-modifica="foto"><span>Regola</span></button><button class="btn chiaro piccolo" data-togli="foto"><span>Rimuovi</span></button>` : ""}</div></div>`;
   }
   if (p.tipo === "immagine"){
     const voci = lista(p.key);
     return `<div class="img-area"><div class="giostra">
-      ${voci.map((it, n) => `<div class="g-voce"><button class="g-img f-${voci.length > 1 ? "smussato" : it.forma}" data-modifica="${p.key}:${n}" aria-label="Sistema immagine ${n + 1}" style="aspect-ratio:${rapportoVoce(p.key, n)}"><img src="${it.vista || it.data}" alt=""></button><button class="g-togli" data-togli="${p.key}:${n}" aria-label="Rimuovi immagine ${n + 1}">${ico("x")}</button></div>`).join("")}
+      ${voci.map((it, n) => `<div class="g-voce"><button class="g-img f-${voci.length > 1 ? "smussato" : it.forma}" data-modifica="${p.key}:${n}" aria-label="Regola immagine ${n + 1}" style="aspect-ratio:${rapportoVoce(p.key, n)}"><img src="${it.vista || it.data}" alt=""></button><button class="g-togli" data-togli="${p.key}:${n}" aria-label="Rimuovi immagine ${n + 1}">${ico("x")}</button></div>`).join("")}
       ${voci.length < MAX_IMG ? `<button class="g-aggiungi ${voci.length ? "stretto" : ""}" data-carica="${p.key}" style="${voci.length ? "" : `aspect-ratio:${p.posto.rapp}`}">${ico("photo")}<span>${voci.length ? "Aggiungi" : "Carica immagine"}</span></button>` : ""}
     </div>${voci.length ? `<p class="g-nota">Tocca un'immagine per sistemarla.</p>` : ""}</div>`;
   }
@@ -1629,8 +1654,8 @@ function apriEditor(it, posto, fisso){
     const profilo = !posto, im = await caricaImg(it.data);
     const c = Object.assign({ z:1, cx:.5, cy:.42 }, it.crop); let f = it.forma || (profilo ? "tondo" : "smussato");
     const velo = document.createElement("div"); velo.className = "velo editor";
-    velo.innerHTML = `<div class="ed-box" role="dialog" aria-modal="true" aria-label="Sistema la foto">
-      <h2>${profilo ? "Sistema la foto" : "Sistema l'immagine"}</h2>
+    velo.innerHTML = `<div class="ed-box" role="dialog" aria-modal="true" aria-label="Regola la foto">
+      <h2>${profilo ? "Regola la foto" : "Regola l'immagine"}</h2>
       <div class="ed-campo"><div class="ed-cornice"><canvas></canvas></div></div>
       ${profilo || fisso ? "" : `<div class="seg ed-forme" role="group" aria-label="Cornice">${[["tondo","Tonda"],["quadrato","Quadrata"],["smussato","Smussata"]].map(([k, n]) => `<button data-f="${k}" aria-pressed="${f === k}">${n}</button>`).join("")}</div>`}
       <label class="ed-zoom"><span class="sr">Ingrandisci</span><svg class="icon" aria-hidden="true"><use href="#i-photo"/></svg><input type="range" min="1" max="4" step="0.01" value="${c.z}"></label>
