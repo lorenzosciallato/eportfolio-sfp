@@ -40,12 +40,6 @@ export default {
     if (tipo === "profilo" && parti.length === 2){
       const chiave = `profili/${h}/profilo.json`;
       if (req.method === "GET"){
-        /* freno contro chi prova tante matricole di fila: poche aperture al minuto per connessione */
-        if (env.LIMITE){
-          const ip = req.headers.get("cf-connecting-ip") || "sconosciuto";
-          const { success } = await env.LIMITE.limit({ key: `apri:${ip}` });
-          if (!success) return risposta({ errore: "troppi tentativi" }, 429);
-        }
         const o = await env.DATI.get(chiave);
         return o ? risposta(await o.text()) : risposta({ errore: "assente" }, 404);
       }

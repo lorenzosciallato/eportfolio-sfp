@@ -173,6 +173,12 @@ button.ill-foto img{width:100%;height:100%;object-fit:cover}
 .tondo-nav.pericolo:hover{color:#b42f25;background:#fbeceb}
 .tondo-nav.carica{pointer-events:none;opacity:.5}
 .pallini{display:flex;gap:2px;--p:0}
+.pal-wrap{display:flex;align-items:center;gap:6px}
+.freccia-pan{display:none;width:36px;height:36px;margin-block:-3px;border-radius:50%;place-items:center;color:var(--ink);background:var(--surface);box-shadow:0 1px 0 var(--line),0 6px 14px -10px rgba(29,27,38,.4);transition:opacity .2s,transform .25s var(--molla)}
+.freccia-pan .icon{width:19px;height:19px}
+.freccia-pan:hover:not([disabled]){transform:translateY(-1px)}
+.freccia-pan[disabled]{opacity:.3;cursor:default}
+@media (hover:hover) and (pointer:fine){.freccia-pan{display:grid}}
 .pallini button{width:30px;height:30px;display:grid;place-items:center}
 .pallini i{display:block;height:8px;border-radius:8px;background:var(--line);transition:background .2s}
 .pallini button:first-child i{width:calc(8px + 16px * (1 - var(--p)))}
@@ -910,7 +916,7 @@ async function entra(m, attesa){
   if (!API){ toast("Il salvataggio online non è ancora attivo."); return "errore"; }
   let remoto;
   try { remoto = await scaricaProfilo(m); }
-  catch(e){ toast(/429/.test(e.message) ? "Troppi tentativi da questa connessione: riprova tra un minuto." : "Non riesco a collegarmi. Controlla la connessione e riprova."); return "errore"; }
+  catch(e){ toast("Non riesco a collegarmi. Controlla la connessione e riprova."); return "errore"; }
   if (remoto){
     if (haContenuti() && !(S.utente && S.utente.m === m) && !await chiedi(`Con la matricola ${m} c'è già un profilo salvato. Lo apriamo? Quello che hai scritto su questo dispositivo verrà sostituito.`, "Apri il profilo", "Annulla")) return "annullato";
     const vecchiVisto = S.visto;
@@ -1110,7 +1116,7 @@ function vAccesso(verso = "su", daTutorial){
         b.classList.add("carica");
       }
       esito = await entra(m);
-    } catch(e){ toast(/429/.test(e.message) ? "Troppi tentativi da questa connessione: riprova tra un minuto." : "Non riesco a collegarmi. Controlla la connessione e riprova."); }
+    } catch(e){ toast("Non riesco a collegarmi. Controlla la connessione e riprova."); }
     b.classList.remove("carica");
     if (esito === "aperto"){ toast("Bentornato!"); vHome("su"); }
     else if (esito === "nuovo"){ if (S.visto.tutorial) vHome("su"); else vTutorial(TUTORIAL.findIndex(x => x.ill === "foto"), "dx"); }
@@ -1173,7 +1179,7 @@ function vHome(verso = "su", pannello = 0){
             <div class="sez-lista">
               ${SEZ.map((s,i) => { const c = conta(chiaviSez(s)); const fatto = c.f === c.t; return `
                 <button class="sez ${fatto ? "fatta" : ""}" data-sez="${i}" style="--deep:${s.deep};--i:${i}" aria-label="${s.n}. ${esc(s.titolo)}, ${c.f} di ${c.t}">
-                  <span class="foto"><img src="${fotoSez(s.n)}" style="--duo:url(#duo-${s.n})" alt=""><span class="num">${simbolo(s.n)}</span><span class="conto">${fatto ? ico("check") : `${c.f}/${c.t}`}</span></span>
+                  <span class="foto"><img src="${fotoSez(s.n)}" style="--duo:url(#duo-${s.n})" alt=""><span class="conto">${fatto ? ico("check") : `${c.f}/${c.t}`}</span></span>
                   <h3>${s.n}. ${esc(s.breve || s.titolo)}</h3><span class="barra"><i data-w="${c.f / c.t * 100}"></i></span>
                 </button>`; }).join("")}
               <button class="sez tile-pdf" id="h-pdf" style="--i:7"><span class="tondino">${ico("doc")}</span><h3>${esc(TESTI.genera)}</h3></button>
@@ -1191,9 +1197,13 @@ function vHome(verso = "su", pannello = 0){
       </div>
       <nav class="home-nav gut" aria-label="Navigazione">
         <span class="nav-sx"><button class="tondo-nav" id="h-tutorial" aria-label="Rivedi il tutorial" title="Tutorial">${ico("aiuto")}</button>${API ? (S.utente ? `<button class="tondo-nav" id="h-esci" aria-label="Esci dal profilo" title="Esci">${ico("esci")}</button>` : `<button class="tondo-nav" id="h-accedi" aria-label="Accedi con la matricola" title="Accedi">${ico("entra")}</button>`) : ""}</span>
+        <div class="pal-wrap">
+        <button class="freccia-pan" data-dir="-1" aria-label="Torna alle sezioni" title="Le sezioni" disabled>${ico("prev")}</button>
         <div class="pallini" role="tablist" aria-label="Pagine">
           <button role="tab" data-pan="0" aria-selected="true" aria-label="Le sezioni"><i></i></button>
           <button role="tab" data-pan="1" aria-selected="false" aria-label="Anteprima PDF"><i></i></button>
+        </div>
+        <button class="freccia-pan" data-dir="1" aria-label="Vai all'anteprima del PDF" title="Anteprima PDF">${ico("next")}</button>
         </div>
         <button class="tondo-nav pericolo" id="h-azzera" aria-label="Azzera: cancella tutto il profilo" title="Azzera">${ico("cestino")}</button>
       </nav>
@@ -1204,8 +1214,10 @@ function vHome(verso = "su", pannello = 0){
   pan.addEventListener("scroll", () => {
     const r = pan.scrollLeft / Math.max(1, pan.clientWidth); tab.style.setProperty("--p", Math.min(1, Math.max(0, r)));
     const n = Math.round(r); sc.querySelectorAll("[data-pan]").forEach(b => b.setAttribute("aria-selected", String(+b.dataset.pan === n)));
+    sc.querySelectorAll(".freccia-pan").forEach(b => b.disabled = (+b.dataset.dir < 0 ? n === 0 : n === 1));
   }, { passive:true });
   sc.querySelectorAll("[data-pan]").forEach(b => b.onclick = () => { chiudiTip(); vai(+b.dataset.pan); });
+  sc.querySelectorAll(".freccia-pan").forEach(b => b.onclick = () => { chiudiTip(); vai(+b.dataset.dir > 0 ? 1 : 0); });
   let t0 = null;
   pan.addEventListener("touchstart", e => { const t = e.touches[0]; t0 = { x:t.clientX, y:t.clientY, l:pan.scrollLeft }; }, { passive:true });
   pan.addEventListener("touchend", e => {

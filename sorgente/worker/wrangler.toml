@@ -9,11 +9,3 @@ workers_dev = true
 binding = "DATI"
 bucket_name = "eportfolio-sfp"
 
-# al massimo 100 aperture di profilo al minuto dalla stessa connessione
-[[ratelimits]]
-name = "LIMITE"
-namespace_id = "2610"
-
-  [ratelimits.simple]
-  limit = 100
-  period = 60
