@@ -438,8 +438,12 @@ button.foto-tonda{padding:0;cursor:pointer}
 .pop-es p{margin:4px 0 0;font-style:italic;line-height:1.45}
 
 /* ---------- Indice e modifica dall'anteprima ---------- */
-.q-num.indice{display:inline-flex;align-items:center;gap:6px;padding:6px 10px;border-radius:999px;background:var(--surface);box-shadow:0 2px 10px -5px rgba(0,0,0,.25)}
+.q-num.indice{display:inline-flex;align-items:center;gap:6px;padding:6px 8px 6px 10px;border-radius:999px;background:color-mix(in srgb,var(--deep) 10%,var(--surface));color:var(--deep);box-shadow:inset 0 0 0 1.5px color-mix(in srgb,var(--deep) 35%,transparent);transition:background .2s,transform .2s var(--molla)}
+.q-num.indice b{color:var(--deep)}
+.q-num.indice:hover{background:color-mix(in srgb,var(--deep) 16%,var(--surface))}
+.q-num.indice:active{transform:scale(.96)}
 .q-num.indice .icon{width:16px;height:16px;color:var(--deep)}
+.q-num.indice .icon:last-child{width:14px;height:14px;stroke-width:2.6;margin-left:-2px}
 .indice-lista{display:grid;gap:6px}
 .indice-lista button{display:grid;grid-template-columns:28px minmax(0,1fr);gap:10px;align-items:center;text-align:left;padding:9px 10px;border-radius:12px;background:var(--bg);font-size:15px;line-height:1.3}
 .indice-lista button b{width:28px;height:28px;border-radius:50%;display:grid;place-items:center;background:var(--sunk);color:var(--soft);font-size:13px}
@@ -559,6 +563,7 @@ button.c-vuota{display:block;text-decoration:underline;text-underline-offset:3px
   <symbol id="i-next" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
   <symbol id="i-prev" viewBox="0 0 24 24"><path d="M19 12H5M11 6l-6 6 6 6"/></symbol>
   <symbol id="i-up" viewBox="0 0 24 24"><path d="M12 19V5M6 11l6-6 6 6"/></symbol>
+  <symbol id="i-giu" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></symbol>
   <symbol id="i-dn" viewBox="0 0 24 24"><path d="M12 5v14M6 13l6 6 6-6"/></symbol>
   <symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="8.5" r="4"/><path d="M4.5 20c1.3-3.6 4.2-5.5 7.5-5.5s6.2 1.9 7.5 5.5"/></symbol>
   <symbol id="i-camera" viewBox="0 0 24 24"><path d="M4 8.5h3l1.6-2.5h6.8L17 8.5h3v10H4z"/><circle cx="12" cy="13.2" r="3.4"/></symbol>
@@ -1352,7 +1357,7 @@ function vDomanda(si, pi, verso = "dx"){
     </div>
     <div class="q-corpo">
       <div class="q-in gut">
-        <div class="q-meta"><span class="etichetta-sez"><b>${simbolo(s.n)}</b><span>${s.n}. ${esc(s.titolo)}</span></span>${s.passi.length > 1 ? `<button class="q-num indice" id="q-indice" aria-label="Indice della sezione, domanda ${pi + 1} di ${s.passi.length}">${ico("lista")} <span><b>${pi + 1}</b> / ${s.passi.length}</span></button>` : `<span class="q-num" aria-hidden="true"><b>1</b> / 1</span>`}</div>
+        <div class="q-meta"><span class="etichetta-sez"><b>${simbolo(s.n)}</b><span>${s.n}. ${esc(s.titolo)}</span></span>${s.passi.length > 1 ? `<button class="q-num indice" id="q-indice" aria-label="Indice della sezione, domanda ${pi + 1} di ${s.passi.length}">${ico("lista")} <span><b>${pi + 1}</b> / ${s.passi.length}</span>${ico("giu")}</button>` : `<span class="q-num" aria-hidden="true"><b>1</b> / 1</span>`}</div>
         ${p.sopra ? `<p class="sopra">${esc(p.sopra)}</p>` : ""}
         <h1 id="q-titolo" aria-label="${esc(p.titolo)}">${ridotto ? esc(p.titolo) : parole(p.titolo)}</h1>
         ${p.aiuto ? `<p class="aiuto">${esc(p.aiuto)}</p>` : ""}
