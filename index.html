@@ -156,8 +156,13 @@ button.ill-foto img{width:100%;height:100%;object-fit:cover}
 .home-wrap > .testata{flex:none}
 .home-nav{flex:none;display:grid;grid-template-columns:1fr auto 1fr;align-items:center;padding-bottom:4px}
 .home-nav .link{padding:8px 10px;font-size:14px}
-.home-nav .nav-sx{justify-self:start;display:flex}.home-nav #h-azzera{justify-self:end}
-@media(max-width:360px){.home-nav .link{padding-inline:7px}}
+.home-nav .nav-sx{justify-self:start;display:flex;gap:8px}.home-nav #h-azzera{justify-self:end}
+.tondo-nav{width:42px;height:42px;margin-block:-3px;border-radius:50%;display:grid;place-items:center;color:var(--soft);background:var(--surface);box-shadow:0 1px 0 var(--line),0 6px 14px -10px rgba(29,27,38,.4);transition:transform .25s var(--molla),color .2s,background .2s}
+.tondo-nav .icon{width:21px;height:21px}
+.tondo-nav:hover{color:var(--ink);transform:translateY(-1px)}
+.tondo-nav:active{transform:scale(.94)}
+.tondo-nav.pericolo:hover{color:#b42f25;background:#fbeceb}
+.tondo-nav.carica{pointer-events:none;opacity:.5}
 .pallini{display:flex;gap:2px;--p:0}
 .pallini button{width:30px;height:30px;display:grid;place-items:center}
 .pallini i{display:block;height:8px;border-radius:8px;background:var(--line);transition:background .2s}
@@ -571,6 +576,10 @@ button.c-vuota{display:block;text-decoration:underline;text-underline-offset:3px
   <symbol id="i-layout" viewBox="0 0 24 24"><rect x="4" y="3.5" width="16" height="17" rx="2"/><path d="M7.5 7.5h4v4h-4zM14 8h2.5M14 11h2.5M7.5 15h9M7.5 17.5h6"/></symbol>
   <symbol id="i-eye" viewBox="0 0 24 24"><path d="M2.5 12S6 5.5 12 5.5 21.5 12 21.5 12 18 18.5 12 18.5 2.5 12 2.5 12z"/><circle cx="12" cy="12" r="3"/></symbol>
   <symbol id="i-eyeoff" viewBox="0 0 24 24"><path d="M3 3l18 18M10.6 5.6A9.6 9.6 0 0 1 12 5.5c6 0 9.5 6.5 9.5 6.5a17 17 0 0 1-2.6 3.4M6.4 6.4C3.9 8 2.5 12 2.5 12S6 18.5 12 18.5c1.6 0 3-.4 4.2-1"/></symbol>
+  <symbol id="i-aiuto" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M9.6 9.3a2.5 2.5 0 0 1 4.9.7c0 1.7-2.5 2.2-2.5 3.8"/><path d="M12 17h.01" stroke-width="2.8"/></symbol>
+  <symbol id="i-entra" viewBox="0 0 24 24"><path d="M14 4h4a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-4"/><path d="M10 16l4-4-4-4M14 12H4"/></symbol>
+  <symbol id="i-esci" viewBox="0 0 24 24"><path d="M10 4H6a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h4"/><path d="M16 16l4-4-4-4M20 12H10"/></symbol>
+  <symbol id="i-cestino" viewBox="0 0 24 24"><path d="M4 7h16M10 11v6M14 11v6M6 7l1 12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2l1-12M9 7V4h6v3"/></symbol>
   <symbol id="i-reset" viewBox="0 0 24 24"><path d="M4 12a8 8 0 1 0 2.4-5.7L4 8.5M4 4v4.5h4.5"/></symbol>
 </svg>
 
@@ -1040,7 +1049,7 @@ function vTutorial(i, verso){
       const b = $("#tut-avanti", sc); b.disabled = true; b.classList.add("carica");
       const esito = await entra(m);
       b.disabled = false; b.classList.remove("carica");
-      if (esito === "aperto"){ S.visto.tutorial = true; salva(true, true); toast("Bentornato: abbiamo ritrovato il tuo profilo."); return vHome("su"); }
+      if (esito === "aperto"){ S.visto.tutorial = true; salva(true, true); toast("Bentornato!"); return vHome("su"); }
       if (esito === "nuovo") return poi();
       return;
     }
@@ -1094,7 +1103,7 @@ function vAccesso(verso = "su", daTutorial){
       esito = await entra(m);
     } catch(e){ toast("Non riesco a collegarmi. Controlla la connessione e riprova."); }
     b.classList.remove("carica");
-    if (esito === "aperto"){ toast("Bentornato: abbiamo ritrovato il tuo profilo."); vHome("su"); }
+    if (esito === "aperto"){ toast("Bentornato!"); vHome("su"); }
     else if (esito === "nuovo"){ if (S.visto.tutorial) vHome("su"); else vTutorial(TUTORIAL.findIndex(x => x.ill === "foto"), "dx"); }
   };
   $("#a-ospite", sc).onclick = async () => {
@@ -1172,12 +1181,12 @@ function vHome(verso = "su", pannello = 0){
         </div>
       </div>
       <nav class="home-nav gut" aria-label="Navigazione">
-        <span class="nav-sx"><button class="link" id="h-tutorial">Tutorial</button>${API ? (S.utente ? `<button class="link" id="h-esci">Esci</button>` : `<button class="link" id="h-accedi">Accedi</button>`) : ""}</span>
+        <span class="nav-sx"><button class="tondo-nav" id="h-tutorial" aria-label="Rivedi il tutorial" title="Tutorial">${ico("aiuto")}</button>${API ? (S.utente ? `<button class="tondo-nav" id="h-esci" aria-label="Esci dal profilo" title="Esci">${ico("esci")}</button>` : `<button class="tondo-nav" id="h-accedi" aria-label="Accedi con la matricola" title="Accedi">${ico("entra")}</button>`) : ""}</span>
         <div class="pallini" role="tablist" aria-label="Pagine">
           <button role="tab" data-pan="0" aria-selected="true" aria-label="Le sezioni"><i></i></button>
           <button role="tab" data-pan="1" aria-selected="false" aria-label="Anteprima PDF"><i></i></button>
         </div>
-        <button class="link" id="h-azzera">${esc(TESTI.azzera)}</button>
+        <button class="tondo-nav pericolo" id="h-azzera" aria-label="Azzera: cancella tutto il profilo" title="Azzera">${ico("cestino")}</button>
       </nav>
     </div>`, verso);
   requestAnimationFrame(() => requestAnimationFrame(() => sc.querySelectorAll(".barra i[data-w]").forEach(b => b.style.width = b.dataset.w + "%")));
@@ -1242,7 +1251,7 @@ const GIRO = [
   { sel:".pallini", pan:0, t:"Scorri di lato o tocca i pallini: dall'altra parte c'è l'anteprima del tuo PDF." },
   { sel:".ant-corpo", pan:1, t:"Questa è l'anteprima: si riempie mentre scrivi. Tocca un testo o un'immagine per modificarli." },
   { sel:".ant-piede", pan:1, t:"Quando ti piace, da qui scarichi il PDF o lo condividi." },
-  { sel:".home-nav", pan:0, t:"Qui puoi rivedere il tutorial. Se vuoi cancellare tutto, tocca Azzera: ti chiederemo conferma.", tl:"Qui puoi rivedere il tutorial o uscire dal tuo profilo. Se vuoi cancellare tutto, tocca Azzera: ti chiederemo conferma.", to:"Qui puoi rivedere il tutorial o accedere con la matricola per salvare online. Se vuoi cancellare tutto, tocca Azzera: ti chiederemo conferma." }
+  { sel:".home-nav", pan:0, t:"Con il punto di domanda rivedi il tutorial. Se vuoi cancellare tutto, tocca il cestino: ti chiederemo conferma.", tl:"Con il punto di domanda rivedi il tutorial, con la freccia esci dal tuo profilo. Se vuoi cancellare tutto, tocca il cestino: ti chiederemo conferma.", to:"Con il punto di domanda rivedi il tutorial, con la freccia accedi con la matricola per salvare online. Se vuoi cancellare tutto, tocca il cestino: ti chiederemo conferma." }
 ];
 function giroGuidato(sc, vai){
   const g = document.createElement("div"); g.className = "giro";
