@@ -910,7 +910,7 @@ async function entra(m, attesa){
   if (!API){ toast("Il salvataggio online non è ancora attivo."); return "errore"; }
   let remoto;
   try { remoto = await scaricaProfilo(m); }
-  catch(e){ toast("Non riesco a collegarmi. Controlla la connessione e riprova."); return "errore"; }
+  catch(e){ toast(/429/.test(e.message) ? "Troppi tentativi da questa connessione: riprova tra un minuto." : "Non riesco a collegarmi. Controlla la connessione e riprova."); return "errore"; }
   if (remoto){
     if (haContenuti() && !(S.utente && S.utente.m === m) && !await chiedi(`Con la matricola ${m} c'è già un profilo salvato. Lo apriamo? Quello che hai scritto su questo dispositivo verrà sostituito.`, "Apri il profilo", "Annulla")) return "annullato";
     const vecchiVisto = S.visto;
@@ -1110,7 +1110,7 @@ function vAccesso(verso = "su", daTutorial){
         b.classList.add("carica");
       }
       esito = await entra(m);
-    } catch(e){ toast("Non riesco a collegarmi. Controlla la connessione e riprova."); }
+    } catch(e){ toast(/429/.test(e.message) ? "Troppi tentativi da questa connessione: riprova tra un minuto." : "Non riesco a collegarmi. Controlla la connessione e riprova."); }
     b.classList.remove("carica");
     if (esito === "aperto"){ toast("Bentornato!"); vHome("su"); }
     else if (esito === "nuovo"){ if (S.visto.tutorial) vHome("su"); else vTutorial(TUTORIAL.findIndex(x => x.ill === "foto"), "dx"); }

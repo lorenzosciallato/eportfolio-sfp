@@ -1,0 +1,19 @@
+# Configurazione per pubblicare il Worker su Cloudflare (npx wrangler@4 deploy).
+# La frase segreta PEPE NON sta qui: è salvata su Cloudflare come "Secret" e resta com'è.
+name = "eportfolio-sfp"
+main = "worker.js"
+compatibility_date = "2025-09-01"
+workers_dev = true
+
+[[r2_buckets]]
+binding = "DATI"
+bucket_name = "eportfolio-sfp"
+
+# al massimo 100 aperture di profilo al minuto dalla stessa connessione
+[[ratelimits]]
+name = "LIMITE"
+namespace_id = "2610"
+
+  [ratelimits.simple]
+  limit = 100
+  period = 60
