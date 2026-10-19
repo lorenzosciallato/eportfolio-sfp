@@ -1,5 +1,5 @@
-const C="eportfolio-sfp-v3";
-const FILE=["./","index.html","privacy.html","assets/tit-700.ttf","assets/txt-400.ttf","assets/txt-400i.ttf","assets/txt-600.ttf","assets/jspdf.min.js"];
+const C="eportfolio-sfp-v4";
+const FILE=["./","index.html","privacy.html","assets/tit-700.ttf","assets/txt-400.ttf","assets/txt-400i.ttf","assets/txt-600.ttf","assets/jspdf.min.js","manifest.webmanifest","icone/icona-192.png","icone/apple-touch-icon.png","icone/favicon-32.png"];
 self.addEventListener("install",e=>{e.waitUntil(caches.open(C).then(c=>c.addAll(FILE)).catch(()=>{}));self.skipWaiting();});
 self.addEventListener("activate",e=>{e.waitUntil(caches.keys().then(k=>Promise.all(k.filter(x=>x!==C).map(x=>caches.delete(x)))));self.clients.claim();});
 self.addEventListener("fetch",e=>{if(e.request.method!=="GET")return;
