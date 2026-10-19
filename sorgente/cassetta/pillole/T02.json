@@ -1,0 +1,82 @@
+[
+ {
+  "titolo": "Sapere la materia non basta",
+  "breve": "La PCK (Pedagogical Content Knowledge) è il mix tra conoscere la disciplina e saperla insegnare: capire come presentare un argomento perché incontri interessi e difficoltà di quella classe. Si costruisce in un ciclo: comprendi, trasformi, insegni, valuti, rifletti e arrivi a una nuova comprensione.",
+  "inClasse": [
+   "Per ogni idea chiave prepara più rappresentazioni: un esempio, un'analogia, una dimostrazione.",
+   "Dopo la lezione ripercorri cosa è successo e cosa cambieresti la volta dopo."
+  ]
+ },
+ {
+  "titolo": "Semplificare senza sbagliare",
+  "breve": "La trasposizione didattica trasforma il sapere degli esperti in qualcosa di insegnabile alla tua classe. Semplificare è necessario, ma serve vigilanza: il sapere della scuola deve restare fedele a quello scientifico.",
+  "inClasse": [
+   "Controlla le frasi semplificate: le piante non \"mangiano dal terreno\", fabbricano il nutrimento con la fotosintesi.",
+   "Usa i contenuti anche per i valori che portano: la Rivoluzione francese parla di libertà e diritti."
+  ],
+  "attenzione": "Rendere un concetto accessibile non autorizza a insegnare cose false."
+ },
+ {
+  "titolo": "Mostra, accompagna, poi sparisci",
+  "breve": "L'apprendistato cognitivo imita la bottega artigiana: prima l'esperto mostra (modeling), poi guida i tentativi con feedback (coaching), sostiene il lavoro (scaffolding) e infine si ritira poco a poco (fading) finché l'allievo fa da solo.",
+  "inClasse": [
+   "Esegui tu il compito ad alta voce, mostrando come ragioni, prima di farlo fare.",
+   "Segui i primi tentativi da vicino, poi riduci gli interventi fino a lasciare spazio all'autonomia."
+  ]
+ },
+ {
+  "titolo": "Sei modi di imparare",
+  "breve": "Secondo Laurillard si impara ascoltando o leggendo, indagando, facendo pratica, discutendo, collaborando e producendo qualcosa. Ognuno lavora su un aspetto diverso: una buona lezione li intreccia invece di usarne uno solo.",
+  "inClasse": [
+   "Dopo una spiegazione, fai indagare la classe su fonti vere, come delle lapidi storiche.",
+   "Organizza un debate in cui due squadre difendono tesi opposte.",
+   "Chiudi con un prodotto concreto: un cartellone, un breve video."
+  ],
+  "attenzione": "Il solo ascolto fa calare l'attenzione; la pratica senza feedback rischia di essere inutile."
+ },
+ {
+  "titolo": "Finalità e obiettivi",
+  "breve": "Le finalità sono mete ampie che non si raggiungono mai del tutto, come il pensiero critico. Gli obiettivi dicono cosa l'alunno saprà fare a fine percorso, in modo misurabile: un'azione osservabile, un criterio di riuscita, delle condizioni.",
+  "inClasse": [
+   "Scrivi obiettivi con verbi osservabili: \"distinguere\", \"applicare\", non \"capire\".",
+   "Aggiungi criterio e condizioni: \"risolve 4 problemi su 5, senza calcolatrice\"."
+  ],
+  "attenzione": "\"Proporre un esperimento\" non è un obiettivo: descrive cosa fai tu, non cosa impara l'alunno."
+ },
+ {
+  "titolo": "Dal disegno della sciarpa al punto",
+  "breve": "Si progetta su tre livelli: lungo termine (curricolo, piano annuale), medio (unità di apprendimento di settimane o mesi) e breve (la singola lezione). Come un tessitore, mentre fai il singolo punto devi avere in mente tutta la sciarpa.",
+  "inClasse": [
+   "Prima di preparare una lezione, scrivi in una riga a quale unità e traguardo annuale serve.",
+   "Parti da una traccia, poi riadattala giorno per giorno su domande, lacune e interessi della classe."
+  ],
+  "attenzione": "I livelli non sono scatole separate: una lezione isolata dal percorso perde senso."
+ },
+ {
+  "titolo": "Tre famiglie di dispositivi",
+  "breve": "Il dispositivo è come organizzi spazi, tempi, materiali e attività per un obiettivo. Ci sono dispositivi trasmissivi (lezione, studio sul libro), di collaborazione (lavoro di gruppo, debate) e di riflessione (portfolio, autovalutazione).",
+  "inClasse": [
+   "Nella stessa unità alterna almeno una attività per ogni famiglia.",
+   "Chiediti chi ha il controllo: una lezione frontale lo accentra, un lavoro cooperativo lo distribuisce."
+  ],
+  "attenzione": "Un dispositivo non è un oggetto come la LIM: è l'intenzione con cui organizzi la situazione."
+ },
+ {
+  "titolo": "Il piano B e l'improvvisazione",
+  "breve": "Progettare è simulare la lezione in testa: immaginare dialoghi, difficoltà e guasti per avere pronto un piano B. E quando arriva l'imprevisto, non improvvisi dal nulla: reagisci con l'habitus, gli schemi che hai assorbito fin da quando eri studente.",
+  "inClasse": [
+   "Prima della lezione immagina i due o tre intoppi più probabili e come li gestiresti.",
+   "Dopo un imprevisto rifletti su come hai reagito e da dove veniva quella reazione."
+  ],
+  "attenzione": "L'habitus è in parte inconsapevole e può portarsi dietro pregiudizi: va osservato con occhio critico."
+ },
+ {
+  "titolo": "Insegnare nell'era onlife",
+  "breve": "Oggi digitale e reale sono intrecciati e i bambini sono sommersi di informazioni. Avere accesso ai dati non vuol dire conoscere: il compito della scuola è insegnare a verificare le fonti e a collegare i frammenti.",
+  "inClasse": [
+   "Parti dai frammenti che portano i bambini e ricostruite insieme i collegamenti.",
+   "Lascia momenti di silenzio e riflessione, senza riempire ogni minuto.",
+   "Mostra a cosa serve fuori da scuola ciò che state studiando."
+  ]
+ }
+]

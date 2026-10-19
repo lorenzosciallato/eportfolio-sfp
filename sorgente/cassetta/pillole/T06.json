@@ -1,0 +1,88 @@
+[
+  {
+    "titolo": "Lo zaino invisibile",
+    "breve": "Ogni alunno entra in classe con strati di paura, rabbia e preoccupazioni, come una cipolla. Se lo spazio mentale è occupato da quel peso, imparare è difficile: le emozioni positive aprono la strada.",
+    "inClasse": [
+      "Se un bambino arriva scosso, dagli cinque minuti di ascolto prima di iniziare invece di sgridarlo.",
+      "Usa sguardo, una frase gentile o una mano sulla spalla per rassicurare.",
+      "Fai della gentilezza quotidiana uno strumento per far sentire sicuri anche i più fragili."
+    ]
+  },
+  {
+    "titolo": "Imparare l'alfabeto delle emozioni",
+    "breve": "Le emozioni passano anche dal corpo e si imparano a riconoscere e chiamare per nome. Chi passa ore davanti a uno schermo rischia l'alessitimia digitale: fatica a capire cosa sente e a entrare in empatia.",
+    "inClasse": [
+      "Ritaglia momenti per dare un nome a ciò che si prova, anche alla propria fragilità.",
+      "Proponi giochi di corpo e di gruppo: è da lì che parte il riconoscimento delle emozioni.",
+      "Usa italiano (storie emotive) e scienze (corpo e sensazioni) per parlare di emozioni."
+    ],
+    "attenzione": "Chi non sa leggere le proprie emozioni tende a vedere gli altri come nemici e a nascondersi nell'aggressività."
+  },
+  {
+    "titolo": "Non è l'evento, è il pensiero",
+    "breve": "Un'emozione ha tre parti: corpo, pensiero e azione. Il modello ABC mostra che non è l'evento (A) a decidere come ci sentiamo (C), ma ciò che pensiamo (B) su quell'evento.",
+    "inClasse": [
+      "Racconta i due gatti che vedono lo stesso cane: uno pensa \"è cattivo\" e ha paura, l'altro pensa \"è docile\".",
+      "Usa schede tipo \"L'ABC delle mie emozioni\" partendo da episodi veri della classe."
+    ]
+  },
+  {
+    "titolo": "I virus mentali",
+    "breve": "Sono pensieri esagerati che fanno stare male: \"devo assolutamente riuscire\", \"nessuno mi considera\", \"è terribile\", \"sono un fallito\". Si possono riconoscere, smontare e sostituire con pensieri più utili.",
+    "inClasse": [
+      "Trasforma insieme \"tutti devono volermi bene\" in \"sarebbe bello, ma va bene anche così\".",
+      "Fai ripetere il pensiero negativo con la voce di un cartone animato: perde forza.",
+      "Insegna a dire: \"Ciao paura, sei una nuvola che passa, io intanto scrivo la prima riga\"."
+    ]
+  },
+  {
+    "titolo": "L'autostima si allena",
+    "breve": "L'autostima non è fissa: cambia con esperienze e relazioni. Nasce dalla distanza tra come mi vedo e come vorrei essere; più è grande, più la stima cala. Tu puoi aiutare a renderla realistica.",
+    "inClasse": [
+      "Usa il foglio \"come sono / come vorrei essere\" o un disegno per capire dove il bambino si sente fragile.",
+      "Spezza un compito lungo in tappe e loda ogni tappa, mostrando i progressi rispetto alla settimana prima.",
+      "Per chi teme di leggere in pubblico: prima al banco, poi a un compagno, poi a un gruppo, poi a tutti."
+    ],
+    "attenzione": "Spingere al confronto con i compagni non aiuta: meglio il confronto con se stessi."
+  },
+  {
+    "titolo": "Come spieghi un brutto voto?",
+    "breve": "Lo stile esplicativo è il modo in cui spieghiamo successi e insuccessi, e i bambini lo imparano da genitori e insegnanti. Quello pessimista dice: durerà sempre, vale per tutto, è solo colpa mia.",
+    "inClasse": [
+      "Se un alunno dà la colpa alla sfortuna, ragiona con lui su tempo di studio e punti non chiari.",
+      "Fai vedere un compagno che ce la fa: \"se può lui, posso anch'io\" fa crescere la fiducia.",
+      "Leggi storie come \"Il brutto anatroccolo\" per lavorare su autostima e strategie."
+    ],
+    "attenzione": "\"Ho fallito perché sono stupido\" va trasformato in \"devo cambiare strategia\"."
+  },
+  {
+    "titolo": "Ansia: quando smette di aiutare",
+    "breve": "Un po' d'ansia è utile: ti fa ripassare prima della recita. Diventa un problema quando è eccessiva, sproporzionata o senza causa. Il corpo manda segnali: mal di pancia, mal di testa, sonno disturbato.",
+    "inClasse": [
+      "Prima di un'interrogazione guida la classe in un rilassamento o in una scansione del corpo.",
+      "Esponi gradualmente alla situazione temuta, un piccolo passo alla volta, d'accordo con gli specialisti.",
+      "Fate un diario o un disegno delle emozioni per vedere i progressi."
+    ],
+    "attenzione": "Un bambino può sembrare con un disturbo di apprendimento ed essere in ansia: collabora con psicologi e specialisti."
+  },
+  {
+    "titolo": "Quando la tristezza non passa",
+    "breve": "La depressione può comparire anche prima dei 10 anni. In classe puoi notare calo del rendimento, perdita di interesse, isolamento, irritabilità, stanchezza e sensi di colpa. Tu osservi, non diagnostichi.",
+    "inClasse": [
+      "Programma attività piacevoli e non competitive.",
+      "Usa il lavoro cooperativo per ridurre isolamento e frustrazione.",
+      "Insegna a guidarsi nel compito con piccole frasi da dire a se stessi."
+    ],
+    "attenzione": "Un alunno brillante che smette di fare i compiti e non gioca più all'intervallo è un segnale da non ignorare."
+  },
+  {
+    "titolo": "Rabbia e finestra di tolleranza",
+    "breve": "Ognuno ha una zona in cui sta bene e si regola. Sopra c'è l'iperattivazione (rabbia, esplosioni), sotto il blocco e il congelamento. Il tuo lavoro è aiutare a rientrare nella finestra.",
+    "inClasse": [
+      "Insegna la tartaruga: \"Stop\", si entra nel guscio, tre respiri, poi si cerca una soluzione.",
+      "Usa un termometro della rabbia per riconoscere quanto è forte l'emozione.",
+      "Alterna \"robot\" (muscoli tesi) e \"bambola di pezza\" (sciolti) per imparare a rilassarsi."
+    ],
+    "attenzione": "Le tecniche di autocontrollo funzionano da circa 8-9 anni: prima valuta se il bambino è pronto."
+  }
+]

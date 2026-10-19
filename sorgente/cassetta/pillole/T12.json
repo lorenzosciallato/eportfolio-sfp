@@ -1,0 +1,79 @@
+[
+  {
+    "titolo": "La scuola esce dall'aula",
+    "breve": "La scuola non è un contenitore chiuso tra quattro mura. Insegnante, alunni e ambiente formano una triade, e l'ambiente comprende il territorio con le sue risorse storiche, culturali e umane. Imparare in luoghi reali rende la conoscenza viva e motivante.",
+    "inClasse": [
+      "Porta la classe in un museo o in giro per la città con mappe, cartine e bussole vere.",
+      "Al rientro dedica tempo ad analizzare e discutere i dati raccolti: così l'uscita diventa competenza."
+    ],
+    "attenzione": "Senza una fase di rielaborazione in classe, l'uscita resta una semplice gita ricreativa."
+  },
+  {
+    "titolo": "Il patto con le famiglie",
+    "breve": "Il patto di corresponsabilità educativa è il documento con cui insegnanti e genitori si impegnano verso gli stessi obiettivi, sostenendosi a vicenda. Tra 0 e 11 anni casa e scuola si rimandano di continuo esperienze: conviene che vadano nella stessa direzione.",
+    "inClasse": [
+      "Presenta il patto come un impegno reciproco su obiettivi comuni, non come un modulo da firmare."
+    ],
+    "attenzione": "Se un genitore scredita l'insegnante davanti al figlio, il bambino perde fiducia nella scuola."
+  },
+  {
+    "titolo": "Patti di comunità e reti locali",
+    "breve": "La crescita di un bambino non spetta solo ai docenti: coinvolge famiglie, servizi sociali, associazioni ed enti pubblici. Nei contesti fragili, come alcune periferie, i patti di comunità trasformano la scuola aperta in un presidio di equità e democrazia.",
+    "inClasse": [
+      "Fai una mappa delle risorse del quartiere: associazioni, servizi ed enti con cui costruire progetti comuni.",
+      "Pensa al Progetto PIPPI: servizi sociali, scuola e famiglia insieme per sostenere genitori in difficoltà."
+    ],
+    "attenzione": "Alla scuola si chiedono spesso compiti di assistenza per cui non sempre ha gli strumenti: per questo serve la rete."
+  },
+  {
+    "titolo": "La città che educa",
+    "breve": "Nella Città Educante tutta la comunità diventa luogo di apprendimento reciproco: scelte politiche, spazi urbani accessibili e competenze degli educatori lavorano insieme. Sport, associazioni e volontariato hanno un grande valore formativo.",
+    "inClasse": [
+      "Prova l'educazione all'aperto: a contatto con natura e realtà locale si impara anche la cura dei beni comuni.",
+      "Coinvolgi artigiani e mestieri del territorio: custodiscono saperi pratici da far scoprire ai bambini."
+    ]
+  },
+  {
+    "titolo": "Il lavoro di squadra tra docenti",
+    "breve": "Il confronto in équipe con colleghi, insegnanti di sostegno e coordinatore pedagogico aiuta a rivedere le proprie abitudini didattiche, condividere le fatiche e pianificare interventi coordinati. È anche uno dei migliori antidoti al burnout.",
+    "inClasse": [
+      "Porta in équipe una routine che non funziona: rifletterci insieme apre strade nuove.",
+      "Pianifica con i colleghi interventi coordinati invece di affrontare da solo ogni difficoltà."
+    ],
+    "attenzione": "L'isolamento del singolo docente in aula pesa sia sulla qualità del lavoro sia sul benessere."
+  },
+  {
+    "titolo": "Documentare per non improvvisare",
+    "breve": "Diari di bordo, portfolio e protocolli di osservazione non sono burocrazia: tengono traccia di ciò che fai e ti permettono di capire se stai andando verso gli obiettivi. Ogni bambino ha i suoi tempi: servono momenti di verifica per ritarare il lavoro.",
+    "inClasse": [
+      "Tieni un diario di bordo: cosa hai proposto, come hanno risposto i bambini, cosa cambieresti.",
+      "Fissa dei \"check point\" periodici per rivedere il percorso senza forzare i ritmi individuali."
+    ],
+    "attenzione": "Un errore di metodo non è una debolezza: segnala che qualcosa è cambiato e va ripensato."
+  },
+  {
+    "titolo": "Il talento che viene da casa",
+    "breve": "Per Bourdieu ogni famiglia trasmette un capitale culturale: abitudine alla lettura, linguaggio colto, atteggiamento verso lo studio. Se la scuola tratta tutti come se partissero uguali, scambia questo vantaggio ereditato per talento naturale.",
+    "inClasse": [
+      "Davanti a un successo o a un insuccesso, chiediti quanto dipende dalle risorse che il bambino trova a casa.",
+      "Distingui differenza e disuguaglianza: la prima è naturale, la seconda è il modo in cui la società tratta le differenze."
+    ],
+    "attenzione": "Chi parte svantaggiato tende ad autoescludersi dagli studi più alti, sentendoli irraggiungibili."
+  },
+  {
+    "titolo": "Educare alla scelta",
+    "breve": "Per Dewey scegliere non è un atto istantaneo: chiede tempo e ha tre dimensioni, cioè decidere una direzione, agire con coerenza e crescere dentro la decisione. Servono libertà e cultura; senza, le scelte diventano risposte passive a pressioni esterne.",
+    "inClasse": [
+      "Accompagna le scelte un passo alla volta: l'obiettivo è l'autonomia del bambino, non l'indottrinamento.",
+      "Coltiva una relazione democratica ed empatica, fatta di tenerezza e coerenza."
+    ],
+    "attenzione": "Nella scuola vista come azienda il genitore diventa un cliente e il bambino un prodotto: una deriva da evitare."
+  },
+  {
+    "titolo": "Riservatezza: un dovere verso tutti",
+    "breve": "L'insegnante non è un semplice impiegato ma un pubblico ufficiale, con una funzione pubblica. Proteggere i dati personali e sensibili di alunni e famiglie è un obbligo deontologico assoluto, e la trasparenza delle scelte costruisce autorevolezza.",
+    "inClasse": [
+      "Prima di condividere foto, documenti o informazioni su un alunno, chiediti se stai rispettando la sua riservatezza."
+    ]
+  }
+]

@@ -1,0 +1,85 @@
+[
+  {
+    "titolo": "Logica sì, ma con le mani",
+    "breve": "Verso i 7-8 anni il bambino ragiona in modo logico, ma solo su cose reali e visibili. Capisce che quantità, peso e numero non cambiano se cambia la forma e che un'operazione si può invertire.",
+    "inClasse": [
+      "Allarga una fila di 5 monete accanto a un'altra uguale: chiedi se il numero è cambiato e fate parlare chi risponde.",
+      "Usa la pallina di pongo schiacciata e poi rifatta per far vedere che un'azione si può disfare.",
+      "Mostra che 5-3=2 è il contrario di 2+3=5, con oggetti da spostare sul banco."
+    ],
+    "attenzione": "Il solo ragionamento a parole, senza disegni o oggetti, lo manda in crisi: i concetti astratti arrivano più tardi."
+  },
+  {
+    "titolo": "Ordinare e mettere in categorie",
+    "breve": "Nella primaria il bambino impara a classificare (una rosa è anche un fiore) e a seriare, cioè mettere in fila in base a una misura. Sono le basi per tanta matematica e scienze.",
+    "inClasse": [
+      "Fai riordinare dei bastoncini dal più corto al più lungo.",
+      "Prepara carte da raggruppare in classi e sottoclassi: rose, fiori, piante.",
+      "Per i problemi in seconda usa disegni e segmenti: la logica ha bisogno di un appoggio visibile."
+    ]
+  },
+  {
+    "titolo": "Dall'io al punto di vista altrui",
+    "breve": "Prima dei 7 anni il pensiero è egocentrico: è difficile mettersi nei panni degli altri e gli oggetti sembrano vivi. Con la primaria arriva il decentramento: si considerano più punti di vista e più cose insieme.",
+    "inClasse": [
+      "Proponi problemi in cui tenere conto di due aspetti insieme, come altezza e larghezza di un bicchiere.",
+      "Chiedi spesso: \"Come la vede il tuo compagno?\" per allenare il cambio di prospettiva."
+    ],
+    "attenzione": "Un bambino più piccolo crede che nel bicchiere alto ci sia più acqua: non è distrazione, è la sua fase."
+  },
+  {
+    "titolo": "Memoria di lavoro: un foglietto piccolo",
+    "breve": "La memoria di lavoro è il blocco appunti dove la mente ragiona. Tiene pochi elementi alla volta (oggi si stima 4-5) e cresce molto nei primi anni di primaria.",
+    "inClasse": [
+      "Nel calcolo a mente (12+15) ricorda che il bambino deve tenere le decine mentre somma le unità: dai tempo.",
+      "Dai le consegne poche alla volta, senza riempire il foglietto con troppi passaggi."
+    ]
+  },
+  {
+    "titolo": "Il regista interno",
+    "breve": "Le funzioni esecutive sono le abilità di autocontrollo: scegliere cosa ascoltare ignorando le distrazioni, pianificare, frenare l'impulso e cambiare strategia. Maturano piano piano.",
+    "inClasse": [
+      "Prova le carte miste: chiedi di ricordare solo gli animali. I grandi ci riescono, i piccoli ricordano tutto.",
+      "Fai pianificare le tappe di un lavoro prima di iniziarlo.",
+      "Se una strada non funziona, invita a cercarne un'altra ad alta voce."
+    ],
+    "attenzione": "I più piccoli memorizzano anche dettagli inutili: non è disattenzione, l'attenzione selettiva deve ancora crescere."
+  },
+  {
+    "titolo": "Industriosità o senso di inferiorità",
+    "breve": "Negli anni della primaria il bambino vuole fare, provare, risolvere. Se il suo impegno viene sostenuto nasce la competenza; se riceve solo critiche rischia di sentirsi inferiore agli altri.",
+    "inClasse": [
+      "Con chi fatica (es. le frazioni) proponi compiti graduali che regalino piccoli successi.",
+      "Loda la costanza e lo sforzo più della perfezione del risultato.",
+      "Media i confronti competitivi tra compagni, perché non diventino una classifica di chi vale."
+    ],
+    "attenzione": "Feedback solo sui fallimenti fanno crescere un senso di inferiorità rispetto ai compagni."
+  },
+  {
+    "titolo": "Il grande salto nella primaria",
+    "breve": "Si passa dal gioco all'impegno: compiti, quaderni, organizzarsi per il giorno dopo. Ogni bambino si chiede \"sarò all'altezza?\" e prova a mostrarsi adeguato, come un attore sul palco.",
+    "inClasse": [
+      "Insegna le nuove abitudini una per volta: cura del quaderno, diario, zaino del giorno dopo.",
+      "Accogli gli errori senza etichette, così la ricerca di adeguatezza diventa autostima."
+    ],
+    "attenzione": "Errori presi in giro o svalutati portano a ansia da prestazione, timidezza e chiusura."
+  },
+  {
+    "titolo": "Come si giudicano i bambini",
+    "breve": "In questa età i bambini si valutano in modo più realistico e si confrontano con i compagni. Si giudicano soprattutto su cinque aree: scuola, comportamento, sport, popolarità e aspetto fisico.",
+    "inClasse": [
+      "Loda l'impegno (\"ho visto quanto ti sei sforzato\") invece dell'abilità fissa (\"sei un genio\").",
+      "Osserva in quale delle cinque aree un bambino si sente debole: non sempre è la scuola."
+    ],
+    "attenzione": "Chi sente di non avere controllo sui risultati smette di provarci: \"tanto non sono capace\"."
+  },
+  {
+    "titolo": "Empatia e riparazione",
+    "breve": "Nella fanciullezza si struttura la morale grazie all'empatia: capire e sentire cosa prova l'altro. Lo strumento educativo migliore è l'induzione: spiegare le conseguenze delle azioni sugli altri.",
+    "inClasse": [
+      "Se qualcuno rompe il gioco di un compagno, fagli notare la sua tristezza e proponi di riparare il danno.",
+      "Ricorda che per i bambini conta ancora molto premio e punizione: parti da lì per arrivare al rispetto."
+    ],
+    "attenzione": "Punta sul senso di colpa che spinge a riparare, non sulla vergogna che umilia e basta."
+  }
+]

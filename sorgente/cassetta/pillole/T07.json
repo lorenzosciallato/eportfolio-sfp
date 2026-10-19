@@ -1,0 +1,84 @@
+[
+  {
+    "titolo": "Prima la relazione, poi la lezione",
+    "breve": "Si impara dentro un clima di fiducia e rispetto. Come entri in aula, la distanza, un sorriso e l'interesse per la vita dei bambini contano prima ancora della prima nozione.",
+    "inClasse": [
+      "Prova il \"filo invisibile\": ci si scambiano apprezzamenti o domande per conoscersi.",
+      "Disponetevi in cerchio quando volete parlarvi davvero, invece che in file di banchi.",
+      "Apri la giornata con un rompighiaccio breve per attivare attenzione ed empatia."
+    ],
+    "attenzione": "Non dare per scontate le capacità relazionali: si allenano per tutta la vita."
+  },
+  {
+    "titolo": "Essere una base sicura",
+    "breve": "Un bambino esplora quando sa di poter tornare da qualcuno di stabile. Sensibilità, prontezza nel rispondere e sintonia emotiva costruiscono questa base sicura, che poi lancia verso l'autonomia.",
+    "inClasse": [
+      "Crea routine prevedibili: inizio giornata, cambi di attività, saluti.",
+      "Rispondi in modo coerente ai segnali di disagio, così la classe diventa un porto sicuro.",
+      "Accogli gli errori senza giudicare in fretta: chi si sente sicuro osa esplorare."
+    ]
+  },
+  {
+    "titolo": "Gli occhiali che ogni bambino porta",
+    "breve": "Dalle prime relazioni nascono i modelli operativi interni: lenti con cui il bambino legge sé e gli altri. Chi ha un modello sicuro si sente degno di affetto e capace; altri arrivano con lenti più insicure.",
+    "inClasse": [
+      "Osserva con cura chi è aggressivo, molto chiuso o disattento: può essere un segnale relazionale.",
+      "Lavora in rete con famiglia e colleghi per aiutare il bambino a reinserirsi.",
+      "Offri risposte stabili e coerenti: così nascono aspettative positive su di sé e sugli altri."
+    ],
+    "attenzione": "Un'autonomia ostentata può nascondere molto stress: non fermarti all'apparenza."
+  },
+  {
+    "titolo": "La lezione del girello",
+    "breve": "Il girello evita le cadute ma frena chi deve imparare a camminare: serve gattonare, cadere e rialzarsi. Vale anche a scuola: troppa protezione toglie al bambino la prova delle sue capacità.",
+    "inClasse": [
+      "Lascia che provi da solo i piccoli problemi quotidiani e intervieni solo quando serve.",
+      "Quando sbaglia, incoraggialo a riprovare con serenità invece di sostituirti a lui."
+    ],
+    "attenzione": "Anche l'adulto troppo controllante o spaventato blocca l'autonomia, non solo quello severo."
+  },
+  {
+    "titolo": "Feedforward: guardare avanti",
+    "breve": "Il feedback commenta ciò che è già successo; il feedforward guarda alle possibilità future del bambino. Si regge su osservazione continua, documentazione e scelta ragionata di quando intervenire.",
+    "inClasse": [
+      "Tieni un diario di bordo su ciò che osservi nelle relazioni e negli apprendimenti.",
+      "Nei commenti aggiungi sempre \"la prossima volta puoi...\", non solo cosa è andato male."
+    ]
+  },
+  {
+    "titolo": "Anche tu puoi sbagliare",
+    "breve": "Gli errori nel lavoro educativo sono normali, perché i bambini cambiano di continuo. Provare, sbagliare, documentare e rivedere è una competenza alta; serve anche tolleranza alla frustrazione.",
+    "inClasse": [
+      "Nei lavori di gruppo tieni d'occhio i leader che zittiscono gli altri e ridistribuisci la parola.",
+      "Annota cosa non ha funzionato e confrontati con i colleghi del team."
+    ],
+    "attenzione": "Se raccogli dati su famiglie e bambini (diari, interviste) rispetta privacy e consensi."
+  },
+  {
+    "titolo": "Ognuno ha il suo orologio",
+    "breve": "Nessuna strategia funziona subito e per tutti allo stesso modo. Abitudini e competenze, dal lavarsi le mani al corsivo, richiedono tempi lunghi e diversi da bambino a bambino.",
+    "inClasse": [
+      "Pianifica piccoli punti di controllo per vedere chi ha bisogno di più tempo.",
+      "Cura parola, tempi di risposta di ognuno e un ambiente accogliente, anche con poche risorse."
+    ],
+    "attenzione": "Non lasciare indietro chi ha bisogno di tempi più lunghi: senza questo l'inclusione fallisce."
+  },
+  {
+    "titolo": "Bimbo gatto, bimbo pesce",
+    "breve": "In ogni classe ci sono bambini diversissimi: chi va lasciato avvicinare, chi è silenzioso e chiede pazienza, chi non sta fermo. Dietro un comportamento difficile c'è un mondo di bisogni da scoprire.",
+    "inClasse": [
+      "Guarda oltre la prima impressione: chiediti quali pesi rallentano quel bambino.",
+      "Valorizza un talento (es. il disegno) anche quando il rendimento scolastico è basso.",
+      "Personalizza i percorsi: lo stesso per tutti non funziona."
+    ]
+  },
+  {
+    "titolo": "Osservare, riflettere, anticipare",
+    "breve": "La postura del docente ha tre dimensioni: cogliere nel caos dell'aula i segnali che contano, riflettere durante e dopo la lezione, prevedere cosa può succedere. Le reazioni a caldo nascono da abitudini profonde.",
+    "inClasse": [
+      "Dopo una lezione difficile ripensaci a freddo: cosa hai notato, cosa hai fatto, cosa cambieresti.",
+      "Usa il tirocinio per scoprire le tue abitudini automatiche e i tuoi pregiudizi."
+    ],
+    "attenzione": "Se vita privata e lavoro non trovano equilibrio, il rischio è il burnout."
+  }
+]

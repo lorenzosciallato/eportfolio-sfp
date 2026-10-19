@@ -1,0 +1,83 @@
+[
+  {
+    "titolo": "Non è una birbantata",
+    "breve": "Il bullismo è un'aggressione ripetuta nel tempo, da parte di uno o più ragazzi, contro chi non riesce a difendersi. Un episodio isolato non basta, e la lotta per gioco con ruoli che si scambiano non lo è.",
+    "inClasse": [
+      "Due che lottano ridendo e si alternano vincitore e vinto: finta zuffa, nessun allarme.",
+      "Un gruppo che ogni giorno isola, insulta e ruba la merenda a un compagno: è bullismo, intervieni."
+    ],
+    "attenzione": "Furti gravi, abusi o ferite con armi escono dalla gestione scolastica: servono le autorità."
+  },
+  {
+    "titolo": "Le quattro spie del bullismo",
+    "breve": "Per parlare di bullismo devono esserci insieme: intenzione di fare male, squilibrio di forza, persistenza nel tempo e prepotenze dirette (botte, insulti) o indirette (esclusione, dicerie).",
+    "inClasse": [
+      "Osserva chi viene sempre escluso dai gruppi di lavoro, anche senza aggressioni fisiche.",
+      "Fai attenzione a messaggi anonimi e voci che girano su un compagno."
+    ],
+    "attenzione": "Il bullismo indiretto è il più nascosto e manipolatorio: spesso non lascia segni visibili."
+  },
+  {
+    "titolo": "Non sono solo in due",
+    "breve": "Il bullismo è un fenomeno di gruppo. Oltre a bullo e vittima ci sono l'aiutante, i sostenitori che ridono e incoraggiano, il difensore e lo spettatore che vede ma tace, tenendo viva la dinamica.",
+    "inClasse": [
+      "Lavora con tutta la classe, non solo con bullo e vittima: il pubblico conta.",
+      "Valorizza chi difende la vittima o chiede di smettere.",
+      "Fai capire che ridere o restare in silenzio aiuta il bullo."
+    ]
+  },
+  {
+    "titolo": "Bulli e vittime: profili diversi",
+    "breve": "Ci sono bulli dominanti, sicuri e forti; gregari, insicuri, che seguono per sentirsi accettati; e bulli-vittima, impulsivi e fragili. Le vittime possono essere passive o provocatrici, che reagiscono in modo aggressivo.",
+    "inClasse": [
+      "Con il gregario lavora sul bisogno di appartenenza al gruppo.",
+      "Con il bullo-vittima punta sulla gestione delle emozioni, il suo punto debole."
+    ],
+    "attenzione": "La vittima provocatrice disturba e reagisce male, ma resta una vittima."
+  },
+  {
+    "titolo": "Dietro il bullo",
+    "breve": "Molti bulli hanno alzato un muro contro emozioni troppo forti e scaricano il proprio dolore sulla vittima. Chi cresce in ambienti violenti impara relazioni fatte di dominio o sottomissione.",
+    "inClasse": [
+      "Quando un bambino deride la fragilità altrui, chiediti quale paura sta nascondendo.",
+      "Preferisci azioni educative e riparative alla sola punizione."
+    ],
+    "attenzione": "Gli effetti durano: ansia e depressione nella vittima, comportamenti antisociali nel bullo."
+  },
+  {
+    "titolo": "Cyberbullismo: niente via di fuga",
+    "breve": "È bullismo fatto online: insulti, foto o video diffusi senza permesso, account rubati, esclusione dalle chat. Rispetto a quello a scuola non si ferma mai, ha un pubblico enorme e spesso è anonimo.",
+    "inClasse": [
+      "Spiega che un \"mi piace\" o una condivisione sostengono il bullo come una risata.",
+      "Fai riflettere: dietro lo schermo non si vedono le lacrime dell'altro, ma ci sono."
+    ],
+    "attenzione": "Chi non vede il dolore della vittima prova meno senso di colpa: il freno dell'empatia salta."
+  },
+  {
+    "titolo": "Aggressività e bambini rifiutati",
+    "breve": "I bambini molto aggressivi spesso leggono come attacchi gesti neutri: un urto per sbaglio diventa una provocazione. Disciplina rigida e rifiuto dei compagni alimentano questo circolo di rabbia.",
+    "inClasse": [
+      "Proponi giochi di unione come il paracadute colorato o la ragnatela di lana.",
+      "Quando nasce una lite, ricostruisci con calma se il gesto era davvero voluto.",
+      "Favorisci le amicizie: proteggono e insegnano a gestire le emozioni."
+    ],
+    "attenzione": "Anche escludere qualcuno dal gruppo è aggressività: si chiama aggressività relazionale."
+  },
+  {
+    "titolo": "Prevenire su tre livelli",
+    "breve": "La prevenzione può rivolgersi a tutta la scuola, a gruppi a rischio o a chi mostra già disagio. Si fa nei momenti critici, con progetti dedicati e dentro le materie. La chiave è l'educazione emotiva.",
+    "inClasse": [
+      "In quinta ascoltate \"Guerriero\" di Mengoni e parlate della voce interiore che protegge.",
+      "Nelle prime classi create insieme un \"eroe\" modello positivo.",
+      "In quarta e quinta leggete libri come \"Lo Smontabulli\"."
+    ]
+  },
+  {
+    "titolo": "Il referente e la rete",
+    "breve": "Per legge ogni scuola ha un referente per bullismo e cyberbullismo: un docente che coordina la prevenzione, tiene i contatti con famiglie, polizia e servizi e forma i colleghi.",
+    "inClasse": [
+      "Segnala al referente le situazioni di rischio invece di gestirle da solo.",
+      "Proponi la peer education: alcuni alunni formati aiutano i compagni nei conflitti e avvisano gli adulti."
+    ]
+  }
+]

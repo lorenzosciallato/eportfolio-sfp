@@ -1,0 +1,77 @@
+[
+  {
+    "titolo": "La disabilità nasce dall'incontro",
+    "breve": "Un tempo la disabilità era vista solo come un difetto del corpo che porta per forza allo svantaggio. L'ICF dell'OMS, la classificazione del funzionamento umano, guarda invece a corpo, attività, partecipazione e ambiente insieme: è l'approccio biopsicosociale.",
+    "inClasse": [
+      "Davanti a una difficoltà chiediti prima cosa, nell'ambiente, la rende più grande o più piccola.",
+      "Pensa al mostro gelatinoso: sul marciapiede cammina bene, sulla grata cade. Il problema è l'incontro col terreno."
+    ],
+    "attenzione": "Avere una malattia non vuol dire non stare bene: con un contesto che aiuta si può vivere in pieno benessere."
+  },
+  {
+    "titolo": "Capacità e performance",
+    "breve": "La capacità è ciò che una persona sa fare in un ambiente neutro, senza ostacoli né aiuti. La performance è ciò che riesce a fare nella vita reale. Se la prima è alta e la seconda bassa, nel contesto c'è una barriera; se succede il contrario, c'è un aiuto che funziona.",
+    "inClasse": [
+      "Se un alunno a casa sa fare una cosa e a scuola no, cerca cosa lo blocca in classe.",
+      "Per un alunno sordo, sottotitoli o un interprete della lingua dei segni (LIS) alzano la performance."
+    ],
+    "attenzione": "La pianista perfetta in camera può bloccarsi sul palco: anche l'agitazione è una barriera del contesto."
+  },
+  {
+    "titolo": "Barriere e facilitatori a scuola",
+    "breve": "Le barriere non sono solo gradini. Possono essere organizzative, come nessun adulto di supporto al cambio dell'ora, o sensoriali, come il troppo rumore. I facilitatori sono ciò che apre la strada: spazi accessibili, tecnologie, persone, buona organizzazione.",
+    "inClasse": [
+      "Un bambino in carrozzina si isola in ricreazione? Organizza giochi motori a piccoli gruppi.",
+      "Educa la classe ad aiutarsi a vicenda: anche i compagni sono un facilitatore.",
+      "Fai un giro della scuola e segna cosa ostacola chi si muove, vede o sente in modo diverso."
+    ],
+    "attenzione": "Solo il 35% degli edifici scolastici è davvero accessibile a chi ha disabilità motorie: non darlo per scontato."
+  },
+  {
+    "titolo": "Cambia il contesto, non il bambino",
+    "breve": "Davanti a un comportamento difficile è facile dare la colpa al carattere o al corpo del bambino. Il docente può invece guardare cosa è successo prima e dove, per esempio in corridoio. Sull'ambiente si può intervenire.",
+    "inClasse": [
+      "Rendi l'ambiente sereno e prevedibile.",
+      "Incanala l'energia in compiti motori attivi invece di chiedere solo di stare fermi.",
+      "Cerca con tutta la classe soluzioni che includano tutti, invece di escludere."
+    ],
+    "attenzione": "Lasciare a casa un alunno dalla gita con la scusa \"tutti ci rimettono per colpa di uno\" non risolve nulla."
+  },
+  {
+    "titolo": "Sport per tutti, senza supereroi",
+    "breve": "Lo sport per persone con disabilità è nato per riabilitare ed è diventato diritto e riscatto. Ma separare sempre le gare \"normali\" da quelle \"speciali\" rischia di creare stereotipi, come l'atleta paralimpico supereroe, e di dimenticare la disabilità di tutti i giorni.",
+    "inClasse": [
+      "Scopri il baskin, basket inclusivo con ruoli pensati per ogni livello di abilità, e il sitting volley.",
+      "Preferisci attività comuni adattate a percorsi separati solo per alcuni.",
+      "Rimuovi le barriere al gioco anche in cortile: giocare è un diritto di ogni bambino."
+    ]
+  },
+  {
+    "titolo": "Vista ridotta: una mappa da rispettare",
+    "breve": "Un alunno cieco o ipovedente si orienta con una mappa mentale fatta di punti fissi e passi contati, e usa soprattutto l'udito per capire lo spazio. Spostare un banco o lasciare uno zaino a terra può trasformarsi in un ostacolo pericoloso.",
+    "inClasse": [
+      "Non cambiare la disposizione di banchi e cattedra, e tieni i passaggi liberi da zaini e oggetti.",
+      "In palestra metti a terra corde o nastri in rilievo: guidano i piedi in capriole e rotolamenti in autonomia.",
+      "Usa palloni con sonagli o segnali sonori per indicare traguardi e cambi di direzione."
+    ],
+    "attenzione": "Le palestre che rimbombano disorientano: pannelli fonoassorbenti aiutano molto."
+  },
+  {
+    "titolo": "Udito ridotto: segnali da vedere",
+    "breve": "Si dice \"sordo\", non \"sordomuto\": la voce funziona, manca il ritorno del suono. Molte persone sorde parlano bene, altre leggono il labiale o usano la LIS, una lingua vera con la sua grammatica. Per chi è sordo dalla nascita le immagini sono un canale prezioso.",
+    "inClasse": [
+      "Sostituisci il fischietto con bandierine, segnali con la mano, luci o un tocco leggero sulla spalla.",
+      "Spiega stando di fronte, con buona luce, senza fogli davanti alla bocca.",
+      "Mostra i movimenti con sequenze di immagini o brevi video su tablet."
+    ]
+  },
+  {
+    "titolo": "Muoversi oggi conta anche domani",
+    "breve": "Le persone con disabilità tendono a muoversi meno. L'inattività porta problemi detti \"condizioni secondarie\": non vengono dalla disabilità ma dalla sedentarietà, come obesità e perdita di muscolo. Le abilità motorie conquistate non restano da sole: vanno esercitate.",
+    "inClasse": [
+      "Garantisci a tutti tempi di movimento reali, non solo il ruolo di spettatore.",
+      "Incoraggia ogni alunno a esplorare lo spazio e a mantenere attivo il corpo con continuità."
+    ],
+    "attenzione": "Da adulti le occasioni di movimento calano molto e, senza esercizio, le abilità regrediscono."
+  }
+]

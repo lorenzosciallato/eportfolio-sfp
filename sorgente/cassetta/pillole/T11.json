@@ -1,0 +1,78 @@
+[
+  {
+    "titolo": "Teoria della mente: l'altro pensa",
+    "breve": "La teoria della mente è la capacità di capire che gli altri hanno pensieri e intenzioni diversi dai nostri. Comincia a svilupparsi di solito tra i 4 e i 5 anni e si osserva con i compiti di \"falsa credenza\".",
+    "inClasse": [
+      "Prova la scatola di pastelli che contiene candele: cosa crederà ci sia dentro un compagno che non l'ha aperta?"
+    ]
+  },
+  {
+    "titolo": "Spettro autistico: cosa sapere",
+    "breve": "I disturbi dello spettro autistico emergono di solito nella prima fanciullezza. Sono caratterizzati da: interazione sociale ridotta, poco contatto visivo, linguaggio assente o in ritardo, comportamenti ripetitivi, difficoltà nella teoria della mente e ipersensibilità agli stimoli sensoriali.",
+    "inClasse": [
+      "Tieni conto di un'eventuale ipersensibilità sensoriale quando organizzi spazi e attività della classe.",
+      "Osserva con attenzione per scoprire punti di forza e fatiche di ciascuno, al di là della diagnosi."
+    ],
+    "attenzione": "La diagnosi spetta agli specialisti, non all'insegnante. E non esiste alcuna correlazione tra vaccini e autismo."
+  },
+  {
+    "titolo": "ADHD: non è solo vivacità",
+    "breve": "L'ADHD è un disturbo del neurosviluppo che riguarda le funzioni esecutive: memoria di lavoro, autocontrollo, attenzione. Di solito viene diagnosticato durante la primaria, è più frequente nei maschi e dipende da più fattori: genetici, neurobiologici e ambientali.",
+    "inClasse": [
+      "Annota con cura ciò che osservi e condividilo con la famiglia, senza anticipare diagnosi."
+    ],
+    "attenzione": "La diagnosi spetta agli specialisti: tra i criteri, sintomi prima dei 12 anni, per almeno 6 mesi e in almeno due contesti."
+  },
+  {
+    "titolo": "ADHD: strategie che aiutano",
+    "breve": "Un bambino con ADHD fatica a tenere a mente più istruzioni e a frenare gli impulsi. Lo aiuta un ambiente prevedibile: routine chiare, consegne brevi, pause e rinforzi immediati, insieme al lavoro con la famiglia e con i terapeuti.",
+    "inClasse": [
+      "Spezza le consegne: \"Prendi il quaderno\" (pausa), \"Ora scrivi la data\" (pausa), poi l'esercizio.",
+      "Usa calendari visivi, pause frequenti e attive e premia subito i comportamenti adeguati.",
+      "Insegna la tecnica della tartaruga: entrare nel guscio e respirare a fondo prima di reagire a una provocazione."
+    ]
+  },
+  {
+    "titolo": "Le intelligenze multiple in pratica",
+    "breve": "Per Gardner non esiste solo l'intelligenza linguistica. Includere significa attivare più canali, come quello musicale, artistico, naturalistico, interpersonale e intrapersonale: così ognuno trova una porta d'accesso e mostra i suoi punti di forza.",
+    "inClasse": [
+      "Testo regolativo? Preparate un ciambellone in classe, poi scrivete insieme le fasi della ricetta.",
+      "Un'incubatrice in classe: osservate la nascita dei pulcini, disegnate le fasi e inventate una canzone."
+    ],
+    "attenzione": "A scuola non si può sollecitare solo l'intelligenza linguistica."
+  },
+  {
+    "titolo": "Giochi liberi da stereotipi di genere",
+    "breve": "L'identità di genere ha una base biologica, ma è fortemente influenzata da socializzazione e cultura. Si costruisce per tappe: etichetta di genere verso i 2-2,5 anni, stabilità a 3-4 anni, costanza a 5-6 anni. Per questo l'insegnante promuove un gioco libero e non stereotipato.",
+    "inClasse": [
+      "Lascia che ognuno scelga giochi e ruoli liberamente, senza vincolare nessuno a ruoli tradizionali.",
+      "Nel gioco di fantasia, come \"fare il dottore\", ogni bambino può sperimentare i ruoli adulti che preferisce."
+    ]
+  },
+  {
+    "titolo": "Un traguardo per tutta la classe",
+    "breve": "Il Coping Power è un programma per gestire rabbia e comportamenti dirompenti, adattato per infanzia e primaria. Lavora su obiettivi, consapevolezza delle emozioni, punto di vista altrui, soluzione dei conflitti e talenti, con premi legati a traguardi condivisi.",
+    "inClasse": [
+      "Fissa un obiettivo visibile, come \"alzo la mano prima di parlare\", e segnate i progressi su una mappa.",
+      "Se tutti raggiungono la tappa, la classe ottiene un premio scelto insieme: così ci si aiuta a vicenda.",
+      "Usa il \"termometro della rabbia\" per riconoscere le emozioni e quanto sono intense."
+    ]
+  },
+  {
+    "titolo": "Stare in classe non basta",
+    "breve": "Inclusione e uguaglianza non sono la stessa cosa. Far sedere in aula un alunno con disabilità, svantaggio o background migratorio non garantisce che impari come gli altri. Senza le basi linguistiche o strumentali resta ai margini: è un'esclusione invisibile.",
+    "inClasse": [
+      "Verifica che ogni alunno abbia gli strumenti di base per seguire davvero, non solo un posto in aula.",
+      "Prevedi interventi che compensino gli svantaggi di partenza prima di valutare il merito individuale."
+    ]
+  },
+  {
+    "titolo": "Uguale non sempre vuol dire giusto",
+    "breve": "L'uguaglianza formale dà a tutti le stesse regole e lo stesso accesso; quella sostanziale compensa gli svantaggi di partenza. È l'esame \"equo\" di animali diversi chiamati a scalare lo stesso albero: le stesse condizioni premiano solo chi è già avvantaggiato.",
+    "inClasse": [
+      "Quando valuti, considera da dove è partito ciascun alunno, non solo dove è arrivato.",
+      "Offri supporti mirati a chi parte svantaggiato, come attività intensive di lingua o materiali dedicati."
+    ],
+    "attenzione": "Promuovere chi non ha acquisito le competenze di base crea solo un'illusione di inclusione."
+  }
+]

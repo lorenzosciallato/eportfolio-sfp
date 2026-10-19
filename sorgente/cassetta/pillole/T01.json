@@ -1,0 +1,83 @@
+[
+ {
+  "titolo": "La mente non è una valigia",
+  "breve": "Imparare non è riempire un contenitore. Una formula memorizzata per la verifica svanisce presto; un concetto di cui il bambino si appropria, come andare in bici, resta per sempre perché si aggancia a ciò che ha già vissuto.",
+  "inClasse": [
+   "Prima di un argomento nuovo, chiedi dove l'hanno già incontrato fuori da scuola e parti da lì.",
+   "Torna più volte sugli stessi concetti in forme diverse: una spiegazione sola non basta."
+  ],
+  "attenzione": "Se impari solo per il test (acquisizione), dimentichi appena il test è passato."
+ },
+ {
+  "titolo": "Nessuno arriva a mente vuota",
+  "breve": "I bambini arrivano con idee ingenue costruite sull'esperienza: il Sole gira attorno alla Terra perché lo vedo muoversi. Non sono sciocchezze, sono ipotesi logiche su osservazioni parziali, e spesso convincono più della spiegazione scientifica.",
+  "inClasse": [
+   "Fai emergere le idee della classe con una domanda aperta prima di spiegare.",
+   "Tratta l'idea ingenua come un'ipotesi da mettere alla prova, non come un errore da cancellare."
+  ],
+  "attenzione": "Se ignori le idee di partenza, il concetto nuovo resta una patina che sparisce fuori da scuola."
+ },
+ {
+  "titolo": "L'errore è il motore",
+  "breve": "Per Piaget si impara da una crisi: un dubbio o un problema inatteso rompe le certezze (conflitto cognitivo) e la mente, per ritrovare equilibrio, smonta i vecchi schemi e ne costruisce di migliori. Senza questo scossone l'apprendimento resta fragile.",
+  "inClasse": [
+   "Usa gli errori come indizi: ti dicono dove sta il ragionamento del bambino.",
+   "Proponi problemi che mettano davvero in crisi ciò che pensano, non solo esercizi già noti."
+  ],
+  "attenzione": "Punire l'errore con un brutto voto spegne proprio la molla che fa imparare."
+ },
+ {
+  "titolo": "Assimilare e accomodare",
+  "breve": "Il bambino inserisce i dati nuovi negli schemi che ha (assimilazione) e, quando non tornano, cambia gli schemi (accomodamento). Chi dice \"uovi\" applica una regola vera; quando scopre \"uova\" la sua struttura si allarga.",
+  "inClasse": [
+   "Davanti a un errore come \"uovi\", riconosci la regola che il bambino sta usando prima di correggerlo.",
+   "Ricorda che tra i 2 e i 7 anni il pensiero è spesso animista ed egocentrico: parti da lì."
+  ]
+ },
+ {
+  "titolo": "La zona di sviluppo prossimale",
+  "breve": "Per Vygotskij è lo spazio tra ciò che il bambino sa fare da solo e ciò che riesce a fare con l'aiuto di un adulto o dei compagni. È lì che si impara: ciò che è già facile non insegna nulla, ciò che è troppo lontano frustra.",
+  "inClasse": [
+   "Calibra i compiti un passo oltre ciò che la classe sa già fare da sola.",
+   "Prevedi aiuti (tuoi o dei compagni) per raggiungere quel passo in più."
+  ],
+  "attenzione": "Né appiattirti sul livello attuale né proporre sfide irraggiungibili."
+ },
+ {
+  "titolo": "Imparare litigando (bene)",
+  "breve": "Il conflitto socio-cognitivo nasce dal confronto con le idee diverse dei compagni. Dovendo giustificare le proprie tesi e trovare un accordo, i bambini arrivano a soluzioni migliori di quelle che avrebbero trovato da soli.",
+  "inClasse": [
+   "Forma coppie o gruppi con competenze complementari, non solo tra amici.",
+   "Chiedi a ogni gruppo di spiegare perché pensa ciò che pensa e di concordare una soluzione comune."
+  ],
+  "attenzione": "Funziona solo se nessuno prevarica: serve un confronto alla pari."
+ },
+ {
+  "titolo": "Quando un'idea fa da muro",
+  "breve": "L'ostacolo epistemologico è una convinzione spontanea così rassicurante da bloccare la conoscenza nuova. Davanti a una spiegazione che la contraddice, il bambino la rifiuta o la deforma: c'è chi disegna la Terra piatta dopo aver studiato che è sferica.",
+  "inClasse": [
+   "Individua le convinzioni più tenaci sull'argomento prima di progettare la lezione.",
+   "Costruisci esperienze mirate che costringano a smontare quella convinzione, invece di sovrascriverla."
+  ],
+  "attenzione": "Spiegare la versione corretta non basta: la vecchia idea torna se non viene messa in crisi."
+ },
+ {
+  "titolo": "Il colloquio clinico",
+  "breve": "Non è un'interrogazione: non c'è voto. Serve a scoprire cosa pensa davvero il bambino, oltre la risposta che crede gradita (ripete la definizione di angolo ma pensa che sia lo spigolo del tavolo).",
+  "inClasse": [
+   "Riformula: ripeti con parole tue ciò che ha detto e chiedi se intendeva questo.",
+   "Rispecchia: ripeti le sue stesse parole, così si riascolta e può correggersi da solo.",
+   "Rilancia: metti a confronto due idee opposte uscite dalla classe e apri la discussione."
+  ],
+  "attenzione": "Lascia la postura di chi dirige: qui fai domande, non spieghi."
+ },
+ {
+  "titolo": "Imparare facendo, con le emozioni",
+  "breve": "Per Dewey si impara dall'esperienza diretta: \"learning by doing\", le mani in pasta in attività di laboratorio legate alla vita reale. E, come avverte Massa, le conoscenze reggono solo se il bambino sa anche riconoscere e gestire le proprie emozioni.",
+  "inClasse": [
+   "Trasforma un argomento in un laboratorio con un problema concreto da risolvere.",
+   "Dedica spazio a riconoscere e nominare le emozioni nella relazione con te e con i compagni."
+  ],
+  "attenzione": "Una scuola tutta istruzione e niente relazione produce apprendimenti fragili."
+ }
+]

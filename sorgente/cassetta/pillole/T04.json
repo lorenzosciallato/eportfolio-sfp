@@ -1,0 +1,85 @@
+[
+ {
+  "titolo": "Verificare non è valutare",
+  "breve": "La verifica raccoglie dati con una prova. La valutazione li interpreta: lo stesso voto vale molto per chi prima prendeva insufficienze e poco per chi prendeva sempre il massimo. Valutare vuol dire dare valore, e pesa sull'immagine di sé.",
+  "inClasse": [
+   "Leggi ogni risultato alla luce del percorso di quel bambino, non solo del numero.",
+   "Valuta il lavoro e la prestazione, mai la persona."
+  ],
+  "attenzione": "Ciò che valuti dice ai bambini cosa conta: sceglilo con cura."
+ },
+ {
+  "titolo": "Prima, durante, dopo",
+  "breve": "La valutazione diagnostica, all'inizio, fotografa ciò che sanno già. La formativa, durante, dà indicazioni per migliorare e ti aiuta a correggere la rotta. La sommativa, alla fine, fa il bilancio e certifica.",
+  "inClasse": [
+   "Apri ogni unità con una breve rilevazione di ciò che sanno, per tarare il percorso.",
+   "Usa i risultati in itinere anche per cambiare le tue strategie."
+  ],
+  "attenzione": "Conta lo scopo, non il momento: una prova a metà anno con solo un voto resta sommativa."
+ },
+ {
+  "titolo": "Of, for, as learning: tre scopi",
+  "breve": "Valutare l'apprendimento misura e certifica (of learning). Valutare per l'apprendimento dà feedback continui per migliorare (for). Valutare come apprendimento coinvolge i bambini nei criteri, nell'autovalutazione e nella valutazione tra pari (as).",
+  "inClasse": [
+   "Costruisci con la classe una rubrica dei criteri prima del lavoro.",
+   "Fai valutare a coppie i lavori dei compagni con quei criteri.",
+   "Usa un diario di bordo in cui annotano traguardi e difficoltà."
+  ],
+  "attenzione": "L'autovalutazione richiede tempo e routine costanti: non nasce in una volta."
+ },
+ {
+  "titolo": "Un feedback che serve",
+  "breve": "Un buon feedback chiarisce prima i criteri, arriva in tempo per correggere e guarda avanti (feed-forward): non commenta solo il passato ma indica cosa fare dopo. Come per la pizza, va dato durante l'impasto, non quando è già servita.",
+  "inClasse": [
+   "Mostra lavori di anni passati e fai trovare alla classe cosa li rende buoni.",
+   "Segui la scala: chiarisci i dubbi, valorizza i punti forti, segnala le criticità, dai indicazioni.",
+   "Dopo la correzione chiedi una revisione del lavoro."
+  ],
+  "attenzione": "\"Impegnati di più\" o \"hai fatto un disastro\" giudicano ma non dicono cosa fare."
+ },
+ {
+  "titolo": "Reale non vuol dire autentico",
+  "breve": "La valutazione autentica guarda a cosa il bambino sa fare con ciò che sa. Un compito autentico è significativo per lui, sfidante al punto giusto e aperto a più soluzioni. Anche la fantasia funziona, se lo coinvolge.",
+  "inClasse": [
+   "Fai lasciare messaggi matematici da un elfo di Babbo Natale.",
+   "Invece di calcoli sui decimali, fai organizzare la merenda di classe con 20 euro.",
+   "Aggiungi un diario o una rubrica in cui raccontano difficoltà e soluzioni trovate."
+  ],
+  "attenzione": "Il problema del fruttivendolo è reale, ma se annoia non è autentico."
+ },
+ {
+  "titolo": "Autenticità in piccolo",
+  "breve": "Non servono progetti di mesi: basta trasformare una consegna. La stessa unità può diventare un compito autentico se chiede di scegliere, costruire e comunicare a un pubblico vero, invece di completare frasi già scritte.",
+  "inClasse": [
+   "Al posto delle frasi da completare: \"Disegna la tua casa ideale, descrivila e presentala alla classe\".",
+   "Scrivi una consegna abbastanza precisa da orientare, ma non tanto da suggerire la soluzione.",
+   "Prevedi un pubblico: i compagni o alunni più piccoli."
+  ]
+ },
+ {
+  "titolo": "Le trappole del giudizio",
+  "breve": "Chi valuta è soggetto a distorsioni: il compito corretto dopo uno disastroso sembra migliore (contrasto), i voti dei colleghi ti condizionano (contagio), una bella calligrafia alza tutto il voto (alone), le etichette si cristallizzano (stereotipia).",
+  "inClasse": [
+   "Separa nel giudizio ciò che misura l'obiettivo da ciò che non c'entra, come la grafia.",
+   "Non forzare i voti a disporsi \"a campana\" con pochi bravi e pochi scarsi."
+  ],
+  "attenzione": "Gli stereotipi di genere o di provenienza diventano etichette difficili da togliere."
+ },
+ {
+  "titolo": "La profezia che si avvera",
+  "breve": "L'effetto Pigmalione: ciò che ti aspetti da un alunno passa nei tuoi gesti e nelle tue parole, lui lo interiorizza e finisce per comportarsi proprio come avevi previsto. In un esperimento, compiti identici presero voti più alti se attribuiti a famiglie di status più alto.",
+  "inClasse": [
+   "Osserva come parli e guardi gli alunni da cui ti aspetti poco.",
+   "Comunica a tutti aspettative alte e fiducia nei loro progressi."
+  ]
+ },
+ {
+  "titolo": "Quanto strutturare una prova",
+  "breve": "Una prova incrocia consegna e risposta, aperte o chiuse. Le prove aperte stimolano il ragionamento ma sono difficili da correggere; quelle chiuse sono oggettive ma restano su memoria e applicazione. Le semi-strutturate, consegna precisa e risposta libera, uniscono i vantaggi.",
+  "inClasse": [
+   "Prova domande a risposta limitata o brevi testi guidati da criteri chiari.",
+   "Scrivi i problemi con parole semplici: altrimenti misuri la lingua, non la matematica."
+  ],
+  "attenzione": "Una domanda aperta che col tono suggerisce la risposta attesa è una finta prova."
+ }
+]

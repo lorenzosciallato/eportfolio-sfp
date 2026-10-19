@@ -7,4 +7,5 @@ Questa cartella serve solo per modificare l'app: gli studenti usano il sito nell
 - `api.txt` — indirizzo del Worker Cloudflare che salva i profili.
 - `out/site/assets/` — font, illustrazioni (webp) e motore del PDF; `out/site/icone/` — icone dell'app.
 - `worker/` — il programma su Cloudflare (`worker.js`). Si pubblica con `npx wrangler@4 deploy` dalla cartella `worker`. La frase segreta PEPE è salvata solo su Cloudflare e non va mai scritta qui.
-- `illustrazioni/` — originali delle illustrazioni; `logo/` — originale dell'icona.
+- `cassetta/pillole/` — i testi delle pillole della Cassetta degli attrezzi, un file per area (T01…T16); le immagini delle pillole sono `assets/pT01-01.webp` e così via.
+- `illustrazioni/` — originali delle illustrazioni (anche `cassetta/` e `pillole/`); `logo/` — originale dell'icona.

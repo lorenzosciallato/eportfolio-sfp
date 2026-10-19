@@ -1,0 +1,84 @@
+[
+ {
+  "titolo": "Il conflitto cognitivo in quattro fasi",
+  "breve": "Metti l'idea ingenua di fronte a un fatto che la contraddice. Si procede così: far emergere l'idea, proporre l'esperienza che la smentisce, ricostruire il concetto corretto e ripercorrere tutto alla fine.",
+  "inClasse": [
+   "Lascia cadere un foglio appallottolato e uno disteso: non è il peso a decidere chi arriva prima.",
+   "Copri un piattino d'acqua con la pellicola: le goccioline mostrano che l'acqua non \"sparisce\".",
+   "Mostra che 3 x 0,5 fa 1,5: la moltiplicazione non ingrandisce sempre."
+  ],
+  "attenzione": "Non c'è conflitto se il bambino ignora l'argomento: serve un'idea radicata da contraddire."
+ },
+ {
+  "titolo": "Il ponte: dal noto all'ignoto",
+  "breve": "La mente non impara nel vuoto: ha bisogno di appigli. Il ponte collega qualcosa di familiare a un concetto nuovo o astratto, così il sapere nuovo si aggancia a quello che c'è già.",
+  "inClasse": [
+   "Presenta la moltiplicazione come un'addizione ripetuta.",
+   "Per il tempo storico parti dall'ultimo compleanno e allunga la linea fino al Colosseo.",
+   "Per la condensazione richiama il vetro della doccia che si appanna."
+  ]
+ },
+ {
+  "titolo": "Architettura delle varianti",
+  "breve": "Un concetto si capisce davvero vedendolo accanto a ciò che non è. Fai variare alcuni elementi e tieni fermi altri: ciò che resta costante è il cuore del concetto. Si lavora per contrasto, separazione, generalizzazione e fusione.",
+  "inClasse": [
+   "Mostra triangoli scaleni e isosceli: cambia tutto tranne i tre lati.",
+   "Su una bilancia metti due palloncini sgonfi, poi gonfiane uno: l'aria pesa.",
+   "Lascia piattini d'acqua al sole, all'ombra, coperti e scoperti e confronta."
+  ]
+ },
+ {
+  "titolo": "Mediatori attivi: toccare con mano",
+  "breve": "Sono l'esperienza diretta con la realtà: portare la classe nel bosco a toccare la corteccia, immergere le mani in una bacinella per vedere cosa galleggia. Il loro potere di coinvolgimento è impareggiabile.",
+  "inClasse": [
+   "Dopo l'uscita, fai raccontare e nominare ciò che hanno provato.",
+   "Alterna l'esperienza diretta con immagini e parole che la formalizzino."
+  ],
+  "attenzione": "\"Attivo\" non vuol dire muoversi. E senza parole dopo, l'esperienza resta muta."
+ },
+ {
+  "titolo": "Mediatori analogici: fare finta",
+  "breve": "Si basano sulla simulazione: gioco simbolico, drammatizzazione, role-play. Coinvolgono corpo ed emozioni, motivano molto e permettono di provare ruoli lontani dal proprio carattere.",
+  "inClasse": [
+   "Fai interpretare il ciclo dell'acqua: chi è la nuvola, chi la pioggia, chi il sole.",
+   "Affida a un bambino tranquillo il ruolo del re autoritario, o fai fare il maestro a un alunno."
+  ],
+  "attenzione": "Simulare esclusione o disabilità può ferire; un gioco può banalizzare un evento tragico."
+ },
+ {
+  "titolo": "Mediatori iconici: le immagini",
+  "breve": "Foto, mappe, disegni, modelli e video rappresentano la realtà da fuori. Rendono visibile l'invisibile, cambiano la scala e danno a tutti lo stesso oggetto da discutere. Un dipinto offre in un colpo solo tantissime informazioni.",
+  "inClasse": [
+   "Disegna alla lavagna la struttura di un fiore mentre ne parli.",
+   "Usa un'immagine ingrandita per mostrare ciò che a occhio nudo non si vede, come le spore di un fungo."
+  ],
+  "attenzione": "Un'immagine è sempre un'inquadratura parziale: può raccontare una storia distorta."
+ },
+ {
+  "titolo": "Mediatori simbolici: le parole",
+  "breve": "Parola, scrittura, numeri e note sono il livello più astratto. Sono economici, sicuri e raggiungono tutti insieme; permettono di parlare anche di ciò che non esiste, come gli unicorni.",
+  "inClasse": [
+   "Usa la parola per negoziare i significati con la classe, non solo per spiegare.",
+   "Accompagna la mente dall'esperienza concreta fino al simbolo, alternando i mediatori."
+  ],
+  "attenzione": "Rischi verbalismo, parole che scivolano via e studio a pappagallo senza capire."
+ },
+ {
+  "titolo": "Routine che rassicurano",
+  "breve": "Le routine sono sequenze di azioni ripetute ogni giorno sempre allo stesso modo. Fanno raggiungere un risultato con poca fatica, riducono l'ansia e aiutano soprattutto i bambini meno organizzati.",
+  "inClasse": [
+   "Fissa la sequenza dell'arrivo: zaino, cappotto al suo posto, merenda.",
+   "Appendi al lavandino le immagini in sequenza per lavarsi le mani.",
+   "Usa una filastrocca per memorizzare una regola di ortografia."
+  ]
+ },
+ {
+  "titolo": "Lo scaffolding si toglie",
+  "breve": "Lo scaffolding è l'impalcatura di aiuti con cui accompagni l'alunno: tanto supporto davanti a una sfida difficile, poi sempre meno man mano che diventa capace, fino a sparire. Il bravo insegnante a quel punto lavora dietro le quinte.",
+  "inClasse": [
+   "Prepara aiuti a scalare per lo stesso compito: dal più guidato al più autonomo.",
+   "Ogni volta che un aiuto non serve più, toglilo e osserva come se la cava."
+  ],
+  "attenzione": "Troppa rigidità ti rende un ostacolo; troppa empatia con un sapere poco curato fallisce."
+ }
+]

@@ -1,0 +1,79 @@
+[
+  {
+    "titolo": "La musica si sente col corpo",
+    "breve": "Il suono è una vibrazione che tocca davvero il corpo, a partire dal timpano: per questo si parla di principio audiotattile. Jazz, rock, pop e musiche del mondo nascono dal corpo e dal gesto, non da un foglio. Swing e groove si colgono col corpo: la scrittura non riesce a fissarli del tutto.",
+    "inClasse": [
+      "Fai sentire la vibrazione: mani su un tamburo o su una cassa mentre suona.",
+      "Prima di spiegare un ritmo, fallo muovere e battere con il corpo."
+    ]
+  },
+  {
+    "titolo": "Variare o inventare?",
+    "breve": "Estemporizzare è suonare un brano che esiste già, personalizzandolo dal vivo: resta riconoscibile. Improvvisare è creare sul momento materiali del tutto nuovi. Sono due livelli di creatività in tempo reale, il secondo più complesso.",
+    "inClasse": [
+      "Parti da una melodia nota e chiedi a ognuno di cambiarne un po' il ritmo o l'espressione.",
+      "Poi, su un ritmo comune, lascia spazio a frasi del tutto inventate.",
+      "Chiedi alla classe: questa versione è ancora riconoscibile o è diventata un'altra cosa?"
+    ]
+  },
+  {
+    "titolo": "Musica che passa di mano in mano",
+    "breve": "Nelle tradizioni orali la musica è un evento, non un oggetto: esiste mentre la si fa. Si impara guardando e imitando i gesti di chi suona, i suoni sono elastici e ricchi di sfumature, e inventare ed eseguire sono la stessa cosa.",
+    "inClasse": [
+      "Insegna una canzone a orecchio: tu canti o suoni, la classe imita gesti e suoni.",
+      "Fai vivere le musiche tradizionali con il corpo e nei loro contesti, come le feste, non sui libri."
+    ],
+    "attenzione": "Le musiche orali non sono versioni \"semplici\" di quella scritta: sono sistemi complessi con altre regole."
+  },
+  {
+    "titolo": "Lo spartito è un modo di pensare",
+    "breve": "Nella musica scritta occidentale tutto passa dalla vista: il suono è diviso in note separate, come mattoncini, legate da regole precise. Il testo scritto comanda: il compositore inventa, l'interprete esegue fedelmente con poca libertà.",
+    "inClasse": [
+      "Per la musica scritta, lavora sulla lettura dei segni: è il cuore di quel sistema.",
+      "Confronta un brano letto dallo spartito con uno imparato a orecchio: cosa cambia nel modo di suonarlo?"
+    ]
+  },
+  {
+    "titolo": "Il mezzo non è mai neutro",
+    "breve": "Il medium è il mezzo con cui si fa musica: lo strumento, lo spartito, il corpo. Non trasporta e basta, cambia il risultato. Per questo un brano può suonare \"pianistico\" o \"chitarristico\": lo strumento gli ha dato la sua forma.",
+    "inClasse": [
+      "Fai eseguire la stessa melodia con la voce e con strumenti diversi: come cambia?",
+      "Ascolta un brano con la classe e chiedi: da cosa si capisce con quale strumento è stato pensato?"
+    ]
+  },
+  {
+    "titolo": "Il disco come scrittura",
+    "breve": "Per le musiche nate dall'improvvisazione è la registrazione a fare da \"spartito\": fissa per sempre un'esecuzione unica e la rende un'opera vera. È la codifica neo-auratica. E lo studio di registrazione non è una fotocopiatrice: crea parte del suono.",
+    "inClasse": [
+      "Fai ascoltare un album rock o jazz trattandolo da opera d'arte, come un brano classico.",
+      "Registra un'improvvisazione della classe e riascoltatela: quel momento ora resta."
+    ]
+  },
+  {
+    "titolo": "Tre musiche, tre modi di insegnarle",
+    "breve": "La teoria delle musiche audiotattili divide le musiche del mondo in tre famiglie: di tradizione scritta, di tradizione orale e audiotattili. Ognuna ha la sua logica, e quindi il suo modo di essere insegnata, senza gerarchie tra generi.",
+    "inClasse": [
+      "Musica scritta: lettura della partitura. Musica orale: performance, corpo, feste.",
+      "Pop e rock: ascolto consapevole. Chiedi cosa trasmette loro una canzone e perché gli piace."
+    ]
+  },
+  {
+    "titolo": "Ogni bambino ha già una musica",
+    "breve": "Delfrati descrive due modi di educare. Nel paradigma statico l'alunno è un vaso vuoto e il suo modo di giocare con i suoni è un errore da correggere. Nel dinamico il bambino ha già una cultura musicale: inventa melodie, usa la voce, imita le sigle dei cartoni.",
+    "inClasse": [
+      "Parti dalle canzoni e dalle sigle che i bambini conoscono già e costruisci da lì.",
+      "Accetta di parlare dei loro gusti musicali di oggi: anche tu puoi imparare da loro.",
+      "Dopo aver mostrato un modello, invitali a provare soluzioni loro, come faceva Casals con gli allievi."
+    ],
+    "attenzione": "L'autonomia non è un premio per la fine del percorso: si allena dal primo giorno."
+  },
+  {
+    "titolo": "L'interesse è l'esca, il bisogno la meta",
+    "breve": "Per Delfrati interessi e bisogni non coincidono. L'interesse è ciò che il bambino vuole ora, a volte passeggero o spinto dalla moda. Il bisogno è ciò che gli serve davvero per crescere, anche se non lo sa. L'interesse serve ad agganciarlo.",
+    "inClasse": [
+      "Usa il tormentone del momento come gancio per arrivare a ritmo, ascolto o voce.",
+      "Se un alunno sembra apatico, chiediti prima cosa nel metodo ha spento la sua curiosità."
+    ],
+    "attenzione": "Assecondare solo ciò che piace porta a una musica soltanto ricreativa, senza crescita vera."
+  }
+]

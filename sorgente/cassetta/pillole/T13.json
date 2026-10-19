@@ -1,0 +1,82 @@
+[
+  {
+    "titolo": "La noia accende l'indisciplina",
+    "breve": "Nell'Ottocento il maestro spesso seguiva un alunno alla volta e gli altri restavano senza far nulla. Ne nasceva una noia profonda, vero motore dell'indisciplina: scherzi, lancette spostate, caos. Il metodo simultaneo portò ordine, ma con banchi rigidi e corpi immobili.",
+    "inClasse": [
+      "Evita lunghe attese mentre lavori con un solo bambino: prepara attività che tengano occupati tutti.",
+      "Se la classe si agita, chiediti prima se la lezione è troppo ripetitiva e poco coinvolgente."
+    ]
+  },
+  {
+    "titolo": "Castighi da non ripetere",
+    "breve": "Già nel 1860 un regolamento vietava insulti, percosse, cappelli d'asino, lo stare in ginocchio e i \"pensi\", frasi copiate all'infinito. Eppure queste pratiche sono durate fino agli anni '60 e '70 del Novecento: una legge da sola non basta a cambiare la scuola.",
+    "inClasse": [
+      "Niente copiature punitive: non insegnano nulla. Piuttosto fai rifare il compito che non è venuto bene.",
+      "Evita qualsiasi gesto che esponga un bambino al ridicolo davanti ai compagni."
+    ],
+    "attenzione": "Dare a un alunno \"bravo\" il potere di umiliare chi sbaglia genera crudeltà tra bambini, come raccontava Mario Lodi."
+  },
+  {
+    "titolo": "Formare le teste, non riempirle",
+    "breve": "Per Gabelli la scuola non deve versare nozioni con l'imbuto ma \"formare le teste\": le nozioni svaniscono, il modo di pensare resta. Il metodo oggettivo positivista parte dalla realtà: osservare, intuire, riflettere, generalizzare. Ed è un diritto anche dei bambini più poveri.",
+    "inClasse": [
+      "Racconta la parabola del pesce: invece di teorizzare perché un pesce morto pesi di più, pesalo. Verificare batte credere.",
+      "Insegna la geografia dalla piantina del paese e la matematica dal prezzo delle cose di tutti i giorni.",
+      "Studia le scienze con semplici esperimenti, un orto scolastico o oggetti veri come foglie, sassi e fibre."
+    ],
+    "attenzione": "Il tema su argomenti lontani dall'esperienza del bambino produce solo frasi fatte."
+  },
+  {
+    "titolo": "Il banco non è mai neutro",
+    "breve": "Il banco ottocentesco, lungo fino a sei posti, serviva a immobilizzare i corpi e mantenere l'ordine; gli ultimi banchi erano per i \"somari\". Montessori definì il banco ortopedico inchiodato al pavimento uno \"strumento di schiavitù\" e lo sostituì con tavolini leggeri e seggioline mobili.",
+    "inClasse": [
+      "Arreda a misura di bambino: tavolini spostabili, scaffali bassi, quadri all'altezza dei loro occhi.",
+      "Lascia che i bambini scelgano dove \"accomodarsi\" invece di ordinare soltanto \"siediti al tuo posto\"."
+    ],
+    "attenzione": "Non mandare in fondo all'aula chi fa più fatica: anche la posizione nello spazio può escludere."
+  },
+  {
+    "titolo": "Disciplina attiva: libertà con un limite",
+    "breve": "Per Montessori l'immobilità imposta non crea bambini disciplinati, ma bambini spenti. La vera disciplina nasce dal muoversi liberamente e dall'autocontrollo. Il movimento non è indisciplina: è il motore della vita psichica e dell'intelligenza.",
+    "inClasse": [
+      "Se un bambino rovescia una sedia leggera, lascia che sia il rumore a correggerlo: impara a muoversi con più grazia.",
+      "Osserva in silenzio e annota cosa fanno i bambini quando sono liberi: solo così li conosci davvero."
+    ],
+    "attenzione": "La libertà ha un confine preciso: niente atti sgarbati o dannosi verso i compagni."
+  },
+  {
+    "titolo": "La scuola serena",
+    "breve": "Lombardo Radice vedeva l'educazione come un \"incontro di anime\", non come un metodo meccanico. L'insegnante accoglie l'esperienza del bambino e sollecita il suo impegno, in un clima sereno per alunni e docenti. Il dialetto, lingua di casa, è un ponte verso l'italiano.",
+    "inClasse": [
+      "Parti dalle parole che il bambino porta da casa e accompagnalo verso l'italiano corretto senza umiliarlo.",
+      "Proponi disegno spontaneo, canto e recitazione invece di far copiare modelli dalla lavagna."
+    ],
+    "attenzione": "Far cancellare a un bambino ciò che non è nel modello, come le squame del pesce di Lodi, spegne la creatività."
+  },
+  {
+    "titolo": "Testo libero e banchi a isole",
+    "breve": "Mario Lodi, cresciuto in una scuola di paura, capì leggendo la Costituzione che anche i bambini hanno diritto di esprimere il proprio pensiero. Tolse la cattedra, si sedette su una seggiolina come loro e adottò il metodo Freinet: testo libero e giornalino di classe.",
+    "inClasse": [
+      "Disponi i banchi a isole per favorire la cooperazione al posto della competizione.",
+      "Crea un giornalino di classe in cui i bambini raccontano liberamente la loro vita.",
+      "Parti da ciò che li incuriosisce: da un uccellino guardato fuori dalla finestra è nato il libro Cipì."
+    ]
+  },
+  {
+    "titolo": "Ognuno al suo passo, tutti insieme",
+    "breve": "Con il Piano di Winnetka, Washburne individualizzava lettura, scrittura e calcolo con materiali autocorrettivi e dedicava il resto a gruppo, teatro e musica. I programmi del 1945, nati sotto la sua guida, misero al centro il bambino attivo e la democrazia vissuta in classe.",
+    "inClasse": [
+      "Prepara schede autocorrettive: il bambino scopre e corregge da solo l'errore, senza attendere il tuo verdetto.",
+      "Usa le verifiche per capire quali lacune colmare, non solo per dare un voto.",
+      "Parti dall'esperienza: contare oggetti veri, misurare, simulare acquisti, studiare la storia della famiglia."
+    ]
+  },
+  {
+    "titolo": "Il gioco ha una lunga storia",
+    "breve": "Trottole e bambole compaiono già nelle tombe antiche. Rousseau, nell'Emilio, rese il gioco spontaneo essenziale per crescere; Froebel fondò i giardini d'infanzia con i suoi \"doni\" geometrici; Montessori creò materiali che uniscono il piacere del gioco all'apprendimento autonomo.",
+    "inClasse": [
+      "Usa materiali da manipolare, come incastri in legno, alfabeto mobile e lettere tattili, per imparare giocando.",
+      "Dai spazio all'esperienza diretta e al gioco spontaneo, non solo a lezioni fatte di parole."
+    ]
+  }
+]
