@@ -1267,11 +1267,12 @@ function vHome(verso = "su", pannello = 0){
 }
 
 /* giro guidato: mostra navigazione, anteprima, modifica e download; si salta quando si vuole */
+const conMouse = () => matchMedia("(hover:hover) and (pointer:fine)").matches;
 const GIRO = [
-  { sel:".sez-lista .sez", pan:0, t:"Ogni riquadro è una tappa del tuo profilo. Toccalo per compilarla: quando la completi, compare la spunta." },
-  { sel:"#h-continua", pan:0, t:"Continua ti porta dritto alla prossima domanda da compilare." },
-  { sel:".pal-wrap", pan:0, t:"Scorri di lato o tocca i pallini: dall'altra parte c'è l'anteprima del tuo PDF." },
-  { sel:".ant-corpo", pan:1, t:"Questa è l'anteprima: si riempie mentre scrivi. Tocca un testo o un'immagine per modificarli." },
+  { sel:".sez-lista .sez", pan:0, t:"Ogni riquadro è una tappa del tuo profilo. Toccalo per compilarla: quando la completi, compare la spunta.", pc:"Ogni riquadro è una tappa del tuo profilo. Cliccalo per compilarla: quando la completi, compare la spunta." },
+  { sel:"#h-continua", pan:0, t:"Questo pulsante ti porta dritto alla prossima domanda da compilare." },
+  { sel:".pal-wrap", pan:0, t:"Scorri di lato o tocca i pallini: dall'altra parte c'è l'anteprima del tuo PDF.", pc:"Usa le frecce o i pallini: dall'altra parte c'è l'anteprima del tuo PDF." },
+  { sel:".ant-corpo", pan:1, t:"Questa è l'anteprima: si riempie mentre scrivi. Tocca un testo o un'immagine per modificarli.", pc:"Questa è l'anteprima: si riempie mentre scrivi. Clicca un testo o un'immagine per modificarli." },
   { sel:".ant-piede", pan:1, t:"Quando ti piace, da qui scarichi il PDF o lo condividi." },
   { sel:".home-nav", pan:0, t:"Con il punto di domanda rivedi il tutorial. Se vuoi cancellare tutto, tocca il cestino: ti chiederemo conferma.", tl:"Con il punto di domanda rivedi il tutorial, con la freccia esci dal tuo profilo. Se vuoi cancellare tutto, tocca il cestino: ti chiederemo conferma.", to:"Con il punto di domanda rivedi il tutorial, con la freccia accedi con la matricola per salvare online. Se vuoi cancellare tutto, tocca il cestino: ti chiederemo conferma." }
 ];
@@ -1297,7 +1298,9 @@ function giroGuidato(sc, vai){
   const mostraPasso = () => {
     const passo = GIRO[i];
     $(".giro-n", g).textContent = `${i + 1} / ${GIRO.length}`;
-    $(".giro-t", g).textContent = (API && (S.utente ? passo.tl : passo.to)) || passo.t;
+    let testo = (API && (S.utente ? passo.tl : passo.to)) || passo.t;
+    if (conMouse()) testo = passo.pc || testo.replace("tocca il cestino", "clicca il cestino");
+    $(".giro-t", g).textContent = testo;
     $(".giro-avanti span", g).textContent = i === GIRO.length - 1 ? "Fine" : "Avanti";
     const attesa = passo.pan !== pan ? 500 : 0;
     if (attesa){ pan = passo.pan; vai(pan); }
@@ -1340,7 +1343,7 @@ function anteprima(){
       <div class="c-testata"><div><b>${String(z.n).padStart(2, "0")}</b><span>${esc(z.titolo)}</span></div><img src="${fotoSez(z.n)}" style="filter:url(#duo-${z.n})" alt=""></div>
       ${piene ? `<div class="c-testo">${corpo}</div>` : `<button class="c-vuota" data-vai="${z.n - 1}">Ancora vuota</button>`}</div>`;
   };
-  return `<p class="ant-nota">${ico("matita")} Tocca un testo o un'immagine per modificarli.</p><div class="carta" aria-label="Anteprima del PDF">
+  return `<p class="ant-nota">${ico("matita")} ${conMouse() ? "Clicca" : "Tocca"} un testo o un'immagine per modificarli.</p><div class="carta" aria-label="Anteprima del PDF">
     <div class="c-fascia"><button class="c-foto" data-img="foto" aria-label="Sistema la foto">${foto ? `<img src="${foto}" alt="">` : ""}</button>
       <div><div class="c-eti">${esc(TESTI.titolo)}</div><div class="c-nome ${nome ? "" : "segnaposto"}" data-k="nome" role="button" tabindex="0">${esc(nome || "Nome e cognome")}</div>
       <div class="c-anno" data-k="annoCorso" role="button" tabindex="0">${esc(anno ? anno + " · " + TESTI.sottotitolo : TESTI.sottotitolo)}</div>
