@@ -6,7 +6,7 @@ b64=lambda f: base64.b64encode(open(f,'rb').read()).decode()
 # caratteri dell'interfaccia incorporati: niente attesa del font
 s=re.sub(r'url\(assets/([\w-]+)\.woff2\)', lambda m: f'url(data:font/woff2;base64,{b64(f"{A}/{m.group(1)}.woff2")})', s)
 # illustrazioni incorporate: compaiono tutte insieme, anche con connessione lenta
-nomi=[f'f{i}' for i in range(1,8)]+[f'q{i}' for i in range(1,8)]+['t-libri','q-accesso','cassetta']
+nomi=[f'f{i}' for i in range(1,8)]+[f'q{i}' for i in range(1,8)]+['t-libri','t-maestra','q-accesso','cassetta']
 img=",".join(f'"{n}":"data:image/webp;base64,{b64(f"{A}/{n}.webp")}"' for n in nomi)
 assert '/*IMG*/' in s; s=s.replace('/*IMG*/', img)
 import os
