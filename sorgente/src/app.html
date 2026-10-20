@@ -33,6 +33,14 @@ input,textarea{caret-color:var(--deep)}
 button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:pointer}
 img{max-width:100%;display:block}
 h1,h2,h3{font-family:var(--f-titolo);font-weight:700;letter-spacing:-.02em;text-wrap:balance;margin:0}
+html{touch-action:pan-x pan-y}
+/* l'app resta in verticale: sui telefoni girati compare solo l'invito a raddrizzarlo */
+#verticale{display:none}
+@media (orientation:landscape) and (max-height:520px) and (pointer:coarse){
+  #verticale{display:flex;position:fixed;inset:0;z-index:999;background:var(--bg);flex-direction:column;align-items:center;justify-content:center;gap:14px;color:var(--ink);font-weight:600;text-align:center;padding:20px}
+  #verticale svg{width:56px;height:56px;stroke:currentColor;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;animation:raddrizza 1.6s var(--morbido) infinite}
+}
+@keyframes raddrizza{0%,20%{transform:rotate(-90deg)}60%,100%{transform:rotate(0)}}
 .icon{width:24px;height:24px;flex:none;stroke:currentColor;fill:none;stroke-width:2.1;stroke-linecap:round;stroke-linejoin:round}
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 .gut{padding-left:max(18px,env(safe-area-inset-left,0px));padding-right:max(18px,env(safe-area-inset-right,0px))}
@@ -636,6 +644,7 @@ button.cas-tit:active{transform:scale(.98)}
 
 <div id="stage"></div>
 <canvas id="coriandoli" aria-hidden="true"></canvas>
+<div id="verticale" role="alert"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="7" y="2.5" width="10" height="19" rx="2.2"/><path d="M11 18.5h2"/></svg>Gira il telefono in verticale</div>
 <input type="file" id="file-pick" accept="image/*" class="sr" tabindex="-1" aria-hidden="true">
 <div class="toast" id="toast" role="status"></div>
 
@@ -2183,6 +2192,9 @@ addEventListener("resize", chiudiTip);
 
 /* ===== Avvio ===== */
 filtriDuo();
+/* niente zoom con le dita (Safari) e app sempre in verticale quando è installata */
+document.addEventListener("gesturestart", e => e.preventDefault(), { passive:false });
+try { if (matchMedia("(display-mode: standalone)").matches && screen.orientation && screen.orientation.lock) screen.orientation.lock("portrait").catch(() => {}); } catch(e){}
 completaViste();
 const pronte = Object.values(IMG).map(u => { const im = new Image(); im.src = u; return im.decode ? im.decode().catch(() => {}) : null; });
 const libLibero = () => (window.requestIdleCallback || (f => setTimeout(f, 1)))(() => caricaLib(), { timeout: 4000 });
