@@ -1527,9 +1527,12 @@ const conMouse = () => matchMedia("(hover:hover) and (pointer:fine)").matches;
 const GIRO = [
   { sel:".sez-lista .sez", pan:0, t:"Ogni riquadro è una tappa del tuo profilo. Toccalo per compilarla: quando la completi, compare la spunta.", pc:"Ogni riquadro è una tappa del tuo profilo. Cliccalo per compilarla: quando la completi, compare la spunta." },
   { sel:"#h-continua", pan:0, t:"Questo pulsante ti porta dritto alla prossima domanda da compilare." },
-  { sel:".pal-wrap", pan:0, t:"Scorri di lato o tocca i pallini: dall'altra parte c'è l'anteprima del tuo PDF.", pc:"Usa le frecce o i pallini: dall'altra parte c'è l'anteprima del tuo PDF." },
+  { sel:".pal-wrap", pan:0, t:"Scorri di lato o tocca i pallini: trovi l'anteprima del tuo PDF e la cassetta degli attrezzi.", pc:"Usa le frecce o i pallini: trovi l'anteprima del tuo PDF e la cassetta degli attrezzi." },
   { sel:".ant-corpo", pan:1, t:"Questa è l'anteprima: si riempie mentre scrivi. Tocca un testo o un'immagine per modificarli.", pc:"Questa è l'anteprima: si riempie mentre scrivi. Clicca un testo o un'immagine per modificarli." },
   { sel:".ant-piede", pan:1, t:"Quando ti piace, da qui scarichi il PDF o lo condividi." },
+  { sel:".pannello:nth-child(3) .cas-lista .sez", pan:2, t:"La cassetta degli attrezzi raccoglie pillole per la tua didattica, divise per aree. Il numero ti dice quante ne hai già lette." },
+  { sel:".pannello:nth-child(3) .cas-pag", pan:2, t:"Le aree continuano nella pagina accanto: tocca qui o scorri di lato.", pc:"Le aree continuano nella pagina accanto: clicca qui o usa le frecce." },
+  { sel:".pannello:nth-child(3) [data-preferiti]", pan:2, t:"Con la stella salvi una pillola tra i preferiti. Tocca qui per ritrovarli tutti.", pc:"Con la stella salvi una pillola tra i preferiti. Clicca qui per ritrovarli tutti." },
   { sel:".home-nav", pan:0, t:"Con il punto di domanda rivedi il tutorial. Se vuoi cancellare tutto, tocca il cestino: ti chiederemo conferma.", tl:"Con il punto di domanda rivedi il tutorial, con la freccia esci dal tuo profilo. Se vuoi cancellare tutto, tocca il cestino: ti chiederemo conferma.", to:"Con il punto di domanda rivedi il tutorial, con la freccia accedi con la matricola per salvare online. Se vuoi cancellare tutto, tocca il cestino: ti chiederemo conferma." }
 ];
 function giroGuidato(sc, vai){
