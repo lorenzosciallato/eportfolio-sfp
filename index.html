@@ -2182,9 +2182,13 @@ async function generaPDF(modo = "scarica"){
         else { const H3 = 78, wb = CW * .62, ws = CW - wb - gap, hs = (H3 - gap) / 2; celle.push([M, 0, wb, H3], [M + wb + gap, 0, ws, hs], [M + wb + gap, hs + gap, ws, hs]); }
         let alt = Math.max(...celle.map(c => c[1] + c[3]));
         if (y + alt > BASSO){
-          /* se in fondo alla pagina c'è quasi abbastanza spazio, le foto si abbassano un po' invece di lasciare un vuoto */
+          /* se in fondo alla pagina c'è quasi abbastanza spazio, le foto si rimpiccioliscono un po' invece di lasciare un vuoto */
           const spazio = BASSO - y - 1;
-          if (spazio >= alt * .55){ const k = spazio / alt; celle.forEach(c => { c[1] *= k; c[3] *= k; }); alt = spazio; }
+          if (spazio >= alt * .55){
+            /* rimpicciolite in proporzione (stessa forma, niente tagli né schiacciamenti), centrate nella riga */
+            const k = spazio / alt, sposta = CW * (1 - k) / 2;
+            celle.forEach(c => { c[0] = M + sposta + (c[0] - M) * k; c[1] *= k; c[2] *= k; c[3] *= k; }); alt = spazio;
+          }
           else nuova();
         }
         for (let n = 0; n < celle.length; n++){
