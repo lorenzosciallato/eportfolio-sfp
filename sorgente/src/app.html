@@ -156,11 +156,22 @@ button.ill-foto img{width:100%;height:100%;object-fit:cover}
 .home-wrap > .testata{flex:none}
 .home-nav{flex:none;display:grid;grid-template-columns:1fr auto 1fr;align-items:center;padding-bottom:4px}
 .home-nav .link{padding:8px 10px;font-size:14px}
-.home-nav .nav-sx{justify-self:start;display:flex;gap:8px}.home-nav #h-azzera{justify-self:end}
+.home-nav .nav-sx{justify-self:start;display:flex;gap:8px}.home-nav #h-azzera{justify-self:end}.home-nav .nav-dx{justify-self:end;display:flex;gap:8px}
 .tondo-nav{width:42px;height:42px;margin-block:-3px;border-radius:50%;display:grid;place-items:center;color:var(--soft);background:var(--surface);box-shadow:0 1px 0 var(--line),0 6px 14px -10px rgba(29,27,38,.4);transition:transform .25s var(--molla),color .2s,background .2s}
 .tondo-nav .icon{width:21px;height:21px}
 .tondo-nav:hover{color:var(--ink);transform:translateY(-1px)}
 .tondo-nav:active{transform:scale(.94)}
+.tondo-nav.installa{background:var(--brand-deep);color:#fff;position:relative}
+.tondo-nav.installa:hover{color:#fff}
+.tondo-nav.installa::after{content:"";position:absolute;inset:-4px;border-radius:50%;border:2px solid var(--brand);opacity:0;animation:richiamo 2.6s ease-out 1.2s infinite}
+@keyframes richiamo{0%{opacity:.6;transform:scale(.9)}60%,100%{opacity:0;transform:scale(1.25)}}
+@media (prefers-reduced-motion:reduce){.tondo-nav.installa::after{display:none}}
+.inst-passi{margin:4px 0 0;padding:0;list-style:none;display:grid;gap:10px}
+.pop-corpo .inst-passi li{display:flex;align-items:center;gap:12px;padding:12px 14px;background:var(--bg);border-radius:14px;font-size:15.5px;line-height:1.4}
+.pop-corpo .inst-passi li::before{display:none}
+.inst-n{flex:none;width:24px;height:24px;border-radius:50%;background:var(--brand);color:#fff;font-weight:700;font-size:13px;display:grid;place-items:center}
+.inst-ico{flex:none;width:40px;height:40px;border-radius:12px;background:var(--surface);display:grid;place-items:center;color:var(--brand-deep);box-shadow:0 1px 0 var(--line)}
+.inst-ico .icon{width:22px;height:22px}
 .tondo-nav.pericolo:hover{color:#b42f25;background:#fbeceb}
 .tondo-nav.carica{pointer-events:none;opacity:.5}
 .pallini{display:flex;gap:2px;--p:0}
@@ -650,6 +661,7 @@ button.cas-tit:active{transform:scale(.98)}
 
 <svg width="0" height="0" style="position:absolute" aria-hidden="true">
   <symbol id="i-x" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></symbol>
+  <symbol id="i-installa" viewBox="0 0 24 24"><rect x="6" y="2.5" width="12" height="19" rx="2.4"/><path d="M12 7v7.5M8.8 11.5l3.2 3.2 3.2-3.2M10.5 18.5h3"/></symbol>
   <symbol id="i-stella" viewBox="0 0 24 24"><path d="M12 3.6l2.6 5.3 5.8.8-4.2 4.1 1 5.8-5.2-2.7-5.2 2.7 1-5.8-4.2-4.1 5.8-.8z"/></symbol>
   <symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"/></symbol>
   <symbol id="i-next" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
@@ -1465,7 +1477,7 @@ function vHome(verso = "su", pannello = 0){
         </div>
         <button class="freccia-pan" data-dir="1" aria-label="Pagina successiva" title="Avanti">${ico("next")}</button>
         </div>
-        <button class="tondo-nav pericolo" id="h-azzera" aria-label="Azzera: cancella tutto il profilo" title="Azzera">${ico("cestino")}</button>
+        <span class="nav-dx">${puoInstallare() ? `<button class="tondo-nav installa" id="h-installa" aria-label="Installa l'app sul telefono" title="Installa l'app">${ico("installa")}</button>` : ""}<button class="tondo-nav pericolo" id="h-azzera" aria-label="Azzera: cancella tutto il profilo" title="Azzera">${ico("cestino")}</button></span>
       </nav>
     </div>`, verso);
   requestAnimationFrame(() => requestAnimationFrame(() => sc.querySelectorAll(".barra i[data-w]").forEach(b => b.style.width = b.dataset.w + "%")));
@@ -1496,6 +1508,7 @@ function vHome(verso = "su", pannello = 0){
   $("#h-continua", sc).onclick = () => { const q = prossimoPasso(); vDomanda(q.s, q.p, "su"); };
   $("#h-pdf", sc).onclick = () => vai(1);
   $("#h-tutorial", sc).onclick = () => { S.visto.giro = false; vTutorial(0, "su"); };
+  const bInst = $("#h-installa", sc); if (bInst) bInst.onclick = installa;
   const esci = $("#h-esci", sc); if (esci) esci.onclick = async () => {
     if (!await chiedi("Vuoi uscire? Il tuo profilo resta salvato online e lo ritrovi con la matricola.", "Esci", "Annulla")) return;
     esci.classList.add("carica");
@@ -1533,7 +1546,7 @@ function vHome(verso = "su", pannello = 0){
 
 /* giro guidato: mostra navigazione, anteprima, modifica e download; si salta quando si vuole */
 const conMouse = () => matchMedia("(hover:hover) and (pointer:fine)").matches;
-const GIRO = [
+const GIRO_TUTTI = [
   { sel:".sez-lista .sez", pan:0, t:"Ogni riquadro è una tappa del tuo profilo. Toccalo per compilarla: quando la completi, compare la spunta.", pc:"Ogni riquadro è una tappa del tuo profilo. Cliccalo per compilarla: quando la completi, compare la spunta." },
   { sel:"#h-continua", pan:0, t:"Questo pulsante ti porta dritto alla prossima domanda da compilare." },
   { sel:".pal-wrap", pan:0, t:"Scorri di lato o tocca i pallini: trovi l'anteprima del tuo PDF e la cassetta degli attrezzi.", pc:"Usa le frecce o i pallini: trovi l'anteprima del tuo PDF e la cassetta degli attrezzi." },
@@ -1542,9 +1555,11 @@ const GIRO = [
   { sel:".pannello:nth-child(3) .cas-lista .sez", pan:2, t:"La cassetta degli attrezzi raccoglie pillole per la tua didattica, divise per aree. Il numero ti dice quante ne hai già lette." },
   { sel:".pannello:nth-child(3) .cas-pag", pan:2, t:"Le aree continuano nella pagina accanto: tocca qui o scorri di lato.", pc:"Le aree continuano nella pagina accanto: clicca qui o usa le frecce." },
   { sel:".pannello:nth-child(3) [data-preferiti]", pan:2, t:"Con la stella salvi una pillola tra i preferiti. Tocca qui per ritrovarli tutti.", pc:"Con la stella salvi una pillola tra i preferiti. Clicca qui per ritrovarli tutti." },
+  { sel:"#h-installa", pan:0, t:"Con questo pulsante installi l'app sul telefono: la ritrovi tra le tue app, senza aprire il browser." },
   { sel:".home-nav", pan:0, t:"Con il punto di domanda rivedi il tutorial. Se vuoi cancellare tutto, tocca il cestino: ti chiederemo conferma.", tl:"Con il punto di domanda rivedi il tutorial, con la freccia esci dal tuo profilo. Se vuoi cancellare tutto, tocca il cestino: ti chiederemo conferma.", to:"Con il punto di domanda rivedi il tutorial, con la freccia accedi con la matricola per salvare online. Se vuoi cancellare tutto, tocca il cestino: ti chiederemo conferma." }
 ];
 function giroGuidato(sc, vai){
+  const GIRO = GIRO_TUTTI.filter(p => $(p.sel, sc));
   const g = document.createElement("div"); g.className = "giro";
   g.innerHTML = `<div class="giro-luce"></div><div class="giro-bolla" role="dialog" aria-modal="true" aria-live="polite">
     <div class="giro-testa"><span class="giro-n"></span><button class="giro-x" aria-label="Chiudi la guida">${ico("x")}</button></div>
@@ -2192,6 +2207,21 @@ addEventListener("resize", chiudiTip);
 
 /* ===== Avvio ===== */
 filtriDuo();
+/* installare l'app: Chrome/Android offre la finestra di sistema, su iPhone si passa da Condividi */
+let invitoInstalla = null;
+const installata = () => matchMedia("(display-mode: standalone)").matches || navigator.standalone === true;
+const suIOS = () => /iPhone|iPad|iPod/.test(navigator.userAgent) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
+const puoInstallare = () => !installata() && !!(invitoInstalla || suIOS() || matchMedia("(pointer:coarse)").matches);
+addEventListener("beforeinstallprompt", e => { e.preventDefault(); invitoInstalla = e; if (scenaCorrente && $("#h-pannelli", scenaCorrente) && !$("#h-installa", scenaCorrente) && !document.querySelector(".giro")) vHome("nessuno", Math.round($("#h-pannelli", scenaCorrente).scrollLeft / Math.max(1, $("#h-pannelli", scenaCorrente).clientWidth))); });
+addEventListener("appinstalled", () => { invitoInstalla = null; document.querySelectorAll("#h-installa").forEach(b => b.remove()); });
+async function installa(){
+  if (invitoInstalla){ const e = invitoInstalla; e.prompt(); try { const r = await e.userChoice; if (r && r.outcome === "accepted"){ invitoInstalla = null; document.querySelectorAll("#h-installa").forEach(b => b.remove()); } } catch(x){} return; }
+  const passi = suIOS()
+    ? [["share", "Tocca il pulsante <b>Condividi</b> del browser, il quadrato con la freccia verso l'alto."], ["piu", "Scegli <b>Aggiungi alla schermata Home</b> e poi <b>Aggiungi</b>."]]
+    : [["menu", "Apri il menu del browser, i tre puntini in alto a destra."], ["piu", "Scegli <b>Installa app</b> oppure <b>Aggiungi a schermata Home</b>."]];
+  const segno = { share: `<svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 9H6.5A1.5 1.5 0 0 0 5 10.5v9A1.5 1.5 0 0 0 6.5 21h11a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 17.5 9H16M12 3v11M8.5 6.5L12 3l3.5 3.5"/></svg>`, menu: `<svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="5" r="1.4"/><circle cx="12" cy="12" r="1.4"/><circle cx="12" cy="19" r="1.4"/></svg>`, piu: ico("installa") };
+  finestra("Installa l'app", "installa", `<h2>Ritrovala tra le tue app</h2><ol class="inst-passi">${passi.map(([k, t], i) => `<li><span class="inst-n">${i + 1}</span><span class="inst-ico">${segno[k]}</span><span>${t}</span></li>`).join("")}</ol>`);
+}
 /* niente zoom con le dita (Safari) e app sempre in verticale quando è installata */
 document.addEventListener("gesturestart", e => e.preventDefault(), { passive:false });
 try { if (matchMedia("(display-mode: standalone)").matches && screen.orientation && screen.orientation.lock) screen.orientation.lock("portrait").catch(() => {}); } catch(e){}
