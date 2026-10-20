@@ -2210,12 +2210,6 @@ async function generaPDF(modo = "scarica"){
         const alto = lh(9.5) + 1 + v.split("\n").reduce((n, par) => n + Math.max(1, doc.splitTextToSize(par, CW - RIENTRO - (accanto() ? fl.w + STACCO : 0)).length), 0) * lh(10.5);
         serve(alto < 70 ? alto : lh(9.5) + lh(10.5) * 3);
         scrivi(p.titolo, { st:"bold", size:9.5, col:D2, dopo:1 });
-        if (accanto()){
-          doc.setFont("Testo","normal"); doc.setFontSize(10.5);
-          const strette = v.split("\n").reduce((n, par) => n + Math.max(1, doc.splitTextToSize(par, CW - RIENTRO - fl.w - STACCO).length), 0);
-          const fine = y + strette * lh(10.5);
-          if (fine > fl.fondo && fine - fl.fondo < lh(10.5) * 5) fl.fondo = fine + 1;
-        }
         barra = tinta; scrivi(v, { size:10.5, col:INK, dopo:0 }); barra = null; y += 6;
         if (fila) await metti(an);
       }
