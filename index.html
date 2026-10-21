@@ -155,6 +155,12 @@ button.ill-foto img{width:100%;height:100%;object-fit:cover}
 .acc-ill .ill-img{position:absolute;inset:4%;width:92%;height:92%;object-fit:contain}
 .accesso .tut-piede{gap:6px}
 .acc-ospite{justify-self:center}
+.tut-piede{gap:12px}
+.tut-piede .puntini{margin-bottom:6px}
+.gia-profilo{justify-self:center;font-size:15.5px;color:var(--soft);padding:8px 14px}
+.gia-profilo b{color:var(--brand);font-weight:700;margin-left:4px}
+@media (hover:hover){.gia-profilo:hover b{text-decoration:underline;text-underline-offset:3px}}
+@media (max-height:700px){.tut-piede .puntini{margin-bottom:0}.gia-profilo{padding:2px 14px;font-size:14.5px}.tut .tut-ill.piccola{width:min(84px,13dvh)}}
 @media(max-height:700px){.salva-online .tut-ill.piccola{width:min(84px,13dvh)}}
 .tut-nome{width:100%;font:inherit;font-size:17px;text-align:center;color:var(--ink);background:var(--surface);border:2px solid var(--line);border-radius:14px;padding:12px 14px}
 .tut-nome:focus{outline:none;border-color:var(--brand)}
@@ -1290,7 +1296,7 @@ function vTutorial(i, verso){
   const t = TUTORIAL[i], ultimo = i === TUTORIAL.length - 1;
   const sc = mostra(`
     <div class="tut gut">
-      <div class="tut-top">${i === 0 && !S.utente ? `<button class="link" id="gia">Ho già un profilo</button>` : "<span></span>"}<button class="link" id="salta">Salta</button></div>
+      <div class="tut-top"><span></span><button class="link" id="salta">Salta</button></div>
       <div class="tut-corpo anim-in">
         <div class="tut-ill ${t.ill === "foto" ? "piccola" : ""}" ${t.ill === "foto" ? "" : 'aria-hidden="true"'}>${illustrazione(t.ill)}</div>
         <h1>${esc(t.titolo)}</h1>
@@ -1304,6 +1310,7 @@ function vTutorial(i, verso){
       <div class="tut-piede">
         <div class="puntini" aria-label="${i+1} di ${TUTORIAL.length}">${TUTORIAL.map((_,k) => `<i class="${k === i ? "on" : ""}"></i>`).join("")}</div>
         <button class="btn brand" id="tut-avanti"><span>${ultimo ? "Inizia" : "Avanti"}</span> ${ico("next")}</button>
+        ${!S.utente && API ? `<button class="link gia-profilo" id="gia">Hai già un profilo? <b>Accedi</b></button>` : ""}
       </div>
     </div>`, verso);
   const IDX = TUTORIAL.findIndex(x => x.ill === "foto"), deciso = () => !!(S.utente || S.ospite);
@@ -1352,7 +1359,7 @@ function vTutorial(i, verso){
   };
   const vaiA = k => { if (k === i) return; if (k > IDX && i <= IDX && !deciso()) return i === IDX ? decidi(() => vTutorial(k, "dx")) : vTutorial(IDX, "dx"); vTutorial(k, k > i ? "dx" : "sx"); };
   $("#salta", sc).onclick = () => { if (deciso()) return fine(); if (i === IDX) return decidi(fine); vTutorial(IDX, "dx"); };
-  const gia = $("#gia", sc); if (gia) gia.onclick = () => vAccesso("dx", true);
+  const gia = $("#gia", sc); if (gia) gia.onclick = () => vAccesso("dx", i);
   $("#tut-avanti", sc).onclick = () => decidi(() => ultimo ? fine() : vTutorial(i + 1, "dx"));
   $(".puntini", sc).querySelectorAll("i").forEach((d,k) => { d.style.cursor = "pointer"; d.onclick = () => vaiA(k); });
   scorrimento(sc, () => { if (!ultimo) decidi(() => vTutorial(i + 1, "dx")); }, () => { if (i) vTutorial(i - 1, "sx"); });
@@ -1405,7 +1412,7 @@ function vAccesso(verso = "su", daTutorial){
     S.ospite = true; salva(true);
     if (S.visto.tutorial) vHome("su"); else vTutorial(0, "sx");
   };
-  const ind = $("#a-indietro", sc); if (ind) ind.onclick = () => daTutorial === "salva" ? vSalvaOnline("sx") : vTutorial(0, "sx");
+  const ind = $("#a-indietro", sc); if (ind) ind.onclick = () => daTutorial === "salva" ? vSalvaOnline("sx") : vTutorial(typeof daTutorial === "number" ? daTutorial : 0, "sx");
   if (matchMedia("(min-width:900px)").matches) setTimeout(() => campo.focus({ preventScroll:true }), 450);
   return sc;
 }
@@ -1425,7 +1432,7 @@ function vSalvaOnline(verso = "su"){
       </div>
       <div class="tut-piede">
         <button class="btn brand" id="so-salva"><span>Salva online</span> ${ico("next")}</button>
-        <button class="link acc-ospite" id="so-accedi">Hai già un account? <b>Accedi</b></button>
+        <button class="link gia-profilo" id="so-accedi">Hai già un profilo? <b>Accedi</b></button>
       </div>
     </div>`, verso);
   const campo = $("#t-matricola", sc), b = $("#so-salva", sc);
