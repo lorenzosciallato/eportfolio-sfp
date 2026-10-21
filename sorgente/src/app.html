@@ -1735,9 +1735,6 @@ function vDomanda(si, pi, verso = "dx"){
   sc.querySelectorAll("[data-togli]").forEach(b => b.onclick = () => { const [k, n] = b.dataset.togli.split(":"); if (k === "foto") delete S.img.foto; else lista(k).splice(+n, 1); (k === "foto" ? Promise.resolve() : aggiornaViste(k)).then(() => { salva(true); vDomanda(si, pi, "nessuno"); }); });
   sc.querySelectorAll("[data-modifica]").forEach(b => b.onclick = async () => { const [k, n] = b.dataset.modifica.split(":"); if (await sistema(k, +n || 0)){ salva(true); vDomanda(si, pi, "nessuno"); } });
   if (matchMedia("(min-width:900px)").matches){ const f = sc.querySelector("textarea, input[data-key]"); if (f) setTimeout(() => f.focus({ preventScroll:true }), 450); }
-  if (!S.visto.tipBarra) setTimeout(() => { if (scenaCorrente !== sc) return;
-    tip($("#q-barra", sc), TIP.barra, () => { S.visto.tipBarra = true; salva(true);
-      if (!S.visto.tipSalvato && scenaCorrente === sc) tip($("#q-salvato", sc), TIP.salvato, () => { S.visto.tipSalvato = true; salva(true); }); }); }, 900);
 }
 function corpoDomanda(p){
   if (p.tipo === "foto"){
