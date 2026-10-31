@@ -15,6 +15,7 @@ KNOWLES = "https://www.routledge.com/The-Adult-Learner-The-Definitive-Classic-in
 ESG = "https://acpua.aragon.es/sites/default/files/revised_esg_intro_june_2015_tl.pdf"
 RIVOLTELLA = "https://cris.unibo.it/handle/11585/966116"
 ROSSI = "https://static.francoangeli.it/fa-contenuti/area_pdfdemo/1096.1.7_demo.pdf"
+PIANO = "https://corsi.unimc.it/it/formazione-primaria/studiare/piano-di-studio-con-sbocchi-occupazionali_lm-85bis-a-a-24_25.pdf/@@download/file"
 
 def fonte(*coppie):
     return '<p class="fonte">Fonti: ' + " · ".join(f'<a href="{u}" target="_blank" rel="noopener">{t}</a>' for t, u in coppie) + "</p>"

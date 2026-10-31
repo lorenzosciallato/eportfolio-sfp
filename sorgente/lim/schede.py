@@ -141,6 +141,37 @@ S.append(f"""
 </ul>
 <p><b>Chiedere agli studenti di risolvere problemi causati da strumenti e scelte che non dipendono da loro è un paradosso.</b></p>""")
 
+# 13b · altre scelte organizzative (1/2)
+S.append(f"""
+<h2>Altre scelte organizzative · 1</h2>
+<div class="tre">
+ <div class="doc"><p class="doc-t">L'e-portfolio compilato di corsa</p>
+  <p>Invece di essere preparato con calma e in anticipo, a casa, l'e-portfolio viene fatto compilare in fretta in classe. E chi non finisce deve completarlo comunque a casa.</p>
+  <p><b>Se alla fine si completa a casa, che senso ha la compilazione affrettata in classe?</b></p></div>
+ <div class="doc"><p class="doc-t">Gli attestati sulla sicurezza</p>
+  <p>Su Teams, il 10 ottobre, gli studenti vengono pregati di non scrivere ai tutor: «Controllate i vostri attestati da soli perché non possiamo farlo per tutti voi».</p>
+  <p>Capire se un attestato è valido è una condizione per accedere al tirocinio: un aspetto organizzativo su cui gli studenti vengono lasciati soli, mentre il Codice Etico parla di «assistenza agli studenti» <b>(Art. 2 c. 2)</b>.</p></div>
+ <div class="doc"><p class="doc-t">Il corso sulla sicurezza</p>
+  <p>Perché non viene fatto svolgere nel secondo semestre del primo anno, invece di sovrapporlo all'avvio del tirocinio?</p>
+  <p>Un esempio concreto: alla mia richiesta di tirocinio, la scuola ha risposto che accoglierà <b>soltanto</b> le richieste di chi ha già completato la formazione sulla sicurezza di 12 ore. Senza attestato, il tirocinio non parte.</p></div>
+</div>
+{fonte(("Codice Etico UniMC", CODICE))}""")
+
+# 13c · altre scelte organizzative (2/2)
+S.append(f"""
+<h2>Altre scelte organizzative · 2</h2>
+<div class="punto"><p class="cit">Gli studenti lavoratori</p></div>
+<p>Agli studenti lavoratori è stato detto che <b>non sono permesse assenze</b> e che devono essere grati per i giorni di laboratorio al sabato.</p>
+<div class="due">
+ {regola("Piano di studio LM-85bis UniMC · laboratori e tirocinio",
+         "Per laboratori e tirocinio «è previsto un OBBLIGO DI FREQUENZA, pari al 70% del monte ore».",
+         "L'obbligo è del 70%: entro il restante 30% le assenze sono consentite. Dire che non sono permesse è un'informazione non corretta.")}
+ {regola("Carta dei diritti e dei doveri · Art. 1 comma 6",
+         "Tra le tutele previste anche per gli studenti lavoratori, l'Università «si impegna a rimuovere gli ostacoli nelle attività didattiche per il conseguimento dei titoli accademici».",
+         "Chi lavora per mantenersi agli studi va tutelato, non messo in difficoltà con regole più severe di quelle reali.")}
+</div>
+{fonte(("Piano di studio LM-85bis UniMC", PIANO), ("Carta dei diritti e dei doveri UniMC", CARTA))}""")
+
 # 14 · il tutor
 S.append(f"""
 <h2>Il paradosso del tutor</h2>
