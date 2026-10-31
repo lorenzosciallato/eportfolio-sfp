@@ -39,3 +39,7 @@
 #lim .regola .r-e{display:inline-block;font-weight:700;font-size:.78em;text-transform:uppercase;letter-spacing:.04em;background:#000;color:#fff;padding:.05em .45em;margin-right:.3em}
 #lim .regola .r-dove{font-size:.8em;color:#333;margin-top:-.3em}
 #lim .regola .cit{font-weight:600}
+#lim .tab{display:grid;grid-template-columns:1fr 1fr;border:2px solid #000;font-size:.92em}
+#lim .tab p{padding:.45em .8em;border-top:1px solid #000}
+#lim .tab p:nth-child(odd){border-right:2px solid #000}
+#lim .tab .th{border-top:0;background:#000;color:#fff;font-weight:700}
