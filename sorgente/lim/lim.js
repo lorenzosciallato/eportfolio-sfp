@@ -31,10 +31,24 @@
       const t = s.querySelector(".timbro-posto");
       if (t) t.innerHTML = `<div class="timbro">${typeof timbroSvg === "function" ? timbroSvg({ n:"lim" }) : ""}</div>`;
       if (typeof coriandoli === "function") setTimeout(coriandoli, 650);
-    }
+      musica(true);
+    } else musica(false);
     adatta(s);
     box.querySelector("#lim-n").textContent = `${i + 1} / ${N}`;
     box.querySelector("#lim-p").style.width = `${(i + 1) / N * 100}%`;
+  }
+  /* canzone di chiusura: assets/lim/canzone.mp3, se presente */
+  let audio = null;
+  function musica(su){
+    try {
+      if (su){
+        if (!audio){ audio = new Audio("assets/lim/canzone.mp3"); audio.preload = "auto"; }
+        audio.volume = 1; audio.currentTime = 0;
+        const pr = audio.play(); if (pr && pr.catch) pr.catch(() => {});
+      } else if (audio && !audio.paused){
+        const a = audio, giu = setInterval(() => { a.volume = Math.max(0, a.volume - .1); if (a.volume <= 0){ clearInterval(giu); a.pause(); } }, 60);
+      }
+    } catch(e){}
   }
   function vai(d){
     if (d < 0 && i === 0) return chiudi();            /* dalla prima scheda, indietro torna al sito */
@@ -58,7 +72,7 @@
     aperta = true; box.classList.add("on"); mostra();
     if (document.activeElement && document.activeElement.blur) document.activeElement.blur();
   }
-  function chiudi(){ aperta = false; if (box) box.classList.remove("on"); }
+  function chiudi(){ aperta = false; musica(false); if (box) box.classList.remove("on"); }
 
   addEventListener("keydown", e => {
     if (aperta){
