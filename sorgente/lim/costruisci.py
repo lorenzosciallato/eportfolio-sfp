@@ -46,7 +46,7 @@ def riscrivi(S, file):
         m = re.match(r"(S\d\d-\d\d) (.*)", riga.rstrip("\n"))
         if m: nuovo[m.group(1)] = m.group(2).strip()
     blocco = re.compile(r"<(p|li|h2)((?:\s[^>]*)?)>(.*?)</\1>", re.S)
-    grassetto = lambda t: re.sub(r"\((Artt?\. [^()]*|ESG [^()]*)\)", r"<b>(\1)</b>", t).replace("L'agire didattico", "<i>L'agire didattico</i>").replace("Iniziano i primi malumori…", "<b>Iniziano i primi malumori…</b>")
+    grassetto = lambda t: re.sub(r"\((Artt?\. [^()]*|ESG [^()]*)\)", r"<b>(\1)</b>", t).replace("L'agire didattico", "<i>L'agire didattico</i>").replace("Iniziano i primi malumori...", "Iniziano i primi malumori…").replace("Iniziano i primi malumori…", "<b>Iniziano i primi malumori…</b>")
     fuori = []
     for i, h in enumerate(S, 1):
         n = 0

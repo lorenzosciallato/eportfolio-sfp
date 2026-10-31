@@ -1,5 +1,5 @@
-S01-01 Le regole di cui parleremo
-S01-02 Tre testi fondamentali: ecco cosa sono e a chi si applicano.
+S01-01 I testi che ci riguardano
+S01-02 Tre documenti fondamentali. Ecco cosa sono e a chi si applicano.
 S01-03 La Costituzione italiana
 S01-04 La legge suprema dello Stato. Nessun regolamento può contraddirla. Ne citiamo due articoli:
 S01-05 art. 3, sull'uguaglianza: lo Stato deve rimuovere gli ostacoli economici e sociali che limitano la crescita delle persone;
@@ -12,38 +12,38 @@ S01-11 Adottato con Decreto Rettorale n. 254 del 7 maggio 2012, fissa i doveri d
 S01-12 Violazioni? Si segnalano alla Commissione di garanzia nominata dal Senato (Artt. 15–16).
 S02-01 15 ottobre 2026
 S02-02 Un colloquio introduttivo online illustra le attività del Tirocinio.
-S02-03 Si impone un computer connesso alla rete e si bandiscono i tablet. Il motivo? I computer manterrebbero meglio la connessione. Nessun criterio, nessuna verifica, nessun dato a sostegno. Nel frattempo, il Wi-Fi del Polo Bertelli malfunziona da anni.
+S02-03 Si impone un computer connesso alla rete e si bandiscono i tablet. Il motivo? I computer manterrebbero meglio la connessione. Nessun criterio tecnico, nessuna verifica, nessun dato a supporto. Intanto, il Wi-Fi del Polo Bertelli è instabile da anni.
 S02-04 Iniziano i primi malumori...
-S02-05 Domanda 1: L'Ateneo garantisce l'accesso alle strutture necessarie allo studio, e il Wi-Fi è una di queste. Perché un problema strutturale viene fatto pagare agli studenti con l'acquisto di un dispositivo non necessario, quando ne hanno già uno o le prove si possono svolgere su carta?
+S02-05 Domanda 1: L'Ateneo garantisce l'accesso alle strutture necessarie allo studio, e il Wi-Fi rientra tra queste. Perché un problema strutturale dell'Ateneo viene fatto pagare agli studenti, imponendo l'acquisto di un dispositivo non necessario, quando ne possiedono già uno o la prova si può svolgere su carta?
 S02-06 Carta dei diritti e dei doveri · Art. 2 comma 4
-S02-07 Gli studenti «hanno il diritto di accedere alle strutture dell'Ateneo necessarie al supporto dei propri studi».
-S02-08 La rete è una struttura di supporto. Se cede, è un problema dell'Ateneo. La soluzione non è far comprare un dispositivo agli studenti.
-S03-01 Domanda 2: In che modo insistere sull'acquisto di un dispositivo non rappresenta una discriminazione socioeconomica per studenti in larga misura non indipendenti economicamente?
+S02-07 Agli studenti viene riconosciuto «il diritto di accedere alle strutture dell'Ateneo necessarie al supporto dei propri studi».
+S02-08 La rete è una struttura di supporto. Quando cede, a cedere è un servizio dell'Ateneo. Curioso che il conto arrivi agli studenti.
+S03-01 Domanda 2: In che modo l'insistenza sull'acquisto di questi dispositivi non rappresenta una discriminazione socioeconomica per studenti che, in larga misura, non sono indipendenti economicamente?
 S03-02 Costituzione · art. 3 comma 2 e art. 34 comma 3
 S03-03 «È compito della Repubblica rimuovere gli ostacoli di ordine economico e sociale» · «I capaci e meritevoli, anche se privi di mezzi, hanno diritto di raggiungere i gradi più alti degli studi.»
-S03-04 La condizione economica non decide chi studia. Una spesa obbligatoria di centinaia di euro è un ostacolo economico.
+S03-04 La condizione economica non deve stabilire chi può studiare. Una spesa obbligatoria di centinaia di euro rappresenta, per definizione, un ostacolo economico.
 S03-05 Carta dei diritti e dei doveri · Art. 1 comma 6
 S03-06 Tutti hanno diritto ad accedere ai percorsi formativi «a prescindere dalle condizioni economiche e sociali».
-S03-07 L'Ateneo si impegna a non far pesare il reddito sullo studio.
+S03-07 L'Ateneo stesso si impegna a non far pesare il reddito sul percorso di studi.
 S03-08 Codice Etico · Art. 3 comma 2
 S03-09 L'Ateneo rifiuta le discriminazioni dirette e indirette basate, tra l'altro, su «condizioni personali e sociali» e su «la condizione economica».
-S03-10 Una regola uguale per tutti che pesa solo su chi non può pagare è una discriminazione indiretta.
+S03-10 Una regola identica per tutti che, nei fatti, pesa solo su chi non può permettersela. Si chiama discriminazione indiretta.
 S04-01 In una classe di tirocinio
 S04-02 Secondo quanto riferito da più studenti presenti, a una studentessa che non poteva permettersi un PC la tutor ha risposto con tono alterato, richiamando l'obbligo di attenersi all'autorità.
 S04-03 Codice Etico · Art. 3 comma 2
 S04-04 L'Ateneo rifiuta le discriminazioni basate su «la condizione economica».
-S04-05 Di fronte a un problema economico, il richiamo all'autorità non risolve: zittisce.
+S04-05 Davanti a un problema economico reale, il richiamo all'autorità non offre soluzioni. Serve a zittire chi lo pone.
 S04-06 Codice Etico · Art. 2 comma 1
 S04-07 Tutti i membri della comunità universitaria si devono «lealtà, collaborazione, rispetto reciproco, imparzialità».
-S04-08 Il dovere vale in entrambe le direzioni: anche per chi guida.
+S04-08 Il dovere è reciproco. Vincola anche chi ricopre un ruolo di guida.
 S06-01 28 ottobre 2026
-S06-02 Un post su Teams usa un linguaggio poco professionale e condiscendente, con un'emoticon inclusa. Alcuni studenti dubitano provenga davvero dalla professoressa.
-S06-03 Plot twist: proviene dalla professoressa.
-S06-04 Gli studenti non la prendono bene. Attribuire la mancata connessione alle «schifezze» sui loro PC scarica su di loro un disservizio strutturale che non hanno causato.
+S06-02 Un avviso su Teams usa un linguaggio poco professionale e condiscendente, corredato di emoticon. Alcuni studenti dubitano perfino che provenga dalla professoressa.
+S06-03 Plot twist: proviene proprio dalla professoressa.
+S06-04 Gli studenti non la prendono bene. Attribuire la mancata connessione alle «schifezze» sui loro PC significa scaricare su di loro un disservizio che non hanno causato.
 S06-05 Codice Etico · Art. 2 comma 1
 S06-06 Tutti i membri della comunità universitaria si devono «lealtà, collaborazione, rispetto reciproco, imparzialità».
-S06-07 Un avviso ufficiale è una comunicazione istituzionale. Dire che i PC degli studenti sono pieni di «schifezze» li accusa di un problema che è della rete.
-S06-08 Alcuni scrivono email per chiedere delucidazioni sul tono. E sulle motivazioni di una prova online quando è possibile farla su carta, considerati i problemi di connessione noti anche ai tutor.
+S06-07 Un avviso ufficiale è una comunicazione istituzionale. Accusare gli studenti di avere PC pieni di «schifezze» sposta su di loro la responsabilità di un problema di rete.
+S06-08 Alcuni studenti scrivono email per chiedere delucidazioni sul tono. E sulle ragioni di una prova online, quando sarebbe possibile svolgerla su carta, considerati problemi di connessione noti anche ai tutor.
 S07-01 Ecco un esempio di lettera:
 S08-01 Le nostre lettere rispettano la Carta dei diritti e dei doveri
 S08-02 Art. 1 comma 4 · Libertà espressiva
