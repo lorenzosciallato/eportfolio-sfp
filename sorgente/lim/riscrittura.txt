@@ -1,73 +1,73 @@
 S01-01 Le regole di cui parleremo
-S01-02 In queste schede citiamo tre testi fondamentali: ecco cosa sono e a chi si applicano.
+S01-02 Tre testi fondamentali: ecco cosa sono e a chi si applicano.
 S01-03 La Costituzione italiana
-S01-04 È la legge fondamentale dello Stato, a cui nessun regolamento può derogare. Ne citiamo due articoli:
+S01-04 La legge suprema dello Stato. Nessun regolamento può contraddirla. Ne citiamo due articoli:
 S01-05 art. 3, sull'uguaglianza: lo Stato deve rimuovere gli ostacoli economici e sociali che limitano la crescita delle persone;
 S01-06 art. 34, sul diritto allo studio: anche chi è privo di mezzi ha diritto di raggiungere i livelli più alti dell'istruzione.
 S01-07 La Carta dei diritti e dei doveri della Comunità Studentesca
-S01-08 Il documento di UniMC che sancisce i diritti e i doveri di chi studia. Approvato dal Senato Accademico il 25 marzo 2025, su proposta del Consiglio degli Studenti, ed emanato dal Rettore.
-S01-09 In caso di violazione, ci si può rivolgere al Garante degli Studenti; la decisione spetta al Senato Accademico (Art. 8).
+S01-08 Il documento di UniMC che elenca i diritti e i doveri di chi studia. Approvato dal Senato Accademico il 25 marzo 2025, su proposta del Consiglio degli Studenti, ed emanato dal Rettore.
+S01-09 Chi ne vede violato un articolo può rivolgersi al Garante degli Studenti; decide il Senato Accademico (Art. 8).
 S01-10 Il Codice Etico di Ateneo
-S01-11 Adottato con Decreto Rettorale n. 254 del 7 maggio 2012, definisce i doveri di «tutti gli appartenenti alla comunità accademica, quale che sia il loro status giuridico» (Art. 2 c. 1): docenti, tutor, personale e studenti.
-S01-12 Le violazioni si segnalano alla Commissione di garanzia nominata dal Senato (Artt. 15–16).
+S01-11 Adottato con Decreto Rettorale n. 254 del 7 maggio 2012, fissa i doveri di «tutti gli appartenenti alla comunità accademica, quale che sia il loro status giuridico» (Art. 2 c. 1): docenti, tutor, personale e studenti.
+S01-12 Violazioni? Si segnalano alla Commissione di garanzia nominata dal Senato (Artt. 15–16).
 S02-01 15 ottobre 2026
 S02-02 Un colloquio introduttivo online illustra le attività del Tirocinio.
-S02-03 Si comunica l'obbligo di un computer connesso alla rete e si bandiscono i tablet, che pure hanno le stesse funzionalità dei PC. Tutto questo mentre il Wi-Fi del Polo Bertelli soffre di un malfunzionamento strutturale da anni.
-S02-04 Iniziano i primi malumori…
-S02-05 Domanda 1: Perché un problema strutturale dell'Ateneo viene fatto pagare agli studenti, imponendo spese di centinaia di euro per un dispositivo non necessario, quando ne possiedono già uno o le prove si possono svolgere su carta?
+S02-03 Si impone un computer connesso alla rete e si bandiscono i tablet. Il motivo? I computer manterrebbero meglio la connessione. Nessun criterio, nessuna verifica, nessun dato a sostegno. Nel frattempo, il Wi-Fi del Polo Bertelli malfunziona da anni.
+S02-04 Iniziano i primi malumori...
+S02-05 Domanda 1: L'Ateneo garantisce l'accesso alle strutture necessarie allo studio, e il Wi-Fi è una di queste. Perché un problema strutturale viene fatto pagare agli studenti con l'acquisto di un dispositivo non necessario, quando ne hanno già uno o le prove si possono svolgere su carta?
 S02-06 Carta dei diritti e dei doveri · Art. 2 comma 4
 S02-07 Gli studenti «hanno il diritto di accedere alle strutture dell'Ateneo necessarie al supporto dei propri studi».
-S02-08 La rete è una struttura di supporto allo studio. Se non funziona, è un problema dell'Ateneo, che non può scaricarlo imponendo l'acquisto di nuovi dispositivi.
-S03-01 Domanda 2: In che modo l'insistenza ad acquistare questi dispositivi non rappresenta una discriminazione socioeconomica per studenti che, in larga misura, non sono economicamente indipendenti?
+S02-08 La rete è una struttura di supporto. Se cede, è un problema dell'Ateneo. La soluzione non è far comprare un dispositivo agli studenti.
+S03-01 Domanda 2: In che modo insistere sull'acquisto di un dispositivo non rappresenta una discriminazione socioeconomica per studenti in larga misura non indipendenti economicamente?
 S03-02 Costituzione · art. 3 comma 2 e art. 34 comma 3
 S03-03 «È compito della Repubblica rimuovere gli ostacoli di ordine economico e sociale» · «I capaci e meritevoli, anche se privi di mezzi, hanno diritto di raggiungere i gradi più alti degli studi.»
-S03-04 La condizione economica non deve determinare l'accesso allo studio. Una spesa obbligatoria di centinaia di euro è un ostacolo economico.
+S03-04 La condizione economica non decide chi studia. Una spesa obbligatoria di centinaia di euro è un ostacolo economico.
 S03-05 Carta dei diritti e dei doveri · Art. 1 comma 6
 S03-06 Tutti hanno diritto ad accedere ai percorsi formativi «a prescindere dalle condizioni economiche e sociali».
-S03-07 L'Ateneo si impegna a non far pesare il reddito sul percorso di studi.
+S03-07 L'Ateneo si impegna a non far pesare il reddito sullo studio.
 S03-08 Codice Etico · Art. 3 comma 2
 S03-09 L'Ateneo rifiuta le discriminazioni dirette e indirette basate, tra l'altro, su «condizioni personali e sociali» e su «la condizione economica».
-S03-10 Una regola apparentemente neutra che pesa solo su chi non può pagare è una discriminazione indiretta.
+S03-10 Una regola uguale per tutti che pesa solo su chi non può pagare è una discriminazione indiretta.
 S04-01 In una classe di tirocinio
-S04-02 Secondo quanto riferito da più studenti presenti, alla studentessa che non poteva permettersi un PC la tutor ha risposto con tono alterato, richiamando l'obbligo di attenersi all'autorità.
+S04-02 Secondo quanto riferito da più studenti presenti, a una studentessa che non poteva permettersi un PC la tutor ha risposto con tono alterato, richiamando l'obbligo di attenersi all'autorità.
 S04-03 Codice Etico · Art. 3 comma 2
 S04-04 L'Ateneo rifiuta le discriminazioni basate su «la condizione economica».
-S04-05 Di fronte a un problema economico reale, il richiamo all'autorità non offre soluzioni: zittisce chi lo pone.
+S04-05 Di fronte a un problema economico, il richiamo all'autorità non risolve: zittisce.
 S04-06 Codice Etico · Art. 2 comma 1
 S04-07 Tutti i membri della comunità universitaria si devono «lealtà, collaborazione, rispetto reciproco, imparzialità».
-S04-08 Il dovere è reciproco: vincola anche chi ricopre un ruolo di guida verso gli studenti.
+S04-08 Il dovere vale in entrambe le direzioni: anche per chi guida.
 S06-01 28 ottobre 2026
-S06-02 Un post su Teams usa un linguaggio poco professionale e condiscendente, corredato da un'emoticon, al punto che alcuni studenti dubitano provenga davvero dalla professoressa.
-S06-03 Plot twist: proviene effettivamente dalla professoressa.
-S06-04 Gli studenti non la prendono bene: attribuire la mancata connessione alle «schifezze» dei loro PC scarica su di loro un disservizio strutturale che non hanno causato.
+S06-02 Un post su Teams usa un linguaggio poco professionale e condiscendente, con un'emoticon inclusa. Alcuni studenti dubitano provenga davvero dalla professoressa.
+S06-03 Plot twist: proviene dalla professoressa.
+S06-04 Gli studenti non la prendono bene. Attribuire la mancata connessione alle «schifezze» sui loro PC scarica su di loro un disservizio strutturale che non hanno causato.
 S06-05 Codice Etico · Art. 2 comma 1
 S06-06 Tutti i membri della comunità universitaria si devono «lealtà, collaborazione, rispetto reciproco, imparzialità».
-S06-07 Un avviso ufficiale è una comunicazione istituzionale. Accusare gli studenti di avere PC pieni di «schifezze» sposta su di loro la responsabilità di un problema di rete.
-S06-08 Alcuni studenti scrivono email per chiedere delucidazioni sul tono e sulle ragioni di una prova online quando è possibile svolgerla su carta, considerati i problemi di connessione noti anche ai tutor.
+S06-07 Un avviso ufficiale è una comunicazione istituzionale. Dire che i PC degli studenti sono pieni di «schifezze» li accusa di un problema che è della rete.
+S06-08 Alcuni scrivono email per chiedere delucidazioni sul tono. E sulle motivazioni di una prova online quando è possibile farla su carta, considerati i problemi di connessione noti anche ai tutor.
 S07-01 Ecco un esempio di lettera:
-S08-01 Le nostre lettere rispettano pienamente la Carta dei diritti e dei doveri
+S08-01 Le nostre lettere rispettano la Carta dei diritti e dei doveri
 S08-02 Art. 1 comma 4 · Libertà espressiva
 S08-03 La Carta riconosce agli studenti «i diritti di partecipazione, di libertà espressiva e di autonomia culturale».
-S08-04 Chiedere spiegazioni a una tutor su toni e scelte organizzative è esercitare tale diritto.
+S08-04 Chiedere spiegazioni a una tutor su toni e scelte è esercitare questo diritto.
 S08-05 Art. 1 comma 5 · Spirito critico
 S08-06 «È richiesta costanza nell'applicazione, rigore nello studio, spirito critico, dedizione e curiosità scientifica».
-S08-07 Lo spirito critico non è solo tollerato: è un dovere richiesto agli studenti.
+S08-07 Lo spirito critico non è solo tollerato: è un dovere richiesto.
 S08-08 Art. 1 comma 14 · Rispetto reciproco
 S08-09 Gli studenti partecipano alla vita accademica condividendo «regole di civile convivenza e di rispetto reciproco».
-S08-10 Le lettere sono formali e motivate: chiedono chiarimenti senza attaccare le persone.
+S08-10 Le lettere sono formali: chiedono chiarimenti, non attaccano.
 S09-01 La risposta della professoressa alla mia domanda
 S11-01 Le problematiche oggettive
 S11-02 1«La parola schifezze, accompagnata da un'emoticon, era evidentemente una battuta»
-S11-03 La frase è in un avviso ufficiale rivolto a tutta la classe. Il Codice Etico impone «lealtà, collaborazione, rispetto reciproco, imparzialità» (Art. 2 c. 1). Una battuta che attribuisce agli studenti un problema di rete non rispetta questo dovere; definirla tale non ne attenua l'effetto.
+S11-03 La frase è in un avviso ufficiale per tutta la classe. Il Codice Etico impone «lealtà, collaborazione, rispetto reciproco, imparzialità» (Art. 2 c. 1). Una battuta che attribuisce agli studenti un problema di rete non rispetta questo dovere. Chiamarla battuta non ne attenua l'effetto.
 S11-04 2«Credo anche che lei debba rispettare le scelte assunte dai docenti e dai tutor»
 S11-05 Chiedere chiarimenti su una scelta organizzativa non è mancanza di rispetto. La Carta riconosce la «libertà espressiva» (Art. 1 c. 4) e richiede «spirito critico» (Art. 1 c. 5). Rispettare l'istituzione significa porre domande nei modi e nei canali corretti, come è stato fatto.
 S12-01 Le problematiche oggettive
 S12-02 3«Quello che avete imparato a didattica non vale evidentemente per degli adulti, ma per classi di bambini»
-S12-03 La Didattica Generale non è una materia "per bambini": è il sapere su come progettare e condurre qualsiasi processo di insegnamento-apprendimento, incluso il tirocinio universitario.
+S12-03 La Didattica Generale non è una materia "per bambini". È il sapere su come progettare e condurre qualsiasi processo di insegnamento-apprendimento, incluso il tirocinio universitario.
 S12-04 Codice Etico · Art. 2 comma 2
 S12-05 A professori e ricercatori sono affidati «i compiti didattici e di assistenza agli studenti», da svolgere con diligenza.
-S12-06 Anche l'attività universitaria va progettata con cura: è un dovere per chi insegna, non una scelta.
-S12-07 Il tirocinio serve a mettere in pratica la didattica studiata. Se chi ci accompagna ne nega il valore, nega il senso stesso del percorso e del proprio ruolo.
+S12-06 Anche l'attività universitaria va progettata con cura: è un dovere, non una scelta.
+S12-07 Il tirocinio mette in pratica la didattica che studiamo. Se chi ci accompagna ne nega il valore, nega il senso del percorso e del proprio ruolo.
 S13-01 Le problematiche oggettive
 S13-02 3Perché quell'affermazione non regge
 S13-03 Lo insegna la didattica studiata. Pier Giuseppe Rossi, docente di UniMC e coautore de L'agire didattico, definisce la progettazione un'azione simulata: «il docente mentre progetta immagina mentalmente come evolverà il sistema-classe».
@@ -78,51 +78,51 @@ S13-07 La prova online andava simulata nel luogo di svolgimento.
 S13-08 Analizzare il contesto d'azione.
 S13-09 Il contesto è il Polo Bertelli, con una rete instabile da anni.
 S13-10 Prevedere gli imprevisti prevedibili.
-S13-11 Una rete inaffidabile non è un imprevisto, ma un dato noto anche ai tutor.
+S13-11 Una rete inaffidabile non è un imprevisto, è un dato noto anche ai tutor.
 S13-12 Pensare un piano B in anticipo.
 S13-13 Il piano B esisteva già: la prova su carta.
 S14-01 Le problematiche oggettive
 S14-02 3Perché quell'affermazione non regge
-S14-03 Un esempio: un professore scrive alla lavagna 2 + 2 = 5 e pretende obbedienza. Chi alza la mano non gli manca di rispetto: sta facendo matematica.
-S14-04 Allo stesso modo, chiedere una prova progettata secondo tali principi significa applicare ciò che il corso insegna, e che l'Ateneo è tenuto a rispettare secondo gli standard europei di qualità e la Carta.
+S14-03 Un professore scrive 2 + 2 = 5 alla lavagna e pretende obbedienza. Chi alza la mano non gli manca di rispetto: sta facendo matematica.
+S14-04 Chiedere una prova progettata secondo i principi studiati significa applicare ciò che il corso insegna. Principi che l'Ateneo è tenuto a rispettare per gli standard europei di qualità e per la Carta.
 S14-05 Standard europei di qualità (ESG 2015) · standard 1.3
 S14-06 Le istituzioni devono garantire che i corsi siano erogati in modo da incoraggiare gli studenti ad assumere un ruolo attivo (traduzione nostra).
-S14-07 Sono gli standard di valutazione della qualità delle università europee, Italia compresa. Chiedere spiegazioni è un comportamento attivo.
+S14-07 Sono gli standard che valutano la qualità delle università europee, Italia compresa. Chiedere spiegazioni è un comportamento attivo.
 S14-08 Carta dei diritti e dei doveri · Art. 2 comma 14
 S14-09 «I risultati delle schede di valutazione devono essere utilizzati per vigilare sul rispetto della presente Carta.»
-S14-10 La qualità didattica non è casuale: è valutata dagli studenti e l'Ateneo deve considerarne i risultati.
+S14-10 La qualità didattica non è casuale: la valutano gli studenti e l'Ateneo deve tenerne conto.
 S15-01 Le problematiche oggettive
 S15-02 4«Siete voi a dovervi abituare a risolvere i problemi tecnici che incontrerete»
-S15-03 I problemi tecnici di queste settimane derivano da scelte organizzative, non dal caso:
+S15-03 I problemi tecnici non nascono dal caso, ma da scelte organizzative:
 S15-04 la rete Wi-Fi del Polo Bertelli, instabile da anni e nota ai tutor;
-S15-05 lo strumento per generare il PDF, difettoso: taglia il testo oltre le due frasi e richiede di scaricare un file HTML, generare il PDF e inviarlo a un link;
-S15-06 Panquiz usato con licenza gratuita: esauriti gli accessi, decine di studenti sono rimasti esclusi.
-S15-07 Chiedere agli studenti di risolvere problemi causati da scelte e strumenti altrui è un paradosso.
+S15-05 lo strumento per generare il PDF, difettoso: taglia il testo oltre le due frasi e richiede di scaricare un file HTML, generare il PDF e mandarlo a un link;
+S15-06 Panquiz usato con licenza gratuita: finiti gli accessi, decine di studenti sono rimasti fuori.
+S15-07 Chiedere agli studenti di risolvere problemi causati da strumenti e scelte altrui è un paradosso.
 S16-01 Altre scelte organizzative · 1
 S16-02 L'e-portfolio compilato di corsa
-S16-03 L'e-portfolio, invece di essere preparato con calma a casa, viene compilato in fretta in classe. Chi non finisce deve completarlo comunque a casa.
-S16-04 Se va completato a casa, che senso ha la compilazione affrettata in classe?
+S16-03 Invece di prepararlo con calma a casa, l'e-portfolio si compila in fretta in classe. Chi non finisce, lo completa a casa.
+S16-04 Se va completato a casa, che senso ha la corsa in classe?
 S16-05 Gli attestati sulla sicurezza
-S16-06 Su Teams, il 10 ottobre, si chiede agli studenti di non contattare i tutor: «Controllate i vostri attestati da soli perché non possiamo farlo per tutti voi».
-S16-07 La validità dell'attestato è condizione per il tirocinio, un aspetto in cui gli studenti sono lasciati soli, nonostante il Codice Etico preveda l'«assistenza agli studenti» (Art. 2 c. 2).
+S16-06 Su Teams, il 10 ottobre, si chiede di non contattare i tutor: «Controllate i vostri attestati da soli perché non possiamo farlo per tutti voi».
+S16-07 La validità dell'attestato condiziona il tirocinio. Un aspetto in cui gli studenti sono lasciati soli, mentre il Codice Etico prevede l'«assistenza agli studenti» (Art. 2 c. 2).
 S16-08 Il corso sulla sicurezza
 S16-09 Perché non si svolge nel secondo semestre del primo anno, anziché sovrapporsi all'avvio del tirocinio?
-S16-10 Un caso concreto: la scuola accoglie solo chi ha completato la formazione sulla sicurezza di 12 ore. Senza attestato, il tirocinio non inizia.
+S16-10 Un caso concreto: la scuola accoglie solo chi ha completato la formazione di 12 ore. Senza attestato, il tirocinio non parte.
 S17-01 Altre scelte organizzative · 2
 S17-02 Gli studenti lavoratori
-S17-03 Agli studenti lavoratori viene detto che le assenze non sono permesse e che devono essere grati per i laboratori al sabato.
+S17-03 Agli studenti lavoratori viene detto che non sono permesse assenze e che devono essere grati per i sabati di laboratorio.
 S17-04 Piano di studio LM-85bis UniMC · laboratori e tirocinio
 S17-05 Per laboratori e tirocinio «è previsto un OBBLIGO DI FREQUENZA, pari al 70% del monte ore».
-S17-06 Con un obbligo del 70%, il restante 30% consente assenze. Affermare il contrario è un'informazione errata.
+S17-06 Con un obbligo del 70%, il restante 30% consente assenze. Dire il contrario è un'informazione errata.
 S17-07 Carta dei diritti e dei doveri · Art. 1 comma 6
 S17-08 L'Università «si impegna a rimuovere gli ostacoli nelle attività didattiche per il conseguimento dei titoli accademici», anche per gli studenti lavoratori.
-S17-09 Chi studia e lavora va tutelato, non gravato di regole più rigide di quelle previste.
+S17-09 Chi lavora per mantenersi agli studi va tutelato, non caricato di regole più severe del reale.
 S18-01 Il paradosso del tutor
-S18-02 Tutor deriva dal latino tutor, «tutore, guardiano», dal verbo tueri: proteggere, sorvegliare. Ha la stessa radice di tutela.
+S18-02 Tutor deriva dal latino tutor, «tutore, guardiano», dal verbo tueri: proteggere, sorvegliare. Stessa radice di tutela.
 S18-03 Codice Etico · Art. 2 comma 2
 S18-04 A professori e ricercatori sono affidati, tra gli altri, «i compiti didattici e di assistenza agli studenti».
-S18-05 Per il Codice Etico, l'assistenza agli studenti è parte integrante del ruolo docente, non una concessione.
-S18-06 Lasciare gli studenti soli di fronte a problemi organizzativi capovolge il senso stesso del termine.
+S18-05 Per il Codice Etico, l'assistenza è parte del ruolo. Non è una concessione.
+S18-06 Lasciare gli studenti soli davanti a problemi creati dall'organizzazione rovescia il senso stesso della parola.
 S19-01 La mia controrisposta
 S20-01 Il comunicato su Teams
 S21-01 La mia risposta
@@ -132,12 +132,12 @@ S23-02 «Fate controllare i vostri PC e ripuliteli da tutte le schifezze!»
 S23-03 Teams, 28 ottobre
 S23-04 Codice Etico · Art. 2 c. 1
 S23-05 «lealtà, collaborazione, rispetto reciproco, imparzialità»
-S23-06 Un problema di rete presentato come colpa degli studenti in un avviso ufficiale.
+S23-06 Un problema di rete scaricato sugli studenti in un avviso ufficiale.
 S23-07 «Credo anche che lei debba rispettare le scelte assunte dai docenti e dai tutor»
 S23-08 email, 29 ottobre
 S23-09 Carta · Art. 1 c. 4 e c. 5
 S23-10 «libertà espressiva» · «spirito critico»
-S23-11 Una richiesta di chiarimento trattata come mancanza di rispetto, mentre la Carta la configura come diritto e dovere.
+S23-11 Una richiesta di chiarimento trattata come mancanza di rispetto, mentre la Carta la riconosce come diritto e la chiede come dovere.
 S23-12 Obbligo di un PC e di una prova online su una rete instabile
 S23-13 15 e 28 ottobre
 S23-14 Carta · Art. 2 c. 4
@@ -153,29 +153,29 @@ S24-07 «Molti di voi non comprendono evidentemente né le battute, né il lingu
 S24-08 Teams, 29 ottobre
 S24-09 Codice Etico · Art. 2 c. 1
 S24-10 «rispetto reciproco»
-S24-11 Chi chiede chiarimenti viene descritto pubblicamente come incapace di comprendere.
+S24-11 Chi chiede chiarimenti viene descritto in pubblico come incapace di capire.
 S24-12 «Speriamo di non proseguire il semestre in polemiche»
 S24-13 Teams, 29 ottobre
 S24-14 Carta · Art. 1 c. 4 · Art. 8 c. 3
 S24-15 «libertà espressiva» · diritto di segnalare le violazioni al Garante degli Studenti
-S24-16 Le domande degli studenti vengono definite «polemiche», mentre la Carta le riconosce come diritto.
+S24-16 Le domande degli studenti diventano «polemiche», ma per la Carta sono un diritto.
 S25-01 Cosa possono fare gli studenti · a chi rivolgersi
 S25-02 Garante degli Studenti
-S25-03 Figura prevista dalla Carta per le violazioni. Ogni studente può segnalare (Art. 8 c. 3). Opera «in piena indipendenza di giudizio e di valutazione» ed è tenuto alla riservatezza; decide il Senato Accademico (Art. 8 c. 2).
+S25-03 Figura prevista dalla Carta per le sue violazioni. Ogni studente può segnalare (Art. 8 c. 3). Opera «in piena indipendenza di giudizio e di valutazione» ed è tenuto alla riservatezza; decide il Senato Accademico (Art. 8 c. 2).
 S25-04 Commissione di garanzia del Codice Etico
-S25-05 Cinque membri nominati dal Senato. «Riceve le segnalazioni delle infrazioni e propone al Rettore» i provvedimenti (Art. 15 c. 5). Richiede segnalazioni scritte e firmate, escludendo le anonime (Art. 16). La persona segnalata ha diritto di difesa e audizione.
+S25-05 Cinque membri nominati dal Senato. «Riceve le segnalazioni delle infrazioni e propone al Rettore» i provvedimenti (Art. 15 c. 5). Richiede segnalazioni scritte e firmate, escludendo le anonime (Art. 16). L'interessato ha diritto di difesa e audizione.
 S25-06 Presidio della Qualità
-S25-07 Riceve segnalazioni tramite il modulo online «Segnalazioni e reclami» (sito UniMC, sezione Qualità). Risponde entro 35 giorni e garantisce l'anonimato nell'inoltro; per la didattica inoltra al Direttore di Dipartimento.
+S25-07 Riceve segnalazioni col modulo online «Segnalazioni e reclami» (sito UniMC, sezione Qualità). Risponde entro 35 giorni e tutela l'anonimato; per la didattica inoltra al Direttore di Dipartimento.
 S25-08 Direttore di Dipartimento
-S25-09 Secondo le linee guida, gestisce le segnalazioni sulla didattica, sentiti il Presidente del corso e la persona interessata.
+S25-09 Secondo le linee guida, gestisce le segnalazioni sulla didattica, sentiti il Presidente del corso e l'interessato.
 S25-10 Presidente del Consiglio degli Studenti e mozioni
 S25-11 I rappresentanti partecipano «attivamente agli organi e alle commissioni dell'Università» (Carta, Art. 5 c. 5) e possono presentare mozioni per sollevare il problema.
 S26-01 Cosa possono fare gli studenti · cosa succede dopo
-S26-02 Accertata una violazione del Codice Etico, il Senato Accademico, su proposta del Rettore, può adottare questi provvedimenti in proporzione alla gravità (Art. 16 c. 10):
+S26-02 Accertata una violazione del Codice Etico, il Senato Accademico, su proposta del Rettore, può adottare in proporzione alla gravità (Art. 16 c. 10):
 S26-03 richiamo formale;
 S26-04 richiamo formale con deposito degli atti nel fascicolo e segnalazione alla comunità universitaria;
 S26-05 esclusione dalla ripartizione dei fondi di ricerca, fino a tre anni;
 S26-06 esclusione dalle cariche accademiche o su nomina del Rettore, fino a tre anni.
-S26-07 Se il fatto costituisce anche illecito disciplinare, la Commissione trasmette gli atti al Rettore per il relativo procedimento (Art. 17).
-S26-08 Per la Carta, i risultati delle schede di valutazione «devono essere utilizzati per vigilare sul rispetto della presente Carta» (Art. 2 c. 14): compilarle con cura è già una forma di segnalazione.
+S26-07 Se è anche illecito disciplinare, la Commissione trasmette gli atti al Rettore per il relativo procedimento (Art. 17).
+S26-08 Per la Carta, i risultati delle schede di valutazione «devono essere utilizzati per vigilare sul rispetto della presente Carta» (Art. 2 c. 14): compilarle è già segnalare.
 S27-01 Grazie e Arrivederci
