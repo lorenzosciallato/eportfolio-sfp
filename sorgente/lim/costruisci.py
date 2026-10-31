@@ -79,6 +79,9 @@ def riscrivi(S, file):
 
 if os.path.exists(os.path.join(qui, "riscrittura.txt")):
     S = riscrivi(S, os.path.join(qui, "riscrittura.txt"))
+# versione definitiva dei testi (dopo le riscritture): se esiste, comanda lei
+if os.path.exists(os.path.join(qui, "schede_finali.json")):
+    S = json.load(open(os.path.join(qui, "schede_finali.json"), encoding="utf-8"))
 css = open(os.path.join(qui, "lim.css")).read()
 js = open(os.path.join(qui, "lim.js")).read()
 dati = json.dumps(S, ensure_ascii=False).replace("</", "<\\/")
