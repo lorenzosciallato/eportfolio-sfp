@@ -93,18 +93,18 @@ S14-09 «I risultati delle schede di valutazione devono essere utilizzati per vi
 S14-10 La qualità della didattica non si improvvisa. Gli studenti la valutano, e l'Ateneo ha il dovere di ascoltare.
 S15-01 Le problematiche oggettive
 S15-02 4«Siete voi a dovervi abituare a risolvere i problemi tecnici che incontrerete»
-S15-03 I problemi tecnici non nascono dal caso, ma da scelte organizzative:
-S15-04 la rete Wi-Fi del Polo Bertelli, instabile da anni e nota ai tutor;
+S15-03 I problemi tecnici di queste settimane non sono imprevisti atmosferici. Sono il risultato di scelte organizzative precise:
+S15-04 la rete Wi-Fi del Polo Bertelli, instabile da anni e nota a chi organizza;
 S15-05 lo strumento per generare il PDF, difettoso: taglia il testo oltre le due frasi e richiede di scaricare un file HTML, generare il PDF e mandarlo a un link;
 S15-06 Panquiz usato con licenza gratuita: finiti gli accessi, decine di studenti sono rimasti fuori.
-S15-07 Chiedere agli studenti di risolvere problemi causati da strumenti e scelte altrui è un paradosso.
+S15-07 Chiedere agli studenti di risolvere problemi causati da strumenti e scelte altrui. Un paradosso, appunto.
 S16-01 Altre scelte organizzative · 1
 S16-02 L'e-portfolio compilato di corsa
 S16-03 Invece di prepararlo con calma a casa, l'e-portfolio si compila in fretta in classe. Chi non finisce, lo completa a casa.
-S16-04 Se va completato a casa, che senso ha la corsa in classe?
+S16-04 Se il lavoro deve comunque finire a casa, la corsa in classe a cosa serve? Un mistero organizzativo.
 S16-05 Gli attestati sulla sicurezza
 S16-06 Su Teams, il 10 ottobre, si chiede di non contattare i tutor: «Controllate i vostri attestati da soli perché non possiamo farlo per tutti voi».
-S16-07 La validità dell'attestato condiziona il tirocinio. Un aspetto in cui gli studenti sono lasciati soli, mentre il Codice Etico prevede l'«assistenza agli studenti» (Art. 2 c. 2).
+S16-07 La validità dell'attestato condiziona l'avvio del tirocinio. Gli studenti vengono lasciati soli, proprio dove il Codice Etico prevede l'«assistenza agli studenti» (Art. 2 c. 2).
 S16-08 Il corso sulla sicurezza
 S16-09 Perché non si svolge nel secondo semestre del primo anno, anziché sovrapporsi all'avvio del tirocinio?
 S16-10 Un caso concreto: la scuola accoglie solo chi ha completato la formazione di 12 ore. Senza attestato, il tirocinio non parte.
@@ -113,16 +113,16 @@ S17-02 Gli studenti lavoratori
 S17-03 Agli studenti lavoratori viene detto che non sono permesse assenze e che devono essere grati per i sabati di laboratorio.
 S17-04 Piano di studio LM-85bis UniMC · laboratori e tirocinio
 S17-05 Per laboratori e tirocinio «è previsto un OBBLIGO DI FREQUENZA, pari al 70% del monte ore».
-S17-06 Con un obbligo del 70%, il restante 30% consente assenze. Dire il contrario è un'informazione errata.
+S17-06 Se l'obbligo è del 70%, il restante 30% è per definizione disponibile. Affermare il contrario è un'informazione errata.
 S17-07 Carta dei diritti e dei doveri · Art. 1 comma 6
 S17-08 L'Università «si impegna a rimuovere gli ostacoli nelle attività didattiche per il conseguimento dei titoli accademici», anche per gli studenti lavoratori.
-S17-09 Chi lavora per mantenersi agli studi va tutelato, non caricato di regole più severe del reale.
+S17-09 Chi studia e lavora andrebbe tutelato. Non caricato di regole più rigide di quelle reali.
 S18-01 Il paradosso del tutor
 S18-02 Tutor deriva dal latino tutor, «tutore, guardiano», dal verbo tueri: proteggere, sorvegliare. Stessa radice di tutela.
 S18-03 Codice Etico · Art. 2 comma 2
 S18-04 A professori e ricercatori sono affidati, tra gli altri, «i compiti didattici e di assistenza agli studenti».
-S18-05 Per il Codice Etico, l'assistenza è parte del ruolo. Non è una concessione.
-S18-06 Lasciare gli studenti soli davanti a problemi creati dall'organizzazione rovescia il senso stesso della parola.
+S18-05 L'assistenza non è una concessione. È un dovere scritto nel Codice Etico.
+S18-06 Lasciare gli studenti soli davanti a problemi creati dall'organizzazione capovolge il significato stesso della parola. Un tutor, per definizione, dovrebbe essere un tutore.
 S19-01 La mia controrisposta
 S20-01 Il comunicato su Teams
 S21-01 La mia risposta
