@@ -47,3 +47,6 @@
 #lim .tab.loro p:nth-child(odd):not(.th){font-weight:400;font-style:italic}
 #lim .tab.loro p .chi{display:block;font-style:normal;font-weight:700;font-size:.82em;margin-bottom:.15em}
 #lim .sotto{font-size:.9em;margin-top:-.6em}
+#lim .dom ul{margin-top:.4em;gap:.45em}
+#lim .anafora{display:grid;gap:.55em;border-left:6px solid #000;padding-left:.9em}
+#lim .anafora b{font-weight:800}
