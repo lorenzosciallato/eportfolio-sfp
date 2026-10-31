@@ -43,3 +43,4 @@
 #lim .tab p{padding:.45em .8em;border-top:1px solid #000}
 #lim .tab p:nth-child(odd){border-right:2px solid #000}
 #lim .tab .th{border-top:0;background:#000;color:#fff;font-weight:700}
+#lim .tab p:nth-child(odd):not(.th){font-weight:600}

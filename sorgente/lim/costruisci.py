@@ -38,6 +38,47 @@ def contesta(frase, dove, norma, testo, perche):
             f'<p class="r-t">{norma}</p><p>{testo}</p><p><span class="r-e">Il problema</span> {perche}</p></div>')
 
 exec(open(os.path.join(qui, "schede.py")).read())
+
+# testi riscritti (riscrittura.txt: una riga per codice, es. "S02-03 testo"): sostituiscono quelli di schede.py
+def riscrivi(S, file):
+    nuovo = {}
+    for riga in open(file, encoding="utf-8"):
+        m = re.match(r"(S\d\d-\d\d) (.*)", riga.rstrip("\n"))
+        if m: nuovo[m.group(1)] = m.group(2).strip()
+    blocco = re.compile(r"<(p|li|h2)((?:\s[^>]*)?)>(.*?)</\1>", re.S)
+    grassetto = lambda t: re.sub(r"\((Artt?\. [^()]*|ESG [^()]*)\)", r"<b>(\1)</b>", t).replace("L'agire didattico", "<i>L'agire didattico</i>").replace("Iniziano i primi malumori…", "<b>Iniziano i primi malumori…</b>")
+    fuori = []
+    for i, h in enumerate(S, 1):
+        n = 0
+        def sost(m):
+            nonlocal n
+            tag, attr, dentro = m.groups()
+            if 'class="fonte"' in attr: return m.group(0)
+            if 'class="fig"' in h and tag != "h2": return m.group(0)
+            if 'fine-lim' in h: return m.group(0)
+            n += 1
+            k = f"S{i:02d}-{n:02d}"
+            if k not in nuovo: fuori.append(k); return m.group(0)
+            t = nuovo[k]
+            etich = re.match(r'\s*(<span class="r-e">[^<]*</span>)', dentro)
+            num = re.search(r'<b class="n">(\d+)</b>', dentro)
+            testa = re.match(r'\s*<b>([^<]*)</b>', dentro) if 'class="dom"' in attr else None
+            if etich: t = etich.group(1) + " " + grassetto(t)
+            elif num:
+                t = re.sub(r"^\d+\s*", "", t)
+                t = f'<b class="n">{num.group(1)}</b>' + (f'<span class="cit">{t}</span>' if 'class="cit"' in dentro else f"<b>{t}</b>")
+            elif testa:
+                t = re.sub(r"^" + re.escape(testa.group(1)) + r"\s*:\s*", "", t)
+                t = f"<b>{testa.group(1)}</b>" + grassetto(t)
+            elif tag != "h2" and "r-t" not in attr and "doc-t" not in attr and "th" not in attr:
+                t = grassetto(t)
+            return f"<{tag}{attr}>{t}</{tag}>"
+        S[i - 1] = blocco.sub(sost, h)
+    if fuori: print("ATTENZIONE, codici senza testo nuovo:", fuori)
+    return S
+
+if os.path.exists(os.path.join(qui, "riscrittura.txt")):
+    S = riscrivi(S, os.path.join(qui, "riscrittura.txt"))
 css = open(os.path.join(qui, "lim.css")).read()
 js = open(os.path.join(qui, "lim.js")).read()
 dati = json.dumps(S, ensure_ascii=False).replace("</", "<\\/")
