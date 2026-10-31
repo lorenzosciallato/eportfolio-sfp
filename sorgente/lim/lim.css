@@ -30,3 +30,12 @@
 #lim .fine-lim .timbro{width:min(30vh,300px);height:min(30vh,300px);color:#000;--c:#000}
 #lim .fine-lim .timbro::before{background:#fff}
 #lim .fine-lim h2{font-size:3.2em}
+#lim .tre{display:grid;grid-template-columns:repeat(3,1fr);gap:1.2em 1.6em;align-items:stretch}
+#lim .doc{border:2px solid #000;padding:.7em .9em;display:grid;gap:.5em;align-content:start;font-size:.86em}
+#lim .doc .doc-t{font-family:"Bricolage EP","Bricolage Grotesque",system-ui,sans-serif;font-weight:700;font-size:1.12em;line-height:1.15}
+#lim .doc ul{gap:.35em}
+#lim .regola{border:2px solid #000;padding:.7em .9em;display:grid;gap:.45em;align-content:start;font-size:.86em}
+#lim .regola .r-t{font-weight:700;border-bottom:2px solid #000;padding-bottom:.3em}
+#lim .regola .r-e{display:inline-block;font-weight:700;font-size:.78em;text-transform:uppercase;letter-spacing:.04em;background:#000;color:#fff;padding:.05em .45em;margin-right:.3em}
+#lim .regola .r-dove{font-size:.8em;color:#333;margin-top:-.3em}
+#lim .regola .cit{font-weight:600}
