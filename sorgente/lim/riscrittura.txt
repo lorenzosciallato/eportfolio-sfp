@@ -44,53 +44,53 @@ S06-05 Codice Etico · Art. 2 comma 1
 S06-06 Tutti i membri della comunità universitaria si devono «lealtà, collaborazione, rispetto reciproco, imparzialità».
 S06-07 Un avviso ufficiale è una comunicazione istituzionale. Accusare gli studenti di avere PC pieni di «schifezze» sposta su di loro la responsabilità di un problema di rete.
 S06-08 Alcuni studenti scrivono email per chiedere delucidazioni sul tono. E sulle ragioni di una prova online, quando sarebbe possibile svolgerla su carta, considerati problemi di connessione noti anche ai tutor.
-S07-01 Ecco un esempio di lettera:
+S07-01 Un esempio di lettera inviata:
 S08-01 Le nostre lettere rispettano la Carta dei diritti e dei doveri
 S08-02 Art. 1 comma 4 · Libertà espressiva
 S08-03 La Carta riconosce agli studenti «i diritti di partecipazione, di libertà espressiva e di autonomia culturale».
-S08-04 Chiedere spiegazioni a una tutor su toni e scelte è esercitare questo diritto.
+S08-04 Porre domande a chi insegna è l'esercizio di un diritto, non un illecito.
 S08-05 Art. 1 comma 5 · Spirito critico
 S08-06 «È richiesta costanza nell'applicazione, rigore nello studio, spirito critico, dedizione e curiosità scientifica».
-S08-07 Lo spirito critico non è solo tollerato: è un dovere richiesto.
+S08-07 L'Ateneo non si limita a tollerare lo spirito critico: lo chiede come dovere.
 S08-08 Art. 1 comma 14 · Rispetto reciproco
 S08-09 Gli studenti partecipano alla vita accademica condividendo «regole di civile convivenza e di rispetto reciproco».
-S08-10 Le lettere sono formali: chiedono chiarimenti, non attaccano.
-S09-01 La risposta della professoressa alla mia domanda
+S08-10 Le lettere chiedevano chiarimenti con toni formali. La risposta ha scelto una strada diversa.
+S09-01 La risposta della professoressa
 S11-01 Le problematiche oggettive
 S11-02 1«La parola schifezze, accompagnata da un'emoticon, era evidentemente una battuta»
-S11-03 La frase è in un avviso ufficiale per tutta la classe. Il Codice Etico impone «lealtà, collaborazione, rispetto reciproco, imparzialità» (Art. 2 c. 1). Una battuta che attribuisce agli studenti un problema di rete non rispetta questo dovere. Chiamarla battuta non ne attenua l'effetto.
+S11-03 L'avviso era ufficiale e rivolto all'intera classe. Il Codice Etico esige «lealtà, collaborazione, rispetto reciproco, imparzialità» (Art. 2 c. 1). Chiamare "battuta" un'accusa rivolta a tutta la classe non la rende innocua.
 S11-04 2«Credo anche che lei debba rispettare le scelte assunte dai docenti e dai tutor»
-S11-05 Chiedere chiarimenti su una scelta organizzativa non è mancanza di rispetto. La Carta riconosce la «libertà espressiva» (Art. 1 c. 4) e richiede «spirito critico» (Art. 1 c. 5). Rispettare l'istituzione significa porre domande nei modi e nei canali corretti, come è stato fatto.
+S11-05 Porre domande non è mancanza di rispetto. La Carta tutela la «libertà espressiva» (Art. 1 c. 4) e richiede «spirito critico» (Art. 1 c. 5). Il rispetto si dimostra nei modi e nei canali corretti. Esattamente come abbiamo fatto.
 S12-01 Le problematiche oggettive
 S12-02 3«Quello che avete imparato a didattica non vale evidentemente per degli adulti, ma per classi di bambini»
-S12-03 La Didattica Generale non è una materia "per bambini". È il sapere su come progettare e condurre qualsiasi processo di insegnamento-apprendimento, incluso il tirocinio universitario.
+S12-03 La Didattica Generale non è un passatempo per l'infanzia. È la scienza che regola la progettazione di qualsiasi processo di apprendimento. Compreso quello che stiamo vivendo.
 S12-04 Codice Etico · Art. 2 comma 2
 S12-05 A professori e ricercatori sono affidati «i compiti didattici e di assistenza agli studenti», da svolgere con diligenza.
-S12-06 Anche l'attività universitaria va progettata con cura: è un dovere, non una scelta.
-S12-07 Il tirocinio mette in pratica la didattica che studiamo. Se chi ci accompagna ne nega il valore, nega il senso del percorso e del proprio ruolo.
+S12-06 Progettare l'insegnamento universitario è un dovere normativo, non una scelta facoltativa.
+S12-07 Il tirocinio esiste per applicare la didattica. Se chi ci guida ne rinnega i fondamenti, l'intero percorso perde di significato. Curioso, per chi dovrebbe supervisionarlo.
 S13-01 Le problematiche oggettive
 S13-02 3Perché quell'affermazione non regge
-S13-03 Lo insegna la didattica studiata. Pier Giuseppe Rossi, docente di UniMC e coautore de L'agire didattico, definisce la progettazione un'azione simulata: «il docente mentre progetta immagina mentalmente come evolverà il sistema-classe».
+S13-03 La risposta è nella didattica studiata. Pier Giuseppe Rossi, docente di UniMC e coautore de L'agire didattico, definisce la progettazione un'azione simulata: «il docente mentre progetta immagina mentalmente come evolverà il sistema-classe». Vale per la primaria come per l'università.
 S13-04 Cosa insegna la didattica
 S13-05 Nel nostro caso
 S13-06 Progettare = simulare l'azione prima di svolgerla.
-S13-07 La prova online andava simulata nel luogo di svolgimento.
+S13-07 La prova andava simulata nel luogo di svolgimento.
 S13-08 Analizzare il contesto d'azione.
-S13-09 Il contesto è il Polo Bertelli, con una rete instabile da anni.
+S13-09 Rete instabile da anni, un dato noto a tutti.
 S13-10 Prevedere gli imprevisti prevedibili.
-S13-11 Una rete inaffidabile non è un imprevisto, è un dato noto anche ai tutor.
+S13-11 Non è un imprevisto, è un dato di fatto.
 S13-12 Pensare un piano B in anticipo.
-S13-13 Il piano B esisteva già: la prova su carta.
+S13-13 Esisteva già: la prova su carta.
 S14-01 Le problematiche oggettive
 S14-02 3Perché quell'affermazione non regge
-S14-03 Un professore scrive 2 + 2 = 5 alla lavagna e pretende obbedienza. Chi alza la mano non gli manca di rispetto: sta facendo matematica.
-S14-04 Chiedere una prova progettata secondo i principi studiati significa applicare ciò che il corso insegna. Principi che l'Ateneo è tenuto a rispettare per gli standard europei di qualità e per la Carta.
+S14-03 Un professore scrive 2 + 2 = 5 alla lavagna e pretende obbedienza. Chi alza la mano non gli manca di rispetto. Sta solo facendo matematica.
+S14-04 Chiedere una prova progettata secondo i principi studiati significa applicare il programma. Principi che l'Ateneo stesso è tenuto a rispettare, per gli standard europei e per la Carta.
 S14-05 Standard europei di qualità (ESG 2015) · standard 1.3
 S14-06 Le istituzioni devono garantire che i corsi siano erogati in modo da incoraggiare gli studenti ad assumere un ruolo attivo (traduzione nostra).
-S14-07 Sono gli standard che valutano la qualità delle università europee, Italia compresa. Chiedere spiegazioni è un comportamento attivo.
+S14-07 Sono i criteri che valutano la qualità degli atenei europei. Fare domande è la massima espressione di un ruolo attivo.
 S14-08 Carta dei diritti e dei doveri · Art. 2 comma 14
 S14-09 «I risultati delle schede di valutazione devono essere utilizzati per vigilare sul rispetto della presente Carta.»
-S14-10 La qualità didattica non è casuale: la valutano gli studenti e l'Ateneo deve tenerne conto.
+S14-10 La qualità della didattica non si improvvisa. Gli studenti la valutano, e l'Ateneo ha il dovere di ascoltare.
 S15-01 Le problematiche oggettive
 S15-02 4«Siete voi a dovervi abituare a risolvere i problemi tecnici che incontrerete»
 S15-03 I problemi tecnici non nascono dal caso, ma da scelte organizzative:
