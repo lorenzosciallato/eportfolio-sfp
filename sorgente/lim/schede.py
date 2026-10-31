@@ -129,6 +129,36 @@ S.append(f"""
 <p><b>Perché è grave:</b> il tirocinio serve proprio a mettere in pratica la didattica che studiamo. Se a negarne il valore è chi ci accompagna nel tirocinio, viene negato il senso stesso del percorso e del ruolo di chi lo guida.</p>
 {fonte(("Codice Etico UniMC", CODICE))}""")
 
+# 16 · perché non regge (1/2)
+S.append(f"""
+<h2>Le problematiche oggettive</h2>
+<div class="punto"><p><b class="n">3</b><b>Perché quell'affermazione non regge</b></p></div>
+<p>Lo dice la didattica che abbiamo studiato. Per Pier Giuseppe Rossi, docente di UniMC e coautore de <i>L'agire didattico</i>, progettare è un'<b>azione simulata</b>: «il docente mentre progetta immagina mentalmente come evolverà il sistema-classe».</p>
+<div class="tab">
+ <p class="th">Cosa insegna la didattica</p><p class="th">Nel nostro caso</p>
+ <p><b>Progettare</b> = simulare in anticipo l'azione, prima di svolgerla.</p><p>Una prova online va "provata con la mente" nel luogo dove si svolgerà.</p>
+ <p><b>Analizzare il contesto</b> in cui l'azione avverrà.</p><p>Il contesto è il Polo Bertelli, con una rete Wi‑Fi instabile da anni.</p>
+ <p><b>Prevedere gli imprevisti prevedibili.</b></p><p>Una rete che non regge non è un imprevisto: è un dato noto, anche ai tutor.</p>
+ <p><b>Pensare un piano B in anticipo.</b></p><p>Il piano B esisteva già: la prova su carta.</p>
+</div>
+{fonte(("Rossi, Pentucci, Progettazione come azione simulata (FrancoAngeli 2021)", ROSSI), ("Rivoltella, Rossi, L'agire didattico (Scholé 2017)", RIVOLTELLA))}""")
+
+# 16b · perché non regge (2/2)
+S.append(f"""
+<h2>Le problematiche oggettive</h2>
+<div class="punto"><p><b class="n">3</b><b>Perché quell'affermazione non regge</b></p></div>
+<p class="dom"><b>Un esempio</b>Un professore di matematica entra in classe, scrive alla lavagna <b>2 + 2 = 5</b> e pretende che nessuno lo contesti e che tutti obbediscano. Chi alza la mano non gli manca di rispetto: sta facendo matematica.</p>
+<p>Allo stesso modo, chi ha chiesto una prova progettata secondo questi principi ha applicato ciò che il corso di laurea insegna. E sono principi che anche l'università è tenuta a rispettare: lo prevedono gli standard europei di qualità e la Carta di Ateneo.</p>
+<div class="due">
+ {regola("Standard europei di qualità (ESG 2015) · standard 1.3",
+         "Le istituzioni devono garantire che i corsi siano erogati in modo da incoraggiare gli studenti ad assumere un ruolo attivo (traduzione nostra).",
+         "Sono gli standard con cui si valuta la qualità delle università europee, Italia compresa. Uno studente che chiede spiegazioni è uno studente attivo.")}
+ {regola("Carta dei diritti e dei doveri · Art. 2 comma 14",
+         "«I risultati delle schede di valutazione devono essere utilizzati per vigilare sul rispetto della presente Carta.»",
+         "La qualità della didattica non è lasciata al caso: la valutano anche gli studenti, e l'Ateneo deve tenerne conto.")}
+</div>
+{fonte(("ESG 2015", ESG), ("Carta dei diritti e dei doveri UniMC", CARTA))}""")
+
 # 13 · problematica 4
 S.append(f"""
 <h2>Le problematiche oggettive</h2>
@@ -184,34 +214,6 @@ S.append(f"""
 
 # 15 · la mia controrisposta
 S.append('<h2>La mia controrisposta</h2>' + figura("4-mail-sciallato-29ott.png", 972, 564, "Email · 29 ottobre 2026, 21:00"))
-
-# 16 · perché non regge (1/2)
-S.append(f"""
-<h2>Perché quell'affermazione non regge · 1</h2>
-<p>Lo dice la didattica che abbiamo studiato. Per Pier Giuseppe Rossi, docente di UniMC e coautore de <i>L'agire didattico</i>, progettare è un'<b>azione simulata</b>: «il docente mentre progetta immagina mentalmente come evolverà il sistema-classe».</p>
-<div class="tab">
- <p class="th">Cosa insegna la didattica</p><p class="th">Nel nostro caso</p>
- <p><b>Progettare</b> = simulare in anticipo l'azione, prima di svolgerla.</p><p>Una prova online va "provata con la mente" nel luogo dove si svolgerà.</p>
- <p><b>Analizzare il contesto</b> in cui l'azione avverrà.</p><p>Il contesto è il Polo Bertelli, con una rete Wi‑Fi instabile da anni.</p>
- <p><b>Prevedere gli imprevisti prevedibili.</b></p><p>Una rete che non regge non è un imprevisto: è un dato noto, anche ai tutor.</p>
- <p><b>Pensare un piano B in anticipo.</b></p><p>Il piano B esisteva già: la prova su carta.</p>
-</div>
-{fonte(("Rossi, Pentucci, Progettazione come azione simulata (FrancoAngeli 2021)", ROSSI), ("Rivoltella, Rossi, L'agire didattico (Scholé 2017)", RIVOLTELLA))}""")
-
-# 16b · perché non regge (2/2)
-S.append(f"""
-<h2>Perché quell'affermazione non regge · 2</h2>
-<p class="dom"><b>Un esempio</b>Un professore di matematica entra in classe, scrive alla lavagna <b>2 + 2 = 5</b> e pretende che nessuno lo contesti e che tutti obbediscano. Chi alza la mano non gli manca di rispetto: sta facendo matematica.</p>
-<p>Allo stesso modo, chi chiede una prova progettata secondo i principi della didattica non manca di rispetto: sta applicando ciò che il corso di laurea gli ha insegnato. E ha diritto a una didattica di qualità:</p>
-<div class="due">
- {regola("Standard europei di qualità (ESG 2015) · standard 1.3",
-         "Le istituzioni devono garantire che i corsi siano erogati in modo da incoraggiare gli studenti ad assumere un ruolo attivo (traduzione nostra).",
-         "Sono gli standard con cui si valuta la qualità delle università europee, Italia compresa. Uno studente che chiede spiegazioni è uno studente attivo.")}
- {regola("Carta dei diritti e dei doveri · Art. 2 comma 14",
-         "«I risultati delle schede di valutazione devono essere utilizzati per vigilare sul rispetto della presente Carta.»",
-         "La qualità della didattica non è lasciata al caso: la valutano anche gli studenti, e l'Ateneo deve tenerne conto.")}
-</div>
-{fonte(("ESG 2015", ESG), ("Carta dei diritti e dei doveri UniMC", CARTA))}""")
 
 # 17 · comunicato Teams
 S.append('<h2>Il comunicato su Teams</h2>' + figura("5-teams-comunicazione-29ott.png", 1355, 792, "Teams · 29 ottobre 2026, 9:49"))
