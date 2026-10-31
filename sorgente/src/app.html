@@ -2358,7 +2358,23 @@ if ("serviceWorker" in navigator && location.protocol === "https:" && !/claude\.
     box.querySelector("#lim-n").textContent = `${i + 1} / ${N}`;
     box.querySelector("#lim-p").style.width = `${(i + 1) / N * 100}%`;
   }
-  function vai(d){ const j = Math.max(0, Math.min(N - 1, i + d)); if (j !== i){ i = j; mostra(); } }
+  function vai(d){
+    if (d < 0 && i === 0) return chiudi();            /* dalla prima scheda, indietro torna al sito */
+    const j = Math.max(0, Math.min(N - 1, i + d)); if (j !== i){ i = j; mostra(); }
+  }
+  /* dall'ultima schermata del tutorial, andando a destra si entra nelle schede */
+  if (typeof vTutorial === "function" && typeof TUTORIAL !== "undefined"){
+    const vTutorialOriginale = vTutorial;
+    vTutorial = function(k, verso){
+      const r = vTutorialOriginale(k, verso);
+      if (k === TUTORIAL.length - 1 && typeof scenaCorrente !== "undefined" && scenaCorrente){
+        const sc = scenaCorrente, prima = sc._frecce || {};
+        sc._frecce = { avanti: () => { i = 0; apri(); }, indietro: prima.indietro || (() => {}) };
+        if (typeof scorrimento === "function"){ const salva = sc._frecce; scorrimento(sc, () => { i = 0; apri(); }, () => {}); sc._frecce = salva; }
+      }
+      return r;
+    };
+  }
   function apri(){
     if (!box) costruisci();
     aperta = true; box.classList.add("on"); mostra();
